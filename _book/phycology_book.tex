@@ -1,0 +1,778 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames*,x11names*}{xcolor}
+%
+\documentclass[
+]{book}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={La Biologie Végétale Marine à Intechmer},
+  pdfauthor={Régis GALLON},
+  colorlinks=true,
+  linkcolor=Maroon,
+  filecolor=Maroon,
+  citecolor=Blue,
+  urlcolor=Blue,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage{longtable,booktabs}
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\usepackage{booktabs}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage{makeidx}
+\usepackage{float}
+\makeindex
+\usepackage[]{natbib}
+\bibliographystyle{apalike}
+
+\title{La Biologie Végétale Marine à Intechmer}
+\author{Régis GALLON}
+\date{2020-09-21}
+
+\begin{document}
+\maketitle
+
+{
+\hypersetup{linkcolor=}
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\hypertarget{pruxe9face}{%
+\chapter*{Préface}\label{pruxe9face}}
+\addcontentsline{toc}{chapter}{Préface}
+
+Ce livre \emph{La biologie végétale à Intechmer} est un support des cours présentiels réalisés au Cnam-Intechmer. J'ai écrit ce livre pour toi étudiant d'intechmer, pour toi étudiant d'un autre établissement ou pour toi petit curieux pour que vous puissiez avoir des notions en biologie végétale marine. \textbf{Ce livre ne se substitue pas aux cours et aux travaux pratique que je réalise en présentiel au Cnam-Intechmer.} Ce livre va évoluer au fur et à mesure des années en fonction de mes lectures et des commentaires que je recevrai.
+
+Bonne lecture à toi.
+
+\hypertarget{histoire}{%
+\chapter{Histoire de l'utilisation des algues}\label{histoire}}
+
+\hypertarget{la-pruxe9histoire}{%
+\section{La Préhistoire}\label{la-pruxe9histoire}}
+
+Les premières traces de l'utilisation des algues datent de la préhistoire. \citet{dillehay2008}, professeur d'anthropologie à l'Université Vanderbuilt (Tenessee, Nashville) et son équipe ont découvert à Monte Verde (Chili, \emph{Figure \ref{fig:monteverde}}), dans d'anciens foyers et différents lieux du site, des restes de repas incluant une quarantaine de plantes, des ossements d'animaux, des mollusques d'eau douce ET \textbf{9 espèces d'algues} (\emph{e.g.} \emph{Gigartina sp.}, \emph{Porphira sp.}, \emph{Durvillaea antarctica},\emph{Mazzaella sp}, \emph{Macrocystis pyrifera},\ldots) (\emph{Figure \ref{fig:monteverdealgue}}). Ces restes ont été très bien conservés car les sols sont acides et ont limité la prolifération bactérienne.
+Ces algues sont d'excellentes sources d'iode, de fer, de zinc, de protéines, d'hormones et d'un grand panel d'éléments traces (cobalt, cuivre, bore). De plus, elles ont un effet bénéfique dans l'assimilation du calcium par les os, l'amélioration des capacités de l'organisme à lutter contre les infections.
+
+\begin{figure}
+
+{\centering \includegraphics{images/Monte_verde} 
+
+}
+
+\caption{Localisation du site archéologique de Monte Verde (Chili)}\label{fig:monteverde}
+\end{figure}
+
+\begin{figure}
+
+{\centering \includegraphics{images/Monte_verde_algue} 
+
+}
+
+\caption{Espèces d'algues retrouvées dans les restes des foyers du site archéologique de Monte Verde (Chili)}\label{fig:monteverdealgue}
+\end{figure}
+
+D'autres traces d'utilisation des algues ont été découvertes sur le continent eurasien et datées de la période mésolithique (-7000 ans). Il a été montré par analyse isotopique que les peuples vivants sur le littoral récoltaient les algues échouées et nourrissaient leurs bétails (moutons) \citep{balasse2005}.
+
+\hypertarget{lantiquituxe9}{%
+\section{L'Antiquité}\label{lantiquituxe9}}
+
+Une trace écrite de l'utilisation des algues est décrite dans le ``Classique de la médecine par les plantes'' ou ``Shennon bencao jing'' (\emph{Figure \ref{fig:shennong}}) traitant des drogues végétales, animales et minérales (plus de 300 drogues sont décrites). Son origine est attribué à l'empereur Shennong qui vécu aux environs de -2800 ans. Toutefois, l'original du texte est perdu et l'histoire de sa reconstitution est un peu compliquée. L'empereur Shennong (\emph{Figure \ref{fig:shennong}}) est considéré comme le père des pharmaciens et des médecins.Il testa toutes les plantes pour connaitre leurs propriétés et ordonna au peuple de prendre connaissance des espèces qu'on devait préserver. Certaines versions lui prétendent le pouvoir divin de mourir et revivre plusieurs fois au hasard de ses essais, alors que d'autres supposent que son action finit par lui coûter la vie en accentuant ainsi son esprit de sacrifice.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.4\linewidth]{images/shennong} \includegraphics[width=0.4\linewidth]{images/bencaojing} 
+
+}
+
+\caption{Shennong goûtant une herbe médicinale ; les protubérances sur son crâne rappellent qu’on lui prêtait une tête de bovidé, la collerette de feuilles son rôle d’herboriste (www.art.com)}\label{fig:shennong}
+\end{figure}
+
+Toujours en Asie, des écrits datant du VI\textsuperscript{ème} avt.J.-C. montre que les algues furent des aliments réservés pour les hauts dignitaires (rois et invités distingués).
+\textgreater{} Sze Teu écrit :``Certaines algues sont un délice pour les hôtes les plus honorés, et pour le Roi lui-même.''
+
+Au VII\textsuperscript{ème} apr. J.-C. au moins une douzaine d'algues était cultivée dont les trois plus communes la \emph{Nori} (pour faire des sushis), le \emph{Kombu} (dans les soupes), le \emph{Wakame} (dans les soupes et les salades)(\emph{Figure \ref{fig:japonalgues}}).
+
+\begin{figure}
+
+{\centering \includegraphics{images/japon_algues} 
+
+}
+
+\caption{A. Préparation des feuilles de Nori pour les sushis; B. Feuilles de Kombu; C. Feuilles de Wakame }\label{fig:japonalgues}
+\end{figure}
+
+Au V\textsuperscript{ème} siècle, Palladius auteur latin écrivit dans son traité sur l'agriculture\footnote{Son traité est rassemblé avec d'autres traités portant sur l'agriculture et la vie rurale dans le \emph{De re rustica}} que les algues produisent une fumure de qualité très favorable à l'amendement des sols agricoles.
+
+\hypertarget{moyen-uxe2ge}{%
+\section{Moyen-âge}\label{moyen-uxe2ge}}
+
+Au Moyen-Âge, les algues représentent un usage traditionnel pour les populations côtières et insulaires. Elles sont utilisées dans l'agriculture comme alimentation pour le bétail et l'enrichissement des sols, dans l'usage domestique comme combustible pour le chauffage et l'alimentation humaine direct en temps de famine.
+
+\hypertarget{xviiuxe8me-siuxe8cle-duxe9but-de-lindustrialisation-des-algues}{%
+\section{\texorpdfstring{XVII\textsuperscript{ème} siècle : Début de l'industrialisation des algues}{XVIIème siècle : Début de l'industrialisation des algues}}\label{xviiuxe8me-siuxe8cle-duxe9but-de-lindustrialisation-des-algues}}
+
+\hypertarget{lindustrie-du-verre-17-18uxe8me-siuxe8cle}{%
+\subsection{\texorpdfstring{L'industrie du verre (17-18\textsuperscript{ème} siècle)}{L'industrie du verre (17-18ème siècle)}}\label{lindustrie-du-verre-17-18uxe8me-siuxe8cle}}
+
+L'industrialisation des algues commence en Normandie par l'industrie du verre. En effet, les verriers utilisaient les cendres des algues récoltées sur l'estran pour abaisser le point de fusion de la silice facilitant la production de verre. Les algues étaient d'autant plus utilisées que le coût du bois était très élevé.Le fort intérêt économique des algues obligea Jean-Baptiste Colbert, ministre des finances de Louis XIV, de réglementer la récolte des algues : \textbf{Edit de Colbert (1681)}.
+
+\textbf{Titre X de l'ordonnance: Concernant la récolte des algues}
+
+\begin{itemize}
+\item
+  \emph{Article I} - Les habitants des paroisses côtières se réuniront le premier dimanche du mois de janvier de chaque année, suivant la messe de la paroisse, afin de \emph{déterminer les dates d'ouverture et de clôture de la récolte annuelle des algues trouvées dans la mer attenante à leur territoire.}
+\item
+  \emph{Article II} - L'assemblée sera convoquée par les gardes de l'église ou les trésoriers de la paroisse, et la décision de l'assemblée sera affichée à la porte principale de l'église. Ne pas le faire entraînera une amende de 10 livres.
+\item
+  \emph{Article III} - Il est, \emph{interdit aux habitants de couper les algues pendant la nuit et à des moments autres que ceux déterminés par la communauté, de couper les algues ailleurs que sur la longueur de la côte de leur paroisse ou de le transporter vers d'autres territoires.} L'échec entraînant une amende de 50 livres et la confiscation de leurs chevaux et harnais.
+\item
+  \emph{Article IV} - Il est interdit à tous les seigneurs des propriétés côtières de s'approprier toute portion des rochers où poussent les algues, pour empêcher leurs vassaux de la recueillir pendant la saison d'ouverture, d'exiger quoi que ce soit d'eux en échange du droit de le recueillir , Ou pour permettre aux non-résidents de la paroisse de participer, l'échec entraînant une punition pour détournement.
+\item
+  \emph{Article V} - \emph{Le droit de rassembler toutes les algues jetées sur la côte par les marées, et de les transporter là où elles le veulent, est accordé à tous.}
+\end{itemize}
+
+L'extraction de la soude commençait par le ramassage des algues échouées sur l'estran et par le séchage des algues en tas en haut de l'estran. Le tas d'algues devait être suffisamment compacte pour empêcher l'eau de pénétrer mais pas trop pour laisser l'air circuler pour le séchage. Une fois les algues suffisamment sèchent, une fosse de cinq à six pieds de long et de deux pieds de large est creusée (\emph{Figure \ref{fig:soude}}). Au fond de la fosse sont posés des branchage pour le feu et les algues sont posés successivement pour éviter une combustion trop rapide. La soude coule au fond de la fosse. Le feu éteint la soude refroidit en 2-3 jours formant des blocs très durs. \href{http://patrimoinedesabers.fr/de/landeda/histoires/214-historique-des-fours-a-goemon.html}{Plus d'informations}
+
+\begin{figure}
+
+{\centering \includegraphics{images/extract_soude} 
+
+}
+
+\caption{A. Tas de goémon sec devant alimenter un four à soude; B. Fours à Goémon le long du littoral breton utilisés pour le brûlage des algues; C. Pains de soude}\label{fig:soude}
+\end{figure}
+
+L'industrie du verre pris énormément d'importance sous Louis XIV pour lutter contre l'hégémonie de l'industrie du verre vénitienne favorisant le prestige du roi et renforçant l'économie du pays.
+La Manufacture Royale des Glaces et des Miroirs (\emph{Figure \ref{fig:manufacture}}) fut créée à Paris pour fournir des glaces à la Galerie des glaces. Des verriers vénitiens furent attirés en France contre argent et femmes, mais ils ne partageaient pas leurs savoirs et préféraient profiter de la distraction parisienne. Ainsi en 1667, la fabrication fut transférée à \emph{La Glacerie} (Cherbourg). L'intégralité des miroirs de la galerie des Glaces (château de Versailles) a été fabriquée à La Glacerie entre 1683 et 1684 (\emph{Figure \ref{fig:versailles}}).
+À la fin du règne de Louis XIV, l'industrie miroitière avec à sa tête, la Manufacture royale de glaces de miroirs, exporte des glaces dans toute l'Europe pour un équivalent de 300 000 à 400 000 livres or par an. Le monopole vénitien est remplacé par le monopole français.
+
+\begin{figure}
+
+{\centering \includegraphics{images/manufacture_royale} 
+
+}
+
+\caption{Devanture de la Manufacture Royale des Glaces et des Miroirs}\label{fig:manufacture}
+\end{figure}
+
+\begin{figure}
+
+{\centering \includegraphics{images/galerie des glaces} 
+
+}
+
+\caption{Galerie des glaces du château de Versailles}\label{fig:versailles}
+\end{figure}
+
+\hypertarget{la-production-diode-19uxe8me-siuxe8cle}{%
+\subsection{\texorpdfstring{La production d'iode (19\textsuperscript{ème} siècle)}{La production d'iode (19ème siècle)}}\label{la-production-diode-19uxe8me-siuxe8cle}}
+
+La découverte de l'iode en 1811 est attribuée à Bernard Courtois (1777-1838) salpêtrier et chimiste français\footnote{\url{https://plozevet.hypotheses.org/2905}} vers la fin du 19\textsuperscript{ème} siècle \citep{guitard1922}. Bernard Courtois travaillait dans une salpêtrière, \emph{i.e.} lieu où l'on produit du salpêtre (nitrate de potassium) composant essentiel de la poudre à canon. La production de salpêtre devenant très chère en raison du coût du bois qui s'éleva sous la pression des industries consommatrice de bois et sous l'effet d'un blocus continental interdisant l'importation, Bernard Courtois eut l'idée d'utiliser les cendres d'algues pour permettre la transformation du nitrate de calcium et nitrate de potassium.
+La production de salpêtre entraîne la production d'un revêtement visqueux qui doit être nettoyé à l'acide. Un jour Bernard Courtois utilisa une solution d'acide plus concentrée et voit ses cuves se remplir de fumées violettes qui se cristallisent au contact des parois froides. Il réalise quelques études mais n'approfondira pas, il découvrit néanmoins que l'iode avec un fort pouvoir corrosif. Ce fut Louis-Joseph Gay-Lussac qui donna son nom à l'iode (du grec iodes qui veut dire violet).
+François Benoît Tissier, élève de Nicolas Clément (confrère chimiste de Bernard Courtois), développe un procédé industriel de fabrication de l'iode et l'adapte à la production de soude raffinée de l'usine Coudurier à Cherbourg (\emph{Figure \ref{fig:tissier}}). Il arrive à obtenir une production annuelle de 400kg en 1825. Apprenant qu'en Bretagne les algues étaient plus abondantes, il entre chez ``Guilhem'' grande fabrique de soude dans le Finistère et augmente la production d'iode.
+La production de l'iode à base d'algue prendra fin vers la fin du XX\textsuperscript{ème} siècle avec l'essor de la chimie de synthèse.
+
+\begin{quote}
+5-6 tonnes d'algues fraiches \(\Rightarrow\) 1 tonnes d'algues séchées \(\Rightarrow\) 200 kg de soude \(\Rightarrow\) 3kg d'iode
+\end{quote}
+
+\begin{figure}
+
+{\centering \includegraphics{images/tissier} 
+
+}
+
+\caption{L'usine Tissier vers 1910}\label{fig:tissier}
+\end{figure}
+
+En parallèle de la production industrielle, on découvre des propriétés thérapeutiques de l'iode. Le pouvoir corrosif de l'iode fait que c'est un puissant antiseptique (seul désinfectant connu à l'époque). C'est également un oligo-élément indispensable dans l'alimentation humaine car il assure le bon fonctionnement de la glande thyroïdienne siège de la régulation hormonale.
+
+Encore actuellement, la carence en iode est un problème de santé mondiale, plus d'une 1/4 de la population mondiale souffre de carence en iode en principalement en Asie, Afrique, Amérique de sud,\ldots{} (\emph{Figure \ref{fig:iode}}). Cela peut s'exprimer par l'apparition d'un goitre chez certaines populations (goitre endémique des population des hauts plateaux de la Tanzanie), arriération mentale, altérations de la reproduction, désordres mentaux et psychiques.
+
+\begin{figure}
+
+{\centering \includegraphics{images/iode} 
+
+}
+
+\caption{Localisation des zones où les habitants sont carencés en iode}\label{fig:iode}
+\end{figure}
+
+\hypertarget{la-production-dhydrocollouxefdes-fin-du-19uxe8me-siuxe8cle}{%
+\subsection{\texorpdfstring{La production d'hydrocolloïdes (fin du 19\textsuperscript{ème} siècle)}{La production d'hydrocolloïdes (fin du 19ème siècle)}}\label{la-production-dhydrocollouxefdes-fin-du-19uxe8me-siuxe8cle}}
+
+\begin{quote}
+\textbf{Hydrocolloïdes} : matière constituée de nano et microparticules (2 - 200 nm) dispersées dans un liquide ou un gel formant une solution plus ou moins épaisse.Les principaux colloïdes extraits des algues sont des polysaccharides.
+\end{quote}
+
+Dans les années 1800, des extraits de \emph{Chondrus crispus} (Irish moss) contenant des carraghénanes sont utilisés comme agent épaississant. Dans les années 1930, c'est au tour des alginates extraits des algues brunes d'être vendu comme gélifiant et épaississant. Cette filière permis aux goémoniers de continuer leur activité de récolte à la fin des industries du verre et de l'iode. Après la 2\textsuperscript{nde} guerre mondiale, il y a eu un essor rapide de l'utilisation des extraits d'algues dans l'agroalimentaire et la pharmaceutique. Cette essor fut si rapide que la production fut limitée par la disponibilité des ressources naturelles. Ainsi, dès les années 70, de nombreuses industries et instituons de recherches se sont intéressées aux cycles de vie des algues pour pouvoir maîtriser la culture et approvisionner en continue la production d'hydrocolloïde.
+
+\hypertarget{de-nos-jours}{%
+\section{De nos jours}\label{de-nos-jours}}
+
+La plus grande consommation d'algue se concentre entre la Chine, le Japon et la Corée. En moyenne, un asiatique mange 5kg d'algue/an. Comme nous l'avons vu précédemment la consommation d'algue en Asie à débuter très tôt, c'est devenue une tradition. Des chercheurs de l'Université de Pierre et Marie Curie et de la station biologique de Roscoff ont montré qu'au fil du temps, les japonais ont acquis la capacité de dégrader la porphyrane (sucre de la paroi des algues rouges) par transfert de gène entre des bactéries marines vers des certaines bactéries peuplant les intestins des Japonais \citep{hehemann2010}.
+Toutefois en Europe la consommation est indirect, on retrouve des extraits d'algues dans les aliments, les boissons, le textiles,\ldots{} .
+Nous aborderons cet aspect dans le cours sur la biochimie des algues.
+
+\begin{figure}
+
+{\centering \includegraphics{images/alguetoutfaire} 
+
+}
+
+\caption{Les algues se retrouvent cachées dans notre alimentation}\label{fig:algueatoutfaire}
+\end{figure}
+
+\hypertarget{usage}{%
+\chapter{Usages, économie et règlementation}\label{usage}}
+
+\hypertarget{intuxe9ruxeats-et-usages}{%
+\section{Intérêts et Usages}\label{intuxe9ruxeats-et-usages}}
+
+A l'échelle mondiale, les algues sont principalement destinées à l'alimentation humaine (85\%), 14\% sont utilisées pour extraire des hydrocolloïdes (alginates, agar agar et carraghénanes). 1\% de la production mondiale alimente l'industrie pharmaceutique, la cosmétique,la bioépuration et l'agriculture en amendement (\emph{Figure \ref{fig:application}}).
+
+\begin{figure}
+
+{\centering \includegraphics{images/application} 
+
+}
+
+\caption{Domaines d'application des micro et macroalgues à l'échelle mondiale.}\label{fig:application}
+\end{figure}
+
+\hypertarget{lalimentation-humaine}{%
+\subsection{L'alimentation humaine}\label{lalimentation-humaine}}
+
+En France, c'est le Conseil Supérieur Hygiène Publique qui autorise la commercialisation d'aliment. L'algue n'étant pas un aliment traditionnel, pour être consommée elle doit bénéficier d'une autorisation. Les algues comestibles doivent avoir des teneurs d'iode, de métaux lourds inférieurs aux normes définies par l'Agence Française de Sécurité Sanitaire des Aliments.
+
+Voici les normes définies par l'AFSSA (2007) :
+
+\begin{longtable}[]{@{}ll@{}}
+\caption{Teneurs maximales en métaux lourds et en iode pour l'autorisation de consommation (Saisine AFSSA n° 2007-SA-0007)}\tabularnewline
+\toprule
+& Concentration en mg.kg\textsuperscript{-1} d'algues sèches\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+& Concentration en mg.kg\textsuperscript{-1} d'algues sèches\tabularnewline
+\midrule
+\endhead
+Arsenic minéral & 3\tabularnewline
+Cadmium & 0.5\tabularnewline
+Mercure & 0.1\tabularnewline
+Plomb & 5\tabularnewline
+Etain & 5\tabularnewline
+Iode & 2000\tabularnewline
+\bottomrule
+\end{longtable}
+
+A l'heure actuelle en France, 24 algues dont 3 microalgues sont utilisées comme légumes ou condiments.
+
+\begin{longtable}[]{@{}ll@{}}
+\caption{Algues autorisées pour l'alimentation humaine par le CSHP}\tabularnewline
+\toprule
+Nom scientifique & Nom vernaculaire\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+Nom scientifique & Nom vernaculaire\tabularnewline
+\midrule
+\endhead
+\textbf{Algues brunes (8)} &\tabularnewline
+- \emph{Ascophyllum nodosum} & Ascophylle\tabularnewline
+- \emph{Fucus serratus + vesiculosus} & Fucus\tabularnewline
+- \emph{Himanthalia elongata} & Spaghetti de mer\tabularnewline
+- \emph{Undaria pinnatifida} & Wakamé\tabularnewline
+- \emph{Laminaria digitata + japonica} & Kombu\tabularnewline
+- \emph{Saccharina latissima} & Kombu royal\tabularnewline
+- \emph{Alaria esculenta} & Wakamé d'Atlantique\tabularnewline
+&\tabularnewline
+\textbf{Algues rouges (11)} &\tabularnewline
+- \emph{Palmaria palmata} & Dulse\tabularnewline
+- \emph{Porphyra umbilicalis} & Nori\tabularnewline
+- \emph{Porphyra tenera} & Nori\tabularnewline
+- \emph{Porphyra yezoensis} & Nori\tabularnewline
+- \emph{Porphyra dioica} & Nori\tabularnewline
+- \emph{Porphyra purpurea} & Nori\tabularnewline
+- \emph{Porphyra laciniata} & Nori\tabularnewline
+- \emph{Porphyra leucostica} & Nori\tabularnewline
+- \emph{Chondrus crispus} & Pioca\tabularnewline
+- \emph{Gracilaria verrucosa} & Ogo-nori\tabularnewline
+- \emph{Phymatolithon calcareum} & Maërl\tabularnewline
+&\tabularnewline
+\textbf{Algues vertes (2)} &\tabularnewline
+- \emph{Ulva sp.} & Laitue de mer\tabularnewline
+- \emph{Enteromorpha sp.} & Aonori\tabularnewline
+&\tabularnewline
+\textbf{Microalgues (3)} &\tabularnewline
+- \emph{Arthrospina sp.} & Spiruline\tabularnewline
+- \emph{Odontella aurita} &\tabularnewline
+- \emph{Chlorella sp.} & Chlorelle\tabularnewline
+\bottomrule
+\end{longtable}
+
+\hypertarget{agriculture}{%
+\subsection{Agriculture}\label{agriculture}}
+
+Les algues peuvent être utilisées comme engrais et amendement des sols. Pour maintenir une production des sols, il est indispensable de contrôler l'acidité. La concentration des ions aluminium dans la solution du sol croit fortement avec la
+baisse du pH et ceux-ci deviennent toxiques à partir d'un certain seuil de pH eau, toujours inférieur à 5,5 mais très variable selon la nature du sol et l'espèce cultivée. Ces composés provoquent une forte réduction de la croissance des racines qui s'épaississent, brunissent et se ramifient peu. Elles ne sont plus alors capables d'assurer convenablement l'alimentation minérale et hydrique des plantes. Le \emph{Maërl} est une algue calcaire qui était fréquemment utilisée pour chauler les sols et ainsi augmenter le pH des sols (\emph{Figure \ref{fig:maerl}}). Néanmoins, les bancs de maërl constituent des habitats remarquables Natura 2000 accueillant une richesse importante de crustacés, d'annélides et de mollusques. A l'heure actuelle, l'exploitation des gisements de maërl a fortement impacté ces habitats et par conséquent l'extraction est interdite pour mettre à la ressource de se renouveler.
+
+\begin{figure}
+
+{\centering \includegraphics{images/maerl} 
+
+}
+
+\caption{Maërl dans son habitat naturel formant des bancs. Seule la surface du banc est composée d'algues vivantes.}\label{fig:maerl}
+\end{figure}
+
+Certaines substances extraites des algues peuvent servir d'éliciteurs, \emph{i.e.} des substances qui déclenchent alors chez la plante toute une série de réactions cellulaires, avec notamment la production de molécules destinées à renforcer la résistance des parois, mais aussi d'antibiotiques végétaux tels que des phytoalexines ou des protéines de défense.
+La laminarine qui est un polysaccharide de réserve dans les algues brunes a une structure qui se rapproche d'éliciteurs glucaniques fongiques. Son utilisation est certifié sur le blé contre l'oïdium, le piétin-verse et la septoriose.\footnote{\url{http://www.goemar.com/fr/historique-activites}}
+
+\hypertarget{zootechnologie}{%
+\subsection{Zootechnologie}\label{zootechnologie}}
+
+Des études \emph{in vitro} et \emph{in vivo} ont montré que les polysaccharides sulfatés (PS) des macroalgues présentent un large panel d'activités biologiques (anticoagulante, antimicrobienne, antitumorale, immunomodulatrice,\ldots{} .).
+Olmix Group, par exemple, a extrait des (PS) à partir de l'algue verte \emph{Ulva armoricana} et a montré que ces extraits stimulaient la production de médiateurs de l'immunité intestinale par l'activation du récepteur cellulaire intestinal TLR4 et ferait intervenir la voie de signalisation PI3K/Akt ainsi que le facteur de transcription NF-\(\kappa\)B.\citep[\citet{berri2017}]{berri2016}
+
+\hypertarget{bio-carburant-et-bio-plastique}{%
+\subsection{Bio-carburant et Bio-plastique}\label{bio-carburant-et-bio-plastique}}
+
+Les biocarburants sont fabriqués à partir de microalgues, certaines espèces peuvent être cultivées en mode hétérotrophe à l'abri de la lumière et avec une alimentation en sucres. Cultivées dans certaines conditions (\emph{e.g.} carence en azote) elles peuvent se mettre à produire et accumuler des lipides, principalement des triglycérides, dont la teneur peut atteindre jusqu'à 80 \% de la matière sèche.
+Les algues sont récoltées régulièrement et l'huile est extraite selon différents méthodes (centrifugation, traitement au solvant, lyse thermique, etc.). Ensuite deux types de conversion de l'huile en biocarburant sont mis en oeuvre (\emph{Figure \ref{fig:biocarburant}}):
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{La transestérification} , qui fait réagir l'huile algale avec du méthanol ou de l'éthanol, produit un ester d'huile algale ou biodiesel, tout à fait comparable à celui obtenu à partir des autres types d'huiles végétales. Il peut être mélangé au gazole en proportion limitée à une 10\textsuperscript{aine}\% de volume.
+\item
+  \emph{L'hydrogénation catalytique} qui fait réagir l'huile en présence d'hydrogène, suivie d'un hydrocraquage, produit des hydrocarbures qui peuvent être incorporés en quantité importante au gazole ou au kérosène.
+\end{itemize}
+
+La production de carburant à partir de microalgues reste toutefois coûteuse, \emph{le prix actuel est de 5€/L}.
+
+\begin{figure}
+
+{\centering \includegraphics{images/biocarburant} 
+
+}
+
+\caption{Processus de production de biocarburant à partir de microalgues}\label{fig:biocarburant}
+\end{figure}
+
+Depuis quelques années, les bioplastiques se démocratisent de plus en plus car ils sont biodégradables. Un ingénieur a réussi à faire de même avec des algues (exclusivement des algues brunes) en créant ``algopack'' : « La matière se dégrade en 12 semaines en terre. Cela permet de retrouver l'une des fonctions historiques de l'algue : c'est un fertilisant naturel » (\emph{Figure \ref{fig:algopack}}).
+La tonne de granulés d'Algopack est vendue 1 200 €, lorsqu'une tonne de PVC ou PET est vendue 1 000 € et une tonne de polyéthylène ou polypropylène environ 1 300 €. Les algues utilisées pour fabriquer ces produits sont des algues brunes.
+
+\begin{figure}
+
+{\centering \includegraphics{images/algopack} 
+
+}
+
+\caption{Bioplastiques produits à partir d'algues brunes}\label{fig:algopack}
+\end{figure}
+
+\hypertarget{cosmuxe9tique-et-santuxe9-humaine}{%
+\subsection{Cosmétique et santé humaine}\label{cosmuxe9tique-et-santuxe9-humaine}}
+
+Beaucoup de métabolites secondaires issus des algues sont connus pour être bénéfique pour la peau (protection anti-UV, anti-rides, rafermissant,\ldots.). L'effet `anti-âge' est du à la présence de composés anti-oxydants (caroténoïdes). Le nombre de produits comestiques utilisant des extraits d'algues augementent de jours en jours car ils utilisent des produits naturels et non issu de la pétro-chimie \citep{ariede2017} (\emph{Figure \ref{fig:cosmetique}})
+
+\begin{figure}
+
+{\centering \includegraphics{images/cosmetique} 
+
+}
+
+\caption{Exemples d'application des algues [@ariede2017]}\label{fig:cosmetique}
+\end{figure}
+
+\hypertarget{luxe9conomie-de-lalgue}{%
+\section{L'économie de l'algue}\label{luxe9conomie-de-lalgue}}
+
+\hypertarget{le-marchuxe9-mondial}{%
+\subsection{Le marché mondial}\label{le-marchuxe9-mondial}}
+
+Comme nous l'avons vu précédemment, l'industrie de la transformation des algues a débuté après la seconde guerre mondiales et s'est fortement accentuée dans les années 70. A cette époque, le tonnage d'algues récoltées et cultivées était très proche (\emph{Figure \ref{fig:marchemondial}}). En 40 ans, la production d'algues a augmenté en moyenne de 29\% par an, on remarque une nette augmentation de la production à partir de 1990. Aujourd'hui, la production d'algues s'élève à plus de 23 millions de tonnes dont 95\% proviennent des fermes d'algocultures. Cette exploitation d'algue concerne environ 35 pays de l'hémisphère nord et sud, de zone tempérée ou tropicale : Chine, Japon, France, Norvège, Brésil, Chili,\ldots{} .
+
+\begin{figure}
+
+{\centering \includegraphics{images/marchemondial} 
+
+}
+
+\caption{Evolution de la production mondiale d’algues entre 1970 et 2010}\label{fig:marchemondial}
+\end{figure}
+
+La production mondiale est dominée par les pays asiatiques : Chine (52\%), Indonésie (26\%), Philippines (7\%), Corée (7\%) et Japon (3\%). Dans ces pays, les algues sont principalement cultivés à des fins d'alimentation humaine. L'Europe quant à elle participe à seulement 1\% de la production mondiale soit 250 000t. 57\% de la production européenne provient de la Norvège, 14\% de France, 12\% d'Irlande et 7\% d'Islande.
+
+\hypertarget{le-marchuxe9-franuxe7ais}{%
+\subsection{Le marché français}\label{le-marchuxe9-franuxe7ais}}
+
+La France se situe au 10\textsuperscript{ème} rang mondial et est le 2\textsuperscript{ème} producteur européen. Son schéma de production est au antipode du schéma mondial. En effet, 99\% de la production d'algues provient de la récolte et non de la culture. 75\% de la production française est extraite par des goémoniers, navires spécialisés dans la récolte des laminaires (12 tonnes /jour) et 25\% est extraite manuellement (algues de rive).
+
+\begin{figure}
+
+{\centering \includegraphics{images/recoltealguemain} 
+
+}
+
+\caption{Récolte manuel des algues de rive sous à une licence d'exploitation}\label{fig:recoltealguemain}
+\end{figure}
+
+\begin{figure}
+
+{\centering \includegraphics{images/goemonier} 
+
+}
+
+\caption{Goëmonier récoltant les laminaires}\label{fig:goemonier}
+\end{figure}
+
+L'économie est également opposée à l'économie mondiale de l'algue, 99\% des produits à base d'algues sont à destination de l'agro-industrie (agroalimentaire et agro-fourniture), seulement 1\% est orienté vers l'alimentation humaine directe. En effet 75\% des algues récoltées sont des laminaires, algues riches en alginate (hydrocolloïde). Ces alginates sont très utilisés dans l'agroalimentaire comme agent épaississant.
+Ainsi les activités économiques liées aux macroalgues sont localisées principalement en Bretagne. La matière première est principalement orientée vers ``la santé et le bien être'' (45 entreprises), puis vers l'agrofourniture et l'alimentation (resp. 25 entreprises). Seule une dizaine d'entreprises transforment les macroalgues pour l'agroalimentaire, la chimie et la microbiologie (\emph{Figure \ref{fig:algueatlantique}}).
+
+\begin{figure}
+
+{\centering \includegraphics{images/activite_algue_atlantique} 
+
+}
+
+\caption{Localisation des activités économiques liées aux algues (Programme NetAlgae)}\label{fig:algueatlantique}
+\end{figure}
+
+L'engouement pour les algues tant alimentaires que non alimentaires se traduit par la multiplication du nombre de projets et initiatives visant à développer et a structurer la filière:
+
+\begin{itemize}
+\tightlist
+\item
+  NetAlgae
+\item
+  Normand'Algue
+\item
+  CEVA
+\item
+  Idealg
+\item
+  AlgMarBio
+\end{itemize}
+
+\hypertarget{ruxe8glementation-de-puxeache-et-de-ruxe9colte-des-vuxe9guxe9taux-marins}{%
+\section{Règlementation de pêche et de récolte des végétaux marins}\label{ruxe8glementation-de-puxeache-et-de-ruxe9colte-des-vuxe9guxe9taux-marins}}
+
+En France, la récolte des algues est réglementée par le décret ministériel du 11 août 1990 (N°90/719)\footnote{\href{https://www.lejpgrance.gouv.fr/affichTexte.do?cidTexte=LEGITEXT000006076323}{Décret n°90-719 du 9 août 1990 abrogé le 1 janvier 2015}} et complétée par des arrêtés préfectoraux pour les spécificités régionales. Il définit :
+
+\begin{itemize}
+\tightlist
+\item
+  les espèces d'algues autorisée à la récolté
+\item
+  les conditions de récoltes (engins, saisons, zones)
+\item
+  les quantités (quotas/espèce/zone)
+\item
+  les santions pour tous manquements à ce règlement (amende de 5\textsuperscript{ème} classe)
+\end{itemize}
+
+Ce texte de lois regroupe sous le terme \textbf{Goémons} tous les végétaux marins, algues, varech et plantes marines.
+
+\hypertarget{le-gouxe9mon-de-rive}{%
+\subsection{Le goémon de rive}\label{le-gouxe9mon-de-rive}}
+
+\begin{quote}
+\textbf{``Algues fixées sur l'estran, récoltées à pied sur le rivage ou sur îlots inhabités''}
+\end{quote}
+
+Il est interdit de récolter ces algues sur des ouvrages maritimes (quais, berges, canaux) pour des raisons de sécurité pour les récoltants mais également pour des raisons sanitaires. Il est interdit de d'arracher le goémon, la récolte doit être réalisée au moyen d'une faucille pour permettre à la ressource de se renouveler. Il est également obligatoire de déclarer les algues récoltées pour suivre les stocks naturelles et éviter une sur-exploitation.
+La récolte du goémon de rive est autorisée tout au long de l'année à l'exception du \emph{Chondrus crispus} dont la période de récolte se déroule du 1\textsuperscript{er} mai au 30 octobre.
+
+\begin{itemize}
+\item
+  algues rouges : \emph{Chondrus crispus , Gracilaria gracilis, Palmaria palmata, Porphyra sp}
+\item
+  algues brunes : \emph{Ascophyllum nodosum , Fucus serratus, Fucus vesiculosus,Himanthalia elongata}
+\item
+  algues vertes : \emph{Ulva sp, Ulva (Enteromorpha) sp}
+\end{itemize}
+
+Le guide ``Récolte des algues de rive : Guide des bonnes pratiques''\footnote{\href{http://www.parc-marin-iroise.fr/Documentation/Guide-des-bonnes-pratiques-des-recoltants-d-algues-de-rive/Guide-de-bonnes-pratiques-recolte-des-algues-de-rive}{Lien guide de récolte des algues de rive}} (\emph{Figure \ref{fig:alguepratique}}),rédigé par le Parc Naturel Marin d'Iroise en collaboration avec le CEVA,\ldots, est à destination des particuliers et des professionnels pour expliquer les bonnes pratiques de récoltes des algues pour préserver les ressources. Il contient les règles de bonnes pratiques et des fiches pour chaque espèce autorisée à la récolte.
+
+\begin{figure}
+
+{\centering \includegraphics{images/alguerivepratique} 
+
+}
+
+\caption{Exemples de mauvaises et bonnes pratiques pour la récolte du goémon de rive}\label{fig:alguepratique}
+\end{figure}
+
+\hypertarget{le-gouxe9mon-de-fond}{%
+\subsection{Le goémon de fond}\label{le-gouxe9mon-de-fond}}
+
+\begin{quote}
+\textbf{``Algues poussant en zone toujours immergée (algues de fond), non accessible à pied aux basses mers des marées d'équinoxes''}
+\end{quote}
+
+La récolte du goémon de fond implique d'utiliser des navires et des embarcations spécialisées qui sont déclarés au registre maritime (\emph{Figure \ref{fig:goemonierrecolte}}). Les personnes qui pratiquent la pêche des goémons poussant en mer en action de nage ou de plongée par quelque procédé que ce soit ne peuvent le faire qu'à partir d'un navire ou d'une embarcation titulaire d'un rôle d'équipage de pêche.La récolte est autorisée du 15 avril au 31 décembre pour ne pas impacter la période d'émission des spores et des gamètes. Les zones de récoltes sont définies par les affaires maritimes (Direction des ressources marines) après concertations avec les comités des pêches et les instances scientifiques en charge de l'étude des stocks (IFREMER, MNHN, \ldots). Les instruments employés pour la récolte des goémons doivent être conçus et utilisés de manière à éviter
+l'arrachage des crampons ou bases de fixation.
+
+\begin{figure}
+
+{\centering \includegraphics{images/goemonier_recolte} 
+
+}
+
+\caption{Récolte de *Laminaria hyperborea* par des goémoniers utilisant le peigne norvégien.}\label{fig:goemonierrecolte}
+\end{figure}
+
+\hypertarget{le-gouxe9mon-uxe9pave}{%
+\subsection{Le goémon épave}\label{le-gouxe9mon-uxe9pave}}
+
+\begin{quote}
+\textbf{``Algues détachées par la mer, dérivant au grès des flots ou échouées sur le rivage.''}
+\end{quote}
+
+Le ramassage de ce type de goémon n'est pas assujetti à des restrictions pour les particuliers mais les professionnels doivent faire une demande d'autorisation auprès des affaires maritimes. Le ramassage est autorisé toute l'année au moyen de tout type d'engin : râteaux, pelles, pelleteuses,\ldots{} (\emph{Figure \ref{fig:goemonepave}}).
+
+\begin{figure}
+
+{\centering \includegraphics{images/goemon_epave} 
+
+}
+
+\caption{Récolte du goémon épave : exemple de rammassage des ulves (marée verte)}\label{fig:goemonepave}
+\end{figure}
+
+\hypertarget{classification}{%
+\chapter{Classification et Diversité des algues}\label{classification}}
+
+\hypertarget{quelques-duxe9finitions}{%
+\section{Quelques définitions}\label{quelques-duxe9finitions}}
+
+Avant de rentrer dans le cœur de la classification et de savoir ce qu'est réellement une algue, il est important de mettre une définition sur des termes que certains d'entre-vous ont du entendre en cours de SVT.
+
+\textbf{La systématique} : science de la classification des êtres vivants basée sur des données biologique, biochimique, moléculaire, génétique, écologique,\ldots{} . Elle regroupe la taxinomie, la nomenclature, la classification.
+
+\textbf{La taxinomie} : (grec taxis « placement », « classement », « ordre » et de nomos qui signifie « loi », « règle »). Elle a pour objet de \emph{décrire les organismes vivants et de les regrouper} en entités appelées \emph{taxons} afin de les identifier puis les nommer et enfin les classer et de les reconnaître via des clés de détermination dichotomiques. Le terme fut créé en 1813, sous la graphie de taxonomie, par le botaniste suisse Augustin Pyrame de Candolle (1778-1841) dans sa Théorie élémentaire de la botanique ou exposition des principes de la classification naturelle et de l'art de décrire et d'étudier les végétaux \citep{de1844}.
+
+\textbf{La nomenclature} : est une discipline qui a pour objectif de définir et d'élaborer des règles permettant de former les noms de taxons des organismes. Ces règles sont revues tous les six ans et sont regroupées dans l'\href{http://iapt-taxon.org/nomen/main.php}{\emph{International Code of Botanical Nomenclature}} (ICBN).
+
+Voici la nomenclature utilisée en systématique végétale:
+
+\begin{longtable}[]{@{}lll@{}}
+\caption{Règles de nomenclature en botanique d'après l'\emph{International Code of Botanical Nomenclature} (2012).}\tabularnewline
+\toprule
+Rang taxinomique & Terminaison & Exemple\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+Rang taxinomique & Terminaison & Exemple\tabularnewline
+\midrule
+\endhead
+Règne & --ae/a & Plantae\tabularnewline
+Embranchement & --phyta & Rhodophyta\tabularnewline
+Classe & --phyceae & Florideophyceae\tabularnewline
+Ordre & --ales & Palmariales\tabularnewline
+Famille & --aceae & Palmariaceae\tabularnewline
+Genre & -- us, um, is, a, ium,\ldots{} & Palmaria\tabularnewline
+Espèce & & \emph{Palmaria palmata}\tabularnewline
+\bottomrule
+\end{longtable}
+
+Plusieurs critères vont être pris en compte pour décrire les organismes et ainsi les identifier :
+
+\begin{itemize}
+\tightlist
+\item
+  Morphologiques
+\item
+  Cytologiques
+\item
+  Biochimiques
+\item
+  Génétiques et/ou moléculaires
+\end{itemize}
+
+La classification classique établit des taxons en fonction de critères de ressemblance, avec l'essor des outils génétiques et moléculaires, il est maintenant possible de regrouper les taxons en fonction des liens de parenté. Ainsi, un taxon regroupe des individus proche génétiquement mais il est possible qu'il n'y ait pas de ressemblances phénotypiques car l'environnement peut être différents (e.g.~le polymorphisme chez les algues).
+
+Nous aborderons ces différents critères au fur et à mesure des différents cours magistraux et travaux pratiques.
+
+\hypertarget{quest-ce-quune-algue}{%
+\section{Qu'est-ce qu'une algue?}\label{quest-ce-quune-algue}}
+
+Comme vous l'avez appris en SVT, les algues font partis du règne \textbf{végétal}, \emph{i.e.} ce sont des eucaryotes unicellulaires / pluricellulaires \textbf{photosynthétiques}. Les cellules végétales possèdent \emph{une paroi pectocellulosique}, \emph{des vacuoles} et \emph{des organites spécifiques}. Cette classification est toutefois un peu plus complexe, en effet lorsque l'on prend en compte les données moléculaires le groupe des végétaux apparaît comme polyphylétique (\emph{Figure \ref{fig:arbre-phylo}}). Ainsi, en systématique les termes chlorobionte, rhodophytes, hétérokontophytes, Euglénophytes sont préférés au terme général végétal car ils correspondent à des groupes monophylétiques.
+
+\begin{figure}
+
+{\centering \includegraphics{images/arbre_phylogenetique} 
+
+}
+
+\caption{Arbre phylogénétique représentant les principaux groupes eucaryotes basé sur des données moléculaires et structurales, @baldauf2003 modifié.}\label{fig:arbre-phylo}
+\end{figure}
+
+Comme le terme ``végétal'', le terme ``algue'' réfère à un groupe polyphylétique communément appelé \textbf{thallophyte}. Les organismes appartenant à ce groupe partagent les caractères suivants :
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{non vascularisés}
+\item
+  \textbf{sans feuilles, ni racine, ni tige}
+\item
+  \textbf{appareil végétatif simplifié (\emph{thalle})}
+\item
+  \textbf{photosynthétique}
+\item
+  \textbf{cryptogames (les organes reproducteurs sont dissimulées à la différence des \emph{phanérogames})}
+\item
+  \textbf{mode de vie aquatique (besoin absolu d'eau pour réaliser leur cycle de vie)}
+\end{itemize}
+
+Le terme thallophyte inclut actuellement les champignons, les algues, les lichens et certaines bactéries (cyanobactérie).
+
+\hypertarget{diversituxe9-des-thallophytes}{%
+\section{Diversité des thallophytes}\label{diversituxe9-des-thallophytes}}
+
+Les thallophytes regroupent une très grande diversité d'organismes \emph{procaryotes} (absence d'un ``vrai noyau'' avec une double membrane nucléaire) et d'\emph{eucaryotes}.
+
+\hypertarget{puxe9lagique-versus-benthique}{%
+\subsection{\texorpdfstring{Pélagique \emph{versus} Benthique}{Pélagique versus Benthique}}\label{puxe9lagique-versus-benthique}}
+
+Les algues peuvent être pélagique, \emph{i.e.} elles subissent le mouvement de l'eau. Le \textbf{phytoplancton} rassemble des micro-organismes autotrophes dérivant au grès des courant. Ce phytoplancton est souvent définit comme l'un des poumons de la Terre. Il existe également des macroalgues pélagiques qui se développent en pleine mer et flottent à la surface de l'eau à l'aide de flotteurs (\emph{Figure @ref\{fig:sargasse\}}). Ces algues s'accumulent dans des eaux calmes, sans courant pour formant des îles flottantes. C'est le cas des sargasses pélagiques (\emph{Sargassum fluitans} et \emph{Sargassum natans}) fucacées qui flottent à la surface des eaux de la Mer des Sargasses. Cette zone de l'Atlantique nord-ouest est connue pour avoir des conditions climatiques très calmes favorisant l'accumulation des sargasses.
+
+\begin{figure}
+
+{\centering \includegraphics{images/sargasse} 
+
+}
+
+\caption{Flotteurs de *Sargassum fluitans* et formation d'îles flottantes.}\label{fig:sargasse}
+\end{figure}
+
+Les algues benthiques sont des organismes fixées sur un support au fond de l'eau. La majorité des macroalgues sont fixées sur un substrat rocheux par un système de fixation (crampon, disque, haptère). Les microalgues se déposent quant elles sur le substrat et forment un biofilm favorisant leur prolifération (\emph{Figure @ref\{fig:biofilm\}}). On trouve beaucoup de biofilms bruns (dominés par les diatomées) dans les estuaires et les vasières après une période ensoleillée.
+
+\begin{figure}
+
+{\centering \includegraphics{images/biofilm} 
+
+}
+
+\caption{Biofilms à la surface des sédiments composés de diatomés pennées.}\label{fig:biofilm}
+\end{figure}
+
+\hypertarget{microalgues-versus-macroalgues}{%
+\subsection{\texorpdfstring{Microalgues \emph{versus} Macroalgues}{Microalgues versus Macroalgues}}\label{microalgues-versus-macroalgues}}
+
+\textbf{Les microalgues} sont des organismes unicellulaires ou filamenteux de 0.8\(\mu\)m à 200\(\mu\)m. On connait la spiruline (\emph{Arthrospira spp.}, \emph{Figure @ref\{fig:microalgue\}B})vivant en eaux saumâtres très utilisées en agroalimentaire. \emph{Ostreococcus tauri} (\emph{Figure \ref{microalgue}A}), apparue il y a 1.5 milliard d'années, est la plus petite cellule eucaryote avec un noyau de 20 chromosomes et un génome de 12 513 Mpb. Elle est dépourvue d'une paroi cellulaire (au sens végétal), de flagelles, mais possède un chloroplaste, un appareil de Golgi et un mitochondrie. Parmi les microalgues, 8 grands groupes rassemblent plus de 80\% des espèces connues :
+
+\begin{itemize}
+\tightlist
+\item
+  Diatomées
+\item
+  Chlorophytes
+\item
+  Rhodophytes
+\item
+  Cyanobactérie
+\item
+  Euglénophytes
+\item
+  Cryptophytes
+\item
+  Haptophytes
+\item
+  Dinophycés
+\end{itemize}
+
+\begin{figure}
+
+{\centering \includegraphics{images/microalgues} 
+
+}
+
+\caption{Exemples de microalgues. A. *Ostreococcus tauri*; B. *Arthrospira platensis* (spiruline).}\label{fig:microalgue}
+\end{figure}
+
+\textbf{Les macroalgues} sont des organismes pluricellulaires compris entre 200 \(\mu\)m et 50m. \emph{Macrocystis pyrifera} est la plus longue algues du monde, elle peut attendre jusqu'à 43 mètres de long formant des forêts sous-marines. Elle vit fixée sur le substrat rocheux grâce à de solides crampons (\emph{Figure @ref\{macrocystis\}}).
+
+\begin{figure}
+
+{\centering \includegraphics{images/macrocystis} 
+
+}
+
+\caption{Forêt sous-marine de *Macrocystis pyrifera* (Phillip Colla, OceanLigth.com).}\label{fig:macrocystis}
+\end{figure}
+
+Parmi les macroalgues, on distingue 3 groupes en fonction de leur composition pigmentaire. Ces trois groupes possèdent la chlorophylle a mais également des pigments sur-numéraires leur conférant une couleur caractéristique :
+
+\begin{itemize}
+\item
+  \textbf{Rhodophytes} : Algues rouges
+\item
+  \textbf{Chlorophytes} : Algues vertes
+\item
+  \textbf{Phéophycées} : Algues brunes
+\end{itemize}
+
+  \bibliography{book.bib,packages.bib}
+
+\end{document}

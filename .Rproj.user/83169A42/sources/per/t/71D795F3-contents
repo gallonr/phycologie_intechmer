@@ -1,0 +1,32 @@
+--- 
+title: "La Biologie Végétale Marine à Intechmer"
+author: "Régis GALLON"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+knit: "bookdown::render_book"
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+colorlinks: yes
+cover-image: images/Adolphe_Millot_algues.jpg
+description: "Ce livre reprend toutes les notions importantes en biologie végétale marine enseignée au Cnam-Intechmer"
+---
+
+
+
+# Préface {-}
+
+```{r couverture, echo=FALSE, include=identical(knitr:::pandoc_to(), 'html'), fig.align='center',fig.height=10}
+
+knitr::include_graphics("images/Adolphe_Millot_algues.jpg",dpi=NA)
+
+```
+
+Ce livre *La biologie végétale à Intechmer* est un support des cours présentiels réalisés au Cnam-Intechmer. J'ai écrit ce livre pour toi étudiant d'intechmer, pour toi étudiant d'un autre établissement ou pour toi petit curieux pour que vous puissiez avoir des notions en biologie végétale marine. **Ce livre ne se substitue pas aux cours et aux travaux pratique que je réalise en présentiel au Cnam-Intechmer.** Ce livre va évoluer au fur et à mesure des années en fonction de mes lectures et des commentaires que je recevrai. 
+
+Bonne lecture à toi.
+
+
+
+

@@ -1,0 +1,12 @@
+lang: Fr-fr
+book_filename: "phycology_book"
+delete_merged_file: true
+language:
+  label:
+    fig: 'Figure '
+    tab: 'Tableau '
+    eq: 'Equation '
+    def: 'Définition'
+
+  ui:
+    chapter_name: " "

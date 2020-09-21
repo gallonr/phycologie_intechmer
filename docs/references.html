@@ -194,14 +194,14 @@
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
 "sharing": {
-"github": false,
-"facebook": true,
-"twitter": true,
+"github": true,
+"facebook": false,
+"twitter": false,
 "linkedin": false,
 "weibo": false,
 "instapaper": false,
 "vk": false,
-"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+"all": false
 },
 "fontsettings": {
 "theme": "white",
@@ -220,12 +220,13 @@ gitbook.start({
 "link": null,
 "text": null
 },
-"download": ["phycology_book.pdf", "phycology_book.epub"],
+"download": ["phycology_book.pdf"],
 "toc": {
 "collapse": "subsection",
 "scroll_highlight": false
 },
-"search": true
+"search": true,
+"info": false
 });
 });
 </script>

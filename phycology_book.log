@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.9.16)  21 SEP 2020 13:55
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.9.16)  22 SEP 2020 09:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -603,7 +603,11 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibsep=\skip58
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count304
-) (./phycology_book.aux)
+) (./phycology_book.aux
+
+LaTeX Warning: Label `quelques-duxe9finitions' multiply defined.
+
+)
 \openout1 = `phycology_book.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
@@ -1128,29 +1132,167 @@ File: images/microalgues.png Graphic file (type bmp)
 <images/microalgues.png>
 File: images/macrocystis.jpg Graphic file (type bmp)
 <images/macrocystis.jpg>
-[35] (./phycology_book.bbl [36])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 778.
+[35] [36]
+Chapitre 4.
+File: ./images/polymorph_chondrus.jpg Graphic file (type bmp)
+<./images/polymorph_chondrus.jpg>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 [37
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 778.
+File: ./images/archetalle_div.png Graphic file (type bmp)
+<./images/archetalle_div.png>
+
+Underfull \vbox (badness 1565) has occurred while \output is active []
+
+[38]
+File: ./images/chlorellasp.jpg Graphic file (type bmp)
+<./images/chlorellasp.jpg>
+File: ./images/pleurosigma.jpg Graphic file (type bmp)
+<./images/pleurosigma.jpg>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[39]
+File: ./images/chlamydomonas.jpg Graphic file (type bmp)
+<./images/chlamydomonas.jpg>
+File: ./images/euglene.jpg Graphic file (type bmp)
+<./images/euglene.jpg>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[40]
+File: ./images/chlorosarcinopsis.png Graphic file (type bmp)
+<./images/chlorosarcinopsis.png>
+[41]
+File: ./images/volvox.png Graphic file (type bmp)
+<./images/volvox.png>
+
+Overfull \hbox (1854.75pt too wide) in paragraph at lines 932--932
+[]\TU/lmtt/m/n/10 Les genres Pandorina et Volvox montrent les débuts de la pola
+risation des colonies, en effet les cellules ou les colonies présentent des fon
+ctions différentes entre les parties antérieures/postérieures, périphérie/intér
+ieur,... .Bien que ces colonies soient des archéthalles, on remarque un début d
+e spécialisation entre les cellules ayant un rôle dans la mobilité et/ou dans l
+a photosynhèse et/ou dans la reproduction.[] 
+ []
+
+File: ./images/merismopedia.png Graphic file (type bmp)
+<./images/merismopedia.png>
+[42]
+File: ./images/palmell.png Graphic file (type bmp)
+<./images/palmell.png>
+File: ./images/dendroide.png Graphic file (type bmp)
+<./images/dendroide.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[43]
+File: ./images/haplostique.png Graphic file (type bmp)
+<./images/haplostique.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[44]
+File: ./images/polystique.png Graphic file (type bmp)
+<./images/polystique.png>
+File: ./images/thallefoliace.png Graphic file (type bmp)
+<./images/thallefoliace.png>
+[45]
+File: ./images/thalletube.png Graphic file (type bmp)
+<./images/thalletube.png>
+[46]
+File: ./images/calcification.jpg Graphic file (type bmp)
+<./images/calcification.jpg>
+[47]
+File: ./images/cladom1.png Graphic file (type bmp)
+<./images/cladom1.png>
+File: ./images/cladom2.png Graphic file (type bmp)
+<./images/cladom2.png>
+
+Underfull \hbox (badness 1558) in paragraph at lines 1117--1117
+[]\TU/lmr/m/sc/10 Figure 4.17 \TU/lmr/m/n/10 – []Structure des thalles cladomie
+ns. A. Cladome uniaxial
+ []
+
+File: ./images/cladom3.png Graphic file (type bmp)
+<./images/cladom3.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[48]
+File: ./images/thalle_fucoide.png Graphic file (type bmp)
+<./images/thalle_fucoide.png>
+[49]
+File: ./images/dichotomie.png Graphic file (type bmp)
+<./images/dichotomie.png>
+File: ./images/ramifications.png Graphic file (type bmp)
+<./images/ramifications.png>
+[50]
+File: ./images/Ulva_disques.png Graphic file (type bmp)
+<./images/Ulva_disques.png>
+File: ./images/rhizoide.png Graphic file (type bmp)
+<./images/rhizoide.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[51]
+File: ./images/caulerpa_stolon.jpg Graphic file (type bmp)
+<./images/caulerpa_stolon.jpg>
+[52]
+File: ./images/crampons.png Graphic file (type bmp)
+<./images/crampons.png>
+[53]
+File: ./images/aerocystes.png Graphic file (type bmp)
+<./images/aerocystes.png>
+File: ./images/calliblepharis.png Graphic file (type bmp)
+<./images/calliblepharis.png>
+
+Underfull \vbox (badness 3240) has occurred while \output is active []
+
+[54]
+File: ./images/croissance_lateral.png Graphic file (type bmp)
+<./images/croissance_lateral.png>
+File: ./images/pseudo_nervure.png Graphic file (type bmp)
+<./images/pseudo_nervure.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[55]
+File: ./images/ramules.png Graphic file (type bmp)
+<./images/ramules.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[56] (./phycology_book.bbl [57] [58
+
+])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1367.
+[59]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1367.
 (./phycology_book.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 778.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 778.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1367.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1367.
+
 Package rerunfilecheck Info: File `phycology_book.out' has not changed.
-(rerunfilecheck)             Checksum: 408B7EA6D9B5D55DA08411D347D88934;2857.
+(rerunfilecheck)             Checksum: 963B2957E79929BF48FED942C7964E21;4026.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 778.
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1367.
  ) 
 Here is how much of TeX's memory you used:
- 18960 strings out of 481654
- 337031 string characters out of 5929915
- 788626 words of memory out of 5000000
- 35764 multiletter control sequences out of 15000+600000
- 542564 words of font info for 96 fonts, out of 8000000 for 9000
+ 19376 strings out of 481654
+ 346613 string characters out of 5929915
+ 794229 words of memory out of 5000000
+ 36146 multiletter control sequences out of 15000+600000
+ 542572 words of font info for 97 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  52i,9n,118p,969b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on phycology_book.pdf (37 pages).
+Output written on phycology_book.pdf (59 pages).

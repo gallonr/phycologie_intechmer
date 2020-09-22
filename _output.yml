@@ -7,7 +7,7 @@ bookdown::gitbook:
         <li><a href="./"> <b>BIOLOGIE VEGETAL MARINE</b> </a></li>
       after: |
         <li><a href="https://gallonr.github.io/webpage/index.html" target="blank"> Régis Gallon - 2020 </a></li>
-    download: ["pdf"]
+    download: no
     search: yes
     sharing:
       facebook: no

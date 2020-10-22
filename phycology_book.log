@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.9.16)  22 SEP 2020 09:35
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.9.25)  22 OCT 2020 17:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **phycology_book.tex
 (./phycology_book.tex
 LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-09-06>
+L3 programming layer <2020-09-24>
 (c:/Users/regisgallon/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/book.cl
 s
 Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
@@ -156,11 +156,11 @@ Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 /unicode-math.sty
 (c:/Users/regisgallon/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3kernel/exp
 l3.sty
-Package: expl3 2020-09-06 L3 programming layer (loader) 
+Package: expl3 2020-09-24 L3 programming layer (loader) 
 
 (c:/Users/regisgallon/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3
 backend-xetex.def
-File: l3backend-xetex.def 2020-09-11 L3 backend support: XeTeX
+File: l3backend-xetex.def 2020-09-24 L3 backend support: XeTeX
 \g__graphics_track_int=\count185
 \l__pdf_internal_box=\box47
 \g__pdf_backend_object_int=\count186
@@ -283,7 +283,7 @@ Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
 
 (c:/Users/regisgallon/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/ltxcmds/lt
 xcmds.sty
-Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
 (c:/Users/regisgallon/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdftexcmds/p
 dftexcmds.sty
@@ -606,6 +606,9 @@ LaTeX Info: Redefining \cite on input line 694.
 ) (./phycology_book.aux
 
 LaTeX Warning: Label `quelques-duxe9finitions' multiply defined.
+
+
+LaTeX Warning: Label `structure' multiply defined.
 
 )
 \openout1 = `phycology_book.aux'.
@@ -981,21 +984,31 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 6.99925pt on input line 4.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 4.99947pt on input line 4.
-)
+[3])
 \tf@toc=\write5
 \openout5 = `phycology_book.toc'.
 
-[3] [4
+[4] [5
 
-] [5] [6
+] [6
 
 ]
 Chapitre 1.
 File: images/Monte_verde.jpg Graphic file (type bmp)
 <images/Monte_verde.jpg>
+
+Overfull \hbox (27.2028pt too wide) in paragraph at lines 115--116
+ [][] 
+ []
+
 File: images/Monte_verde_algue.png Graphic file (type bmp)
 <images/Monte_verde_algue.png>
-[7] [8]
+
+Overfull \hbox (429.76212pt too wide) in paragraph at lines 124--125
+ [][] 
+ []
+
+[7] [8] [9]
 File: images/shennong.jpg Graphic file (type bmp)
 <images/shennong.jpg>
 File: images/bencaojing.jpg Graphic file (type bmp)
@@ -1003,101 +1016,200 @@ File: images/bencaojing.jpg Graphic file (type bmp)
 File: images/japon_algues.png Graphic file (type bmp)
 <images/japon_algues.png>
 
+Overfull \hbox (489.2688pt too wide) in paragraph at lines 154--155
+ [][] 
+ []
+
+
 Underfull \vbox (badness 2050) has occurred while \output is active []
 
-[9]
+[10] [11]
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
 (Font)              scaled to size 14.4pt on input line 169.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
 (Font)              scaled to size 14.4013pt on input line 169.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 14.39845pt on input line 169.
-[10]
+[12]
 File: images/extract_soude.png Graphic file (type bmp)
 <images/extract_soude.png>
+
+Overfull \hbox (711.02945pt too wide) in paragraph at lines 195--196
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 46.13751pt on input line 200.
+
 File: images/manufacture_royale.jpg Graphic file (type bmp)
 <images/manufacture_royale.jpg>
 File: images/galerie des glaces.jpg Graphic file (type bmp)
 <images/galerie des glaces.jpg>
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (6.42856pt too wide) has occurred while \output is active
-\TU/lmr/m/sl/10 1.4.  XVII$[]$ SIÈCLE : DÉBUT DE L’INDUSTRIALISATION DES ALGUES
- \TU/lmr/m/n/10 11
+Overfull \hbox (224.1422pt too wide) in paragraph at lines 217--218
+ [][] 
  []
 
-[11] [12]
+
 Overfull \hbox (6.42856pt too wide) has occurred while \output is active
 \TU/lmr/m/sl/10 1.4.  XVII$[]$ SIÈCLE : DÉBUT DE L’INDUSTRIALISATION DES ALGUES
  \TU/lmr/m/n/10 13
  []
 
-[13]
+[13] [14]
+Overfull \hbox (6.42856pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/10 1.4.  XVII$[]$ SIÈCLE : DÉBUT DE L’INDUSTRIALISATION DES ALGUES
+ \TU/lmr/m/n/10 15
+ []
+
+[15]
 File: images/tissier.jpg Graphic file (type bmp)
 <images/tissier.jpg>
+
+Overfull \hbox (65.48889pt too wide) in paragraph at lines 238--239
+ [][] 
+ []
+
 File: images/iode.jpg Graphic file (type bmp)
 <images/iode.jpg>
-[14]
+
+Underfull \vbox (badness 2707) has occurred while \output is active []
+
+[16] [17]
 File: images/alguetoutfaire.jpg Graphic file (type bmp)
 <images/alguetoutfaire.jpg>
-[15] [16]
+
+Overfull \hbox (304.6855pt too wide) in paragraph at lines 276--277
+ [][] 
+ []
+
+[18] [19] [20
+
+]
 Chapitre 2.
 File: images/application.png Graphic file (type bmp)
 <images/application.png>
-[17
 
-] [18]
-File: images/maerl.png Graphic file (type bmp)
-<images/maerl.png>
-[19] [20]
-File: images/biocarburant.jpg Graphic file (type bmp)
-<images/biocarburant.jpg>
-File: images/algopack.png Graphic file (type bmp)
-<images/algopack.png>
+Overfull \hbox (711.28151pt too wide) in paragraph at lines 293--294
+ [][] 
+ []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Warning: Float too large for page by 34.14098pt on input line 298.
 
 [21]
-File: images/cosmetique.jpg Graphic file (type bmp)
-<images/cosmetique.jpg>
-File: images/marchemondial.png Graphic file (type bmp)
-<images/marchemondial.png>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 [22] [23]
-File: images/recoltealguemain.png Graphic file (type bmp)
-<images/recoltealguemain.png>
-File: images/goemonier.jpg Graphic file (type bmp)
-<images/goemonier.jpg>
-File: images/activite_algue_atlantique.png Graphic file (type bmp)
-<images/activite_algue_atlantique.png>
+File: images/maerl.png Graphic file (type bmp)
+<images/maerl.png>
+
+Overfull \hbox (210.65182pt too wide) in paragraph at lines 379--380
+ [][] 
+ []
+
 [24]
-Overfull \hbox (45.47784pt too wide) has occurred while \output is active
-\TU/lmr/m/sl/10 2.3.  RÈGLEMENTATION DE PÊCHE ET DE RÉCOLTE DES VÉGÉTAUX MARINS
- \TU/lmr/m/n/10 25
+File: images/biocarburant.jpg Graphic file (type bmp)
+<images/biocarburant.jpg>
+
+Overfull \hbox (60.77112pt too wide) in paragraph at lines 413--414
+ [][] 
  []
 
 [25] [26]
+File: images/algopack.png Graphic file (type bmp)
+<images/algopack.png>
+
+Overfull \hbox (173.00606pt too wide) in paragraph at lines 425--426
+ [][] 
+ []
+
+File: images/cosmetique.jpg Graphic file (type bmp)
+<images/cosmetique.jpg>
+
+Overfull \hbox (221.1136pt too wide) in paragraph at lines 439--440
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[27] [28]
+File: images/marchemondial.png Graphic file (type bmp)
+<images/marchemondial.png>
+
+Overfull \hbox (282.93175pt too wide) in paragraph at lines 456--457
+ [][] 
+ []
+
+[29]
+File: images/recoltealguemain.png Graphic file (type bmp)
+<images/recoltealguemain.png>
+
+Overfull \hbox (426.02101pt too wide) in paragraph at lines 472--473
+ [][] 
+ []
+
+File: images/goemonier.jpg Graphic file (type bmp)
+<images/goemonier.jpg>
+
+Overfull \hbox (28.39407pt too wide) in paragraph at lines 481--482
+ [][] 
+ []
+
+File: images/activite_algue_atlantique.png Graphic file (type bmp)
+<images/activite_algue_atlantique.png>
+[30]
+Overfull \hbox (45.47784pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/10 2.3.  RÈGLEMENTATION DE PÊCHE ET DE RÉCOLTE DES VÉGÉTAUX MARINS
+ \TU/lmr/m/n/10 31
+ []
+
+[31] [32]
+Overfull \hbox (45.47784pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/10 2.3.  RÈGLEMENTATION DE PÊCHE ET DE RÉCOLTE DES VÉGÉTAUX MARINS
+ \TU/lmr/m/n/10 33
+ []
+
+[33]
 File: images/alguerivepratique.png Graphic file (type bmp)
 <images/alguerivepratique.png>
 
-Overfull \hbox (45.47784pt too wide) has occurred while \output is active
-\TU/lmr/m/sl/10 2.3.  RÈGLEMENTATION DE PÊCHE ET DE RÉCOLTE DES VÉGÉTAUX MARINS
- \TU/lmr/m/n/10 27
+Overfull \hbox (187.1865pt too wide) in paragraph at lines 558--559
+ [][] 
  []
 
-[27] [28]
+
+LaTeX Warning: Float too large for page by 36.08191pt on input line 563.
+
+[34]
+Overfull \hbox (45.47784pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/10 2.3.  RÈGLEMENTATION DE PÊCHE ET DE RÉCOLTE DES VÉGÉTAUX MARINS
+ \TU/lmr/m/n/10 35
+ []
+
+[35]
 File: images/goemonier_recolte.png Graphic file (type bmp)
 <images/goemonier_recolte.png>
+
+Overfull \hbox (414.72678pt too wide) in paragraph at lines 577--578
+ [][] 
+ []
+
 File: images/goemon_epave.png Graphic file (type bmp)
 <images/goemon_epave.png>
 
-Overfull \hbox (45.47784pt too wide) has occurred while \output is active
-\TU/lmr/m/sl/10 2.3.  RÈGLEMENTATION DE PÊCHE ET DE RÉCOLTE DES VÉGÉTAUX MARINS
- \TU/lmr/m/n/10 29
+Overfull \hbox (258.1039pt too wide) in paragraph at lines 595--596
+ [][] 
  []
 
-[29] [30
+[36]
+Overfull \hbox (45.47784pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/10 2.3.  RÈGLEMENTATION DE PÊCHE ET DE RÉCOLTE DES VÉGÉTAUX MARINS
+ \TU/lmr/m/n/10 37
+ []
+
+[37] [38
 
 ]
 Chapitre 3.
@@ -1107,19 +1219,34 @@ Underfull \hbox (badness 1558) in paragraph at lines 619--619
 e d’après
  []
 
-[31]
+[39]
 File: images/arbre_phylogenetique.png Graphic file (type bmp)
 <images/arbre_phylogenetique.png>
-[32]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[33]
+Overfull \hbox (526.45253pt too wide) in paragraph at lines 663--664
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 36.07921pt on input line 668.
+
+[40] [41]
 File: images/sargasse.png Graphic file (type bmp)
 <images/sargasse.png>
+
+Overfull \hbox (374.83142pt too wide) in paragraph at lines 702--703
+ [][] 
+ []
+
 File: images/biofilm.jpg Graphic file (type bmp)
 <images/biofilm.jpg>
 
-LaTeX Warning: Reference `microalgue' on page 34 undefined on input line 723.
+Overfull \hbox (64.55399pt too wide) in paragraph at lines 713--714
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `microalgue' on page 42 undefined on input line 723.
 
 
 Underfull \hbox (badness 3449) in paragraph at lines 723--724
@@ -1127,19 +1254,35 @@ Underfull \hbox (badness 3449) in paragraph at lines 723--724
 es en agroalimentaire.
  []
 
-[34]
+[42] [43]
 File: images/microalgues.png Graphic file (type bmp)
 <images/microalgues.png>
+
+Overfull \hbox (711.47449pt too wide) in paragraph at lines 747--748
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 36.52628pt on input line 752.
+
 File: images/macrocystis.jpg Graphic file (type bmp)
 <images/macrocystis.jpg>
-[35] [36]
+
+Overfull \hbox (445.6393pt too wide) in paragraph at lines 758--759
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 13.25836pt on input line 763.
+
+[44] [45] [46]
 Chapitre 4.
 File: ./images/polymorph_chondrus.jpg Graphic file (type bmp)
 <./images/polymorph_chondrus.jpg>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[37
+[47
 
 ]
 File: ./images/archetalle_div.png Graphic file (type bmp)
@@ -1147,7 +1290,7 @@ File: ./images/archetalle_div.png Graphic file (type bmp)
 
 Underfull \vbox (badness 1565) has occurred while \output is active []
 
-[38]
+[48]
 File: ./images/chlorellasp.jpg Graphic file (type bmp)
 <./images/chlorellasp.jpg>
 File: ./images/pleurosigma.jpg Graphic file (type bmp)
@@ -1155,7 +1298,7 @@ File: ./images/pleurosigma.jpg Graphic file (type bmp)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[39]
+[49]
 File: ./images/chlamydomonas.jpg Graphic file (type bmp)
 <./images/chlamydomonas.jpg>
 File: ./images/euglene.jpg Graphic file (type bmp)
@@ -1163,10 +1306,10 @@ File: ./images/euglene.jpg Graphic file (type bmp)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[40]
+[50]
 File: ./images/chlorosarcinopsis.png Graphic file (type bmp)
 <./images/chlorosarcinopsis.png>
-[41]
+[51]
 File: ./images/volvox.png Graphic file (type bmp)
 <./images/volvox.png>
 
@@ -1181,7 +1324,7 @@ a photosynhèse et/ou dans la reproduction.[]
 
 File: ./images/merismopedia.png Graphic file (type bmp)
 <./images/merismopedia.png>
-[42]
+[52]
 File: ./images/palmell.png Graphic file (type bmp)
 <./images/palmell.png>
 File: ./images/dendroide.png Graphic file (type bmp)
@@ -1189,24 +1332,24 @@ File: ./images/dendroide.png Graphic file (type bmp)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[43]
+[53]
 File: ./images/haplostique.png Graphic file (type bmp)
 <./images/haplostique.png>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[44]
+[54]
 File: ./images/polystique.png Graphic file (type bmp)
 <./images/polystique.png>
 File: ./images/thallefoliace.png Graphic file (type bmp)
 <./images/thallefoliace.png>
-[45]
+[55]
 File: ./images/thalletube.png Graphic file (type bmp)
 <./images/thalletube.png>
-[46]
+[56]
 File: ./images/calcification.jpg Graphic file (type bmp)
 <./images/calcification.jpg>
-[47]
+[57]
 File: ./images/cladom1.png Graphic file (type bmp)
 <./images/cladom1.png>
 File: ./images/cladom2.png Graphic file (type bmp)
@@ -1222,15 +1365,15 @@ File: ./images/cladom3.png Graphic file (type bmp)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[48]
+[58]
 File: ./images/thalle_fucoide.png Graphic file (type bmp)
 <./images/thalle_fucoide.png>
-[49]
+[59]
 File: ./images/dichotomie.png Graphic file (type bmp)
 <./images/dichotomie.png>
 File: ./images/ramifications.png Graphic file (type bmp)
 <./images/ramifications.png>
-[50]
+[60]
 File: ./images/Ulva_disques.png Graphic file (type bmp)
 <./images/Ulva_disques.png>
 File: ./images/rhizoide.png Graphic file (type bmp)
@@ -1238,13 +1381,13 @@ File: ./images/rhizoide.png Graphic file (type bmp)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[51]
+[61]
 File: ./images/caulerpa_stolon.jpg Graphic file (type bmp)
 <./images/caulerpa_stolon.jpg>
-[52]
+[62]
 File: ./images/crampons.png Graphic file (type bmp)
 <./images/crampons.png>
-[53]
+[63]
 File: ./images/aerocystes.png Graphic file (type bmp)
 <./images/aerocystes.png>
 File: ./images/calliblepharis.png Graphic file (type bmp)
@@ -1252,7 +1395,7 @@ File: ./images/calliblepharis.png Graphic file (type bmp)
 
 Underfull \vbox (badness 3240) has occurred while \output is active []
 
-[54]
+[64]
 File: ./images/croissance_lateral.png Graphic file (type bmp)
 <./images/croissance_lateral.png>
 File: ./images/pseudo_nervure.png Graphic file (type bmp)
@@ -1260,39 +1403,103 @@ File: ./images/pseudo_nervure.png Graphic file (type bmp)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[55]
+[65]
 File: ./images/ramules.png Graphic file (type bmp)
 <./images/ramules.png>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[56] (./phycology_book.bbl [57] [58
+[66] [67] [68
+
+]
+Chapitre 5.
+[69] [70] [71] [72] [73] [74] [75]
+File: images/flagelle1.png Graphic file (type bmp)
+<images/flagelle1.png>
+
+Overfull \hbox (53.97615pt too wide) in paragraph at lines 1681--1682
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[76]
+File: images/mvt_microtubule.jpg Graphic file (type bmp)
+<images/mvt_microtubule.jpg>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[77]
+File: images/mastigonemes.png Graphic file (type bmp)
+<images/mastigonemes.png>
+[78]
+File: images/cellules_flagelles.png Graphic file (type bmp)
+<images/cellules_flagelles.png>
+
+Overfull \hbox (130.11656pt too wide) in paragraph at lines 1739--1740
+ [][] 
+ []
+
+File: images/dinoflagelles.png Graphic file (type bmp)
+<images/dinoflagelles.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[79]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[80]
+File: images/Phloroglucinol_structure.png Graphic file (type bmp)
+<images/Phloroglucinol_structure.png>
+
+Overfull \hbox (14.21pt too wide) in paragraph at lines 1802--1803
+ [][] 
+ []
+
+File: images/Eckol.png Graphic file (type bmp)
+<images/Eckol.png>
+
+Overfull \hbox (376.32594pt too wide) in paragraph at lines 1811--1812
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[81]
+Overfull \vbox (34.12099pt too high) has occurred while \output is active []
+
+[82]
+File: images/physode1.png Graphic file (type bmp)
+<images/physode1.png>
+(./phycology_book.bbl [83] [84
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1367.
-[59]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1367.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1860.
+[85]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1860.
 (./phycology_book.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1367.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1367.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1860.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1860.
 
 Package rerunfilecheck Info: File `phycology_book.out' has not changed.
-(rerunfilecheck)             Checksum: 963B2957E79929BF48FED942C7964E21;4026.
+(rerunfilecheck)             Checksum: 75A810A651401CB1446D4F3BF958E9B6;4971.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1367.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1860.
  ) 
 Here is how much of TeX's memory you used:
- 19376 strings out of 481654
- 346613 string characters out of 5929915
- 794229 words of memory out of 5000000
- 36146 multiletter control sequences out of 15000+600000
- 542572 words of font info for 97 fonts, out of 8000000 for 9000
+ 19526 strings out of 481653
+ 350257 string characters out of 5929884
+ 794343 words of memory out of 5000000
+ 36287 multiletter control sequences out of 15000+600000
+ 542580 words of font info for 98 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 52i,9n,118p,969b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 52i,9n,118p,969b,603s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on phycology_book.pdf (59 pages).
+Output written on phycology_book.pdf (85 pages).

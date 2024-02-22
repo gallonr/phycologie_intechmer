@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title> 4 Diversité morphologique des algues | La Biologie Végétale Marine à Intechmer</title>
   <meta name="description" content="Ce livre reprend toutes les notions importantes en biologie végétale marine enseignée au Cnam-Intechmer" />
-  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.37 and GitBook 2.6.7" />
 
   <meta property="og:title" content=" 4 Diversité morphologique des algues | La Biologie Végétale Marine à Intechmer" />
   <meta property="og:type" content="book" />
-  
-  <meta property="og:image" content="images/Adolphe_Millot_algues.jpg" />
+  <meta property="og:image" content="/images/Adolphe_Millot_algues.jpg" />
   <meta property="og:description" content="Ce livre reprend toutes les notions importantes en biologie végétale marine enseignée au Cnam-Intechmer" />
   
 
@@ -19,12 +18,12 @@
   <meta name="twitter:title" content=" 4 Diversité morphologique des algues | La Biologie Végétale Marine à Intechmer" />
   
   <meta name="twitter:description" content="Ce livre reprend toutes les notions importantes en biologie végétale marine enseignée au Cnam-Intechmer" />
-  <meta name="twitter:image" content="images/Adolphe_Millot_algues.jpg" />
+  <meta name="twitter:image" content="/images/Adolphe_Millot_algues.jpg" />
 
 <meta name="author" content="Régis GALLON" />
 
 
-<meta name="date" content="2020-10-22" />
+<meta name="date" content="2024-02-22" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,7 +32,8 @@
   
 <link rel="prev" href="classification.html"/>
 <link rel="next" href="cytologie.html"/>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -49,10 +49,38 @@
 
 
 
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 
 
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -67,50 +95,60 @@
       <nav role="navigation">
 
 <ul class="summary">
-<li><a href="./"> <b>BIOLOGIE VEGETAL MARINE</b> </a></li>
+<li><a href="./">A Minimal Book Example</a></li>
 
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Préface</a></li>
-<li class="chapter" data-level="1" data-path="histoire.html"><a href="histoire.html"><i class="fa fa-check"></i><b>1</b> Histoire de l’utilisation des algues</a><ul>
+<li class="chapter" data-level="1" data-path="histoire.html"><a href="histoire.html"><i class="fa fa-check"></i><b>1</b> Histoire de l’utilisation des algues</a>
+<ul>
 <li class="chapter" data-level="1.1" data-path="histoire.html"><a href="histoire.html#la-préhistoire"><i class="fa fa-check"></i><b>1.1</b> La Préhistoire</a></li>
 <li class="chapter" data-level="1.2" data-path="histoire.html"><a href="histoire.html#lantiquité"><i class="fa fa-check"></i><b>1.2</b> L’Antiquité</a></li>
 <li class="chapter" data-level="1.3" data-path="histoire.html"><a href="histoire.html#moyen-âge"><i class="fa fa-check"></i><b>1.3</b> Moyen-âge</a></li>
-<li class="chapter" data-level="1.4" data-path="histoire.html"><a href="histoire.html#xviième-siècle-début-de-lindustrialisation-des-algues"><i class="fa fa-check"></i><b>1.4</b> XVII<sup>ème</sup> siècle : Début de l’industrialisation des algues</a><ul>
+<li class="chapter" data-level="1.4" data-path="histoire.html"><a href="histoire.html#xviième-siècle-début-de-lindustrialisation-des-algues"><i class="fa fa-check"></i><b>1.4</b> XVII<sup>ème</sup> siècle : Début de l’industrialisation des algues</a>
+<ul>
 <li class="chapter" data-level="1.4.1" data-path="histoire.html"><a href="histoire.html#lindustrie-du-verre-17-18ème-siècle"><i class="fa fa-check"></i><b>1.4.1</b> L’industrie du verre (17-18<sup>ème</sup> siècle)</a></li>
 <li class="chapter" data-level="1.4.2" data-path="histoire.html"><a href="histoire.html#la-production-diode-19ème-siècle"><i class="fa fa-check"></i><b>1.4.2</b> La production d’iode (19<sup>ème</sup> siècle)</a></li>
 <li class="chapter" data-level="1.4.3" data-path="histoire.html"><a href="histoire.html#la-production-dhydrocolloïdes-fin-du-19ème-siècle"><i class="fa fa-check"></i><b>1.4.3</b> La production d’hydrocolloïdes (fin du 19<sup>ème</sup> siècle)</a></li>
 </ul></li>
 <li class="chapter" data-level="1.5" data-path="histoire.html"><a href="histoire.html#de-nos-jours"><i class="fa fa-check"></i><b>1.5</b> De nos jours</a></li>
 </ul></li>
-<li class="chapter" data-level="2" data-path="usage.html"><a href="usage.html"><i class="fa fa-check"></i><b>2</b> Usages, économie et règlementation</a><ul>
-<li class="chapter" data-level="2.1" data-path="usage.html"><a href="usage.html#intérêts-et-usages"><i class="fa fa-check"></i><b>2.1</b> Intérêts et Usages</a><ul>
+<li class="chapter" data-level="2" data-path="usage.html"><a href="usage.html"><i class="fa fa-check"></i><b>2</b> Usages, économie et règlementation</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="usage.html"><a href="usage.html#intérêts-et-usages"><i class="fa fa-check"></i><b>2.1</b> Intérêts et Usages</a>
+<ul>
 <li class="chapter" data-level="2.1.1" data-path="usage.html"><a href="usage.html#lalimentation-humaine"><i class="fa fa-check"></i><b>2.1.1</b> L’alimentation humaine</a></li>
 <li class="chapter" data-level="2.1.2" data-path="usage.html"><a href="usage.html#agriculture"><i class="fa fa-check"></i><b>2.1.2</b> Agriculture</a></li>
 <li class="chapter" data-level="2.1.3" data-path="usage.html"><a href="usage.html#zootechnologie"><i class="fa fa-check"></i><b>2.1.3</b> Zootechnologie</a></li>
 <li class="chapter" data-level="2.1.4" data-path="usage.html"><a href="usage.html#bio-carburant-et-bio-plastique"><i class="fa fa-check"></i><b>2.1.4</b> Bio-carburant et Bio-plastique</a></li>
 <li class="chapter" data-level="2.1.5" data-path="usage.html"><a href="usage.html#cosmétique-et-santé-humaine"><i class="fa fa-check"></i><b>2.1.5</b> Cosmétique et santé humaine</a></li>
 </ul></li>
-<li class="chapter" data-level="2.2" data-path="usage.html"><a href="usage.html#léconomie-de-lalgue"><i class="fa fa-check"></i><b>2.2</b> L’économie de l’algue</a><ul>
+<li class="chapter" data-level="2.2" data-path="usage.html"><a href="usage.html#léconomie-de-lalgue"><i class="fa fa-check"></i><b>2.2</b> L’économie de l’algue</a>
+<ul>
 <li class="chapter" data-level="2.2.1" data-path="usage.html"><a href="usage.html#le-marché-mondial"><i class="fa fa-check"></i><b>2.2.1</b> Le marché mondial</a></li>
 <li class="chapter" data-level="2.2.2" data-path="usage.html"><a href="usage.html#le-marché-français"><i class="fa fa-check"></i><b>2.2.2</b> Le marché français</a></li>
 </ul></li>
-<li class="chapter" data-level="2.3" data-path="usage.html"><a href="usage.html#règlementation-de-pêche-et-de-récolte-des-végétaux-marins"><i class="fa fa-check"></i><b>2.3</b> Règlementation de pêche et de récolte des végétaux marins</a><ul>
+<li class="chapter" data-level="2.3" data-path="usage.html"><a href="usage.html#règlementation-de-pêche-et-de-récolte-des-végétaux-marins"><i class="fa fa-check"></i><b>2.3</b> Règlementation de pêche et de récolte des végétaux marins</a>
+<ul>
 <li class="chapter" data-level="2.3.1" data-path="usage.html"><a href="usage.html#le-goémon-de-rive"><i class="fa fa-check"></i><b>2.3.1</b> Le goémon de rive</a></li>
 <li class="chapter" data-level="2.3.2" data-path="usage.html"><a href="usage.html#le-goémon-de-fond"><i class="fa fa-check"></i><b>2.3.2</b> Le goémon de fond</a></li>
 <li class="chapter" data-level="2.3.3" data-path="usage.html"><a href="usage.html#le-goémon-épave"><i class="fa fa-check"></i><b>2.3.3</b> Le goémon épave</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="classification.html"><a href="classification.html"><i class="fa fa-check"></i><b>3</b> Classification et Diversité des algues</a><ul>
+<li class="chapter" data-level="3" data-path="classification.html"><a href="classification.html"><i class="fa fa-check"></i><b>3</b> Classification et Diversité des algues</a>
+<ul>
 <li class="chapter" data-level="3.1" data-path="classification.html"><a href="classification.html#quelques-définitions"><i class="fa fa-check"></i><b>3.1</b> Quelques définitions</a></li>
 <li class="chapter" data-level="3.2" data-path="classification.html"><a href="classification.html#quest-ce-quune-algue"><i class="fa fa-check"></i><b>3.2</b> Qu’est-ce qu’une algue?</a></li>
-<li class="chapter" data-level="3.3" data-path="classification.html"><a href="classification.html#diversité-des-thallophytes"><i class="fa fa-check"></i><b>3.3</b> Diversité des thallophytes</a><ul>
+<li class="chapter" data-level="3.3" data-path="classification.html"><a href="classification.html#diversité-des-thallophytes"><i class="fa fa-check"></i><b>3.3</b> Diversité des thallophytes</a>
+<ul>
 <li class="chapter" data-level="3.3.1" data-path="classification.html"><a href="classification.html#pélagique-versus-benthique"><i class="fa fa-check"></i><b>3.3.1</b> Pélagique <em>versus</em> Benthique</a></li>
 <li class="chapter" data-level="3.3.2" data-path="classification.html"><a href="classification.html#microalgues-versus-macroalgues"><i class="fa fa-check"></i><b>3.3.2</b> Microalgues <em>versus</em> Macroalgues</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="morphologie.html"><a href="morphologie.html"><i class="fa fa-check"></i><b>4</b> Diversité morphologique des algues</a><ul>
-<li class="chapter" data-level="" data-path="classification.html"><a href="classification.html#quelques-définitions"><i class="fa fa-check"></i>Quelques définitions</a></li>
-<li class="chapter" data-level="4.1" data-path="morphologie.html"><a href="morphologie.html#structure-du-thalle"><i class="fa fa-check"></i><b>4.1</b> Structure du thalle</a><ul>
+<li class="chapter" data-level="4" data-path="morphologie.html"><a href="morphologie.html"><i class="fa fa-check"></i><b>4</b> Diversité morphologique des algues</a>
+<ul>
+<li class="chapter" data-level="" data-path="morphologie.html"><a href="morphologie.html#quelques-définitions-1"><i class="fa fa-check"></i>Quelques définitions</a></li>
+<li class="chapter" data-level="4.1" data-path="morphologie.html"><a href="morphologie.html#structure-du-thalle"><i class="fa fa-check"></i><b>4.1</b> Structure du thalle</a>
+<ul>
 <li class="chapter" data-level="4.1.1" data-path="morphologie.html"><a href="morphologie.html#archétalles"><i class="fa fa-check"></i><b>4.1.1</b> Archétalles</a></li>
 <li class="chapter" data-level="4.1.2" data-path="morphologie.html"><a href="morphologie.html#nématothalles"><i class="fa fa-check"></i><b>4.1.2</b> Nématothalles</a></li>
 <li class="chapter" data-level="4.1.3" data-path="morphologie.html"><a href="morphologie.html#cladomothalles"><i class="fa fa-check"></i><b>4.1.3</b> Cladomothalles</a></li>
@@ -118,7 +156,8 @@
 </ul></li>
 <li class="chapter" data-level="4.2" data-path="morphologie.html"><a href="morphologie.html#les-différentes-ramifications"><i class="fa fa-check"></i><b>4.2</b> Les différentes ramifications</a></li>
 <li class="chapter" data-level="4.3" data-path="morphologie.html"><a href="morphologie.html#les-différentes-fixations"><i class="fa fa-check"></i><b>4.3</b> Les différentes fixations</a></li>
-<li class="chapter" data-level="4.4" data-path="morphologie.html"><a href="morphologie.html#les-particularités-morphologiques"><i class="fa fa-check"></i><b>4.4</b> Les particularités morphologiques</a><ul>
+<li class="chapter" data-level="4.4" data-path="morphologie.html"><a href="morphologie.html#les-particularités-morphologiques"><i class="fa fa-check"></i><b>4.4</b> Les particularités morphologiques</a>
+<ul>
 <li class="chapter" data-level="4.4.1" data-path="morphologie.html"><a href="morphologie.html#les-aérocystes"><i class="fa fa-check"></i><b>4.4.1</b> Les aérocystes</a></li>
 <li class="chapter" data-level="4.4.2" data-path="morphologie.html"><a href="morphologie.html#les-cils"><i class="fa fa-check"></i><b>4.4.2</b> Les cils</a></li>
 <li class="chapter" data-level="4.4.3" data-path="morphologie.html"><a href="morphologie.html#les-ramifications-latérales"><i class="fa fa-check"></i><b>4.4.3</b> Les ramifications latérales</a></li>
@@ -126,40 +165,69 @@
 <li class="chapter" data-level="4.4.5" data-path="morphologie.html"><a href="morphologie.html#les-ramules"><i class="fa fa-check"></i><b>4.4.5</b> Les ramules</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="cytologie.html"><a href="cytologie.html"><i class="fa fa-check"></i><b>5</b> Diversité cytologique des algues</a><ul>
-<li class="chapter" data-level="5.1" data-path="cytologie.html"><a href="cytologie.html#introduction"><i class="fa fa-check"></i><b>5.1</b> Introduction</a><ul>
+<li class="chapter" data-level="5" data-path="cytologie.html"><a href="cytologie.html"><i class="fa fa-check"></i><b>5</b> Diversité cytologique des algues</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="cytologie.html"><a href="cytologie.html#introduction"><i class="fa fa-check"></i><b>5.1</b> Introduction</a>
+<ul>
 <li class="chapter" data-level="5.1.1" data-path="cytologie.html"><a href="cytologie.html#cellule-animale-vs.-végétale"><i class="fa fa-check"></i><b>5.1.1</b> Cellule animale <em>vs.</em> végétale</a></li>
 <li class="chapter" data-level="5.1.2" data-path="cytologie.html"><a href="cytologie.html#les-technique-dobservation-de-la-cellule"><i class="fa fa-check"></i><b>5.1.2</b> Les technique d’observation de la cellule</a></li>
 </ul></li>
-<li class="chapter" data-level="5.2" data-path="cytologie.html"><a href="cytologie.html#les-plastes"><i class="fa fa-check"></i><b>5.2</b> Les plastes</a><ul>
+<li class="chapter" data-level="5.2" data-path="cytologie.html"><a href="cytologie.html#les-plastes"><i class="fa fa-check"></i><b>5.2</b> Les plastes</a>
+<ul>
 <li class="chapter" data-level="5.2.1" data-path="cytologie.html"><a href="cytologie.html#quest-ce-quun-plaste"><i class="fa fa-check"></i><b>5.2.1</b> Qu’est-ce-qu’un plaste?</a></li>
 <li class="chapter" data-level="5.2.2" data-path="cytologie.html"><a href="cytologie.html#la-théorie-de-lendosymbiose"><i class="fa fa-check"></i><b>5.2.2</b> La théorie de l’endosymbiose</a></li>
-<li class="chapter" data-level="5.2.3" data-path="cytologie.html"><a href="cytologie.html#ultrastructure"><i class="fa fa-check"></i><b>5.2.3</b> Ultrastructure</a></li>
+<li class="chapter" data-level="5.2.3" data-path="cytologie.html"><a href="cytologie.html#ultrastructure-du-chloroplaste-6.4"><i class="fa fa-check"></i><b>5.2.3</b> Ultrastructure du chloroplaste [^6.4]</a></li>
 <li class="chapter" data-level="5.2.4" data-path="cytologie.html"><a href="cytologie.html#les-thylakoïdes"><i class="fa fa-check"></i><b>5.2.4</b> Les thylakoïdes</a></li>
-<li class="chapter" data-level="5.2.5" data-path="cytologie.html"><a href="cytologie.html#les-organistes-complémentaires-de-la-photosynthèse"><i class="fa fa-check"></i><b>5.2.5</b> Les organistes complémentaires de la photosynthèse</a></li>
+<li class="chapter" data-level="5.2.5" data-path="cytologie.html"><a href="cytologie.html#les-organites-complémentaires-de-la-photosynthèse"><i class="fa fa-check"></i><b>5.2.5</b> Les organites complémentaires de la photosynthèse</a></li>
 </ul></li>
-<li class="chapter" data-level="5.3" data-path="cytologie.html"><a href="cytologie.html#la-paroi-cellulaire"><i class="fa fa-check"></i><b>5.3</b> La paroi cellulaire</a><ul>
+<li class="chapter" data-level="5.3" data-path="cytologie.html"><a href="cytologie.html#la-paroi-cellulaire"><i class="fa fa-check"></i><b>5.3</b> La paroi cellulaire</a>
+<ul>
 <li class="chapter" data-level="5.3.1" data-path="cytologie.html"><a href="cytologie.html#ultra-structure"><i class="fa fa-check"></i><b>5.3.1</b> Ultra-structure</a></li>
 <li class="chapter" data-level="5.3.2" data-path="cytologie.html"><a href="cytologie.html#composition"><i class="fa fa-check"></i><b>5.3.2</b> Composition</a></li>
 <li class="chapter" data-level="5.3.3" data-path="cytologie.html"><a href="cytologie.html#mucilage-et-imprégnation"><i class="fa fa-check"></i><b>5.3.3</b> Mucilage et imprégnation</a></li>
 </ul></li>
-<li class="chapter" data-level="5.4" data-path="cytologie.html"><a href="cytologie.html#les-flagelles-et-cils"><i class="fa fa-check"></i><b>5.4</b> Les flagelles et cils</a><ul>
+<li class="chapter" data-level="5.4" data-path="cytologie.html"><a href="cytologie.html#les-flagelles-et-cils"><i class="fa fa-check"></i><b>5.4</b> Les flagelles et cils</a>
+<ul>
 <li class="chapter" data-level="5.4.1" data-path="cytologie.html"><a href="cytologie.html#composition-1"><i class="fa fa-check"></i><b>5.4.1</b> Composition</a></li>
-<li class="chapter" data-level="5.4.2" data-path="morphologie.html"><a href="morphologie.html#structure"><i class="fa fa-check"></i><b>5.4.2</b> Structure</a></li>
+<li class="chapter" data-level="5.4.2" data-path="cytologie.html"><a href="cytologie.html#structure-1"><i class="fa fa-check"></i><b>5.4.2</b> Structure</a></li>
 <li class="chapter" data-level="5.4.3" data-path="cytologie.html"><a href="cytologie.html#lhaptonème"><i class="fa fa-check"></i><b>5.4.3</b> L’haptonème</a></li>
 </ul></li>
-<li class="chapter" data-level="5.5" data-path="cytologie.html"><a href="cytologie.html#les-organites-originaux"><i class="fa fa-check"></i><b>5.5</b> Les organites originaux</a><ul>
+<li class="chapter" data-level="5.5" data-path="cytologie.html"><a href="cytologie.html#les-organites-originaux"><i class="fa fa-check"></i><b>5.5</b> Les organites originaux</a>
+<ul>
 <li class="chapter" data-level="5.5.1" data-path="cytologie.html"><a href="cytologie.html#les-physodes-chez-les-algues-brunes"><i class="fa fa-check"></i><b>5.5.1</b> Les physodes chez les algues brunes</a></li>
 <li class="chapter" data-level="5.5.2" data-path="cytologie.html"><a href="cytologie.html#les-vacuoles-pulsatiles-chez-les-algues-deau-douce"><i class="fa fa-check"></i><b>5.5.2</b> Les vacuoles pulsatiles chez les algues d’eau douce</a></li>
 <li class="chapter" data-level="5.5.3" data-path="cytologie.html"><a href="cytologie.html#les-corps-mucifères"><i class="fa fa-check"></i><b>5.5.3</b> les corps mucifères</a></li>
 <li class="chapter" data-level="5.5.4" data-path="cytologie.html"><a href="cytologie.html#trichocystes"><i class="fa fa-check"></i><b>5.5.4</b> Trichocystes</a></li>
-<li class="chapter" data-level="5.5.5" data-path="cytologie.html"><a href="cytologie.html#liridescence"><i class="fa fa-check"></i><b>5.5.5</b> L’iridescence</a></li>
+<li class="chapter" data-level="5.5.5" data-path="cytologie.html"><a href="cytologie.html#liridescence-6.2-6.3"><i class="fa fa-check"></i><b>5.5.5</b> L’iridescence [^6.2] [^6.3]</a></li>
 <li class="chapter" data-level="5.5.6" data-path="cytologie.html"><a href="cytologie.html#les-cellules-spécialisées"><i class="fa fa-check"></i><b>5.5.6</b> Les cellules spécialisées</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="biochimie.html"><a href="biochimie.html"><i class="fa fa-check"></i><b>6</b> Biochimie associée aux algues</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="biochimie.html"><a href="biochimie.html#introduction-1"><i class="fa fa-check"></i><b>6.1</b> Introduction</a></li>
+<li class="chapter" data-level="6.2" data-path="biochimie.html"><a href="biochimie.html#les-pigments-des-algues-et-limplication-dans-la-photosynthèse"><i class="fa fa-check"></i><b>6.2</b> Les pigments des algues et l’implication dans la photosynthèse</a>
+<ul>
+<li class="chapter" data-level="6.2.1" data-path="biochimie.html"><a href="biochimie.html#les-pigments-et-la-photosynthèse"><i class="fa fa-check"></i><b>6.2.1</b> Les pigments et la photosynthèse</a></li>
+<li class="chapter" data-level="6.2.2" data-path="biochimie.html"><a href="biochimie.html#les-pigments-chlorophylliens"><i class="fa fa-check"></i><b>6.2.2</b> Les pigments chlorophylliens</a></li>
+<li class="chapter" data-level="6.2.3" data-path="biochimie.html"><a href="biochimie.html#les-caroténoïdes"><i class="fa fa-check"></i><b>6.2.3</b> Les caroténoïdes</a></li>
+<li class="chapter" data-level="6.2.4" data-path="biochimie.html"><a href="biochimie.html#les-phycobiliprotéines"><i class="fa fa-check"></i><b>6.2.4</b> Les phycobiliprotéines</a></li>
+<li class="chapter" data-level="6.2.5" data-path="biochimie.html"><a href="biochimie.html#pigments-et-distribution-des-macroalgues"><i class="fa fa-check"></i><b>6.2.5</b> Pigments et distribution des macroalgues</a></li>
+</ul></li>
+<li class="chapter" data-level="6.3" data-path="biochimie.html"><a href="biochimie.html#composition-biochimique-de-la-paroi-cellulaire"><i class="fa fa-check"></i><b>6.3</b> Composition biochimique de la paroi cellulaire</a>
+<ul>
+<li class="chapter" data-level="6.3.1" data-path="biochimie.html"><a href="biochimie.html#lultra-structure-de-la-paroi-cellulaire"><i class="fa fa-check"></i><b>6.3.1</b> L’ultra-structure de la paroi cellulaire</a></li>
+<li class="chapter" data-level="6.3.2" data-path="biochimie.html"><a href="biochimie.html#les-composés-cellulosiques"><i class="fa fa-check"></i><b>6.3.2</b> Les composés cellulosiques</a></li>
+<li class="chapter" data-level="6.3.3" data-path="biochimie.html"><a href="biochimie.html#les-phycocolloïdes"><i class="fa fa-check"></i><b>6.3.3</b> Les phycocolloïdes</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="biochimie.html"><a href="biochimie.html#les-réserves-énergétiques-des-algues"><i class="fa fa-check"></i><b>6.4</b> Les réserves énergétiques des algues</a>
+<ul>
+<li class="chapter" data-level="6.4.1" data-path="biochimie.html"><a href="biochimie.html#les-réserves-de-flaibles-poids-moléculaire"><i class="fa fa-check"></i><b>6.4.1</b> Les réserves de flaibles poids moléculaire</a></li>
+<li class="chapter" data-level="6.4.2" data-path="biochimie.html"><a href="biochimie.html#les-réserves-de-hauts-poids-moléculaire"><i class="fa fa-check"></i><b>6.4.2</b> Les réserves de hauts poids moléculaire</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="références.html"><a href="références.html"><i class="fa fa-check"></i>Références</a></li>
 <li class="divider"></li>
-<li><a href="https://gallonr.github.io/webpage/index.html" target="blank"> Régis Gallon - 2020 </a></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
 
 </ul>
 
@@ -178,10 +246,10 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="morphologie" class="section level1">
-<h1><span class="header-section-number"> 4</span> Diversité morphologique des algues</h1>
-<div id="quelques-définitions" class="section level2 unnumbered">
-<h2>Quelques définitions</h2>
+<div id="morphologie" class="section level1 hasAnchor" number="4">
+<h1><span class="header-section-number"> 4</span> Diversité morphologique des algues<a href="morphologie.html#morphologie" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="quelques-définitions-1" class="section level2 unnumbered hasAnchor">
+<h2>Quelques définitions<a href="morphologie.html#quelques-définitions-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p><strong>Morphologie</strong> : science “descriptive” de la <em>forme externe et de la structure</em> des êtres vivants</p>
 <p>Etudier la morphologie d’une algue implique de définir :</p>
 <ul>
@@ -192,7 +260,7 @@
 </ul>
 <p><strong>Anatomie</strong> : science qui s’intéresse à la <em>structure interne</em> des organismes</p>
 <p><strong>Polymorphisme</strong> : propriété qu’ont les individus d’une espèce de se présenter sous plusieurs formes différentes. Il s’agit de processus d’adaptation des individus aux conditions de milieux (<em>Figure <a href="morphologie.html#fig:polym-condrus">4.1</a></em>).</p>
-<div class="figure" style="text-align: center"><span id="fig:polym-condrus"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:polym-condrus"></span>
 <img src="images/polymorph_chondrus.jpg" alt="Exemple de polymorphisme chez *Chondrus crispus*" width="70%" />
 <p class="caption">
 Figure 4.1: Exemple de polymorphisme chez <em>Chondrus crispus</em>
@@ -200,56 +268,56 @@ Figure 4.1: Exemple de polymorphisme chez <em>Chondrus crispus</em>
 </div>
 <p>A l’issu de ce cours, vous serez capable de déterminer les caractéristiques morphologiques des algues ceci dans le but de leur donner un nom d’espèce.</p>
 </div>
-<div id="structure-du-thalle" class="section level2">
-<h2><span class="header-section-number">4.1</span> Structure du thalle</h2>
+<div id="structure-du-thalle" class="section level2 hasAnchor" number="4.1">
+<h2><span class="header-section-number">4.1</span> Structure du thalle<a href="morphologie.html#structure-du-thalle" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>La structure des thalles est classée en fonction de sa compléxité (du moins au plus complexe) :</p>
 <p><strong>Archéthalle <span class="math inline">\(\rightarrow\)</span> Nématothalle <span class="math inline">\(\rightarrow\)</span> Cladomothalle</strong></p>
-<div id="archétalles" class="section level3">
-<h3><span class="header-section-number">4.1.1</span> Archétalles</h3>
+<div id="archétalles" class="section level3 hasAnchor" number="4.1.1">
+<h3><span class="header-section-number">4.1.1</span> Archétalles<a href="morphologie.html#archétalles" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p><strong>Thalle formé de cellules isolées (archéthalle unicellulaire) ou groupées (archéthalle pluricellulaire).</strong></p>
 <p>Toutes les cellules sont identiques et ont donc le même rôle, elles sont capables de se diviser par bipartition (mitose) ou de diviser leur contenu en spores mobiles ou non (méiose). <em>Dans le cas des archéthalles pluricellulaire, il n’y a pas de communications intercellulaires</em> (<em>Figure <a href="morphologie.html#fig:archetallediv">4.2</a></em>).</p>
-<div class="figure" style="text-align: center"><span id="fig:archetallediv"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:archetallediv"></span>
 <img src="images/archetalle_div.png" alt="A. Multiplication végétative par mitose d'un archéthalle unicellulaire; B. Production de spores par méiose d'un archéthalle unicellulaire mobile" width="70%" />
 <p class="caption">
 Figure 4.2: A. Multiplication végétative par mitose d’un archéthalle unicellulaire; B. Production de spores par méiose d’un archéthalle unicellulaire mobile
 </p>
 </div>
-<div id="cellules-isolées" class="section level4">
-<h4><span class="header-section-number">4.1.1.1</span> Cellules isolées</h4>
+<div id="cellules-isolées" class="section level4 hasAnchor" number="4.1.1.1">
+<h4><span class="header-section-number">4.1.1.1</span> Cellules isolées<a href="morphologie.html#cellules-isolées" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p><strong>Thalle COCCOÏDE</strong> : Cellules isolées et <strong>immobiles</strong> (<em>Figures <a href="morphologie.html#fig:chlorella">4.3</a>-<a href="morphologie.html#fig:pleurosigma">4.4</a> </em>)</p>
-<div class="figure" style="text-align: center"><span id="fig:chlorella"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:chlorella"></span>
 <img src="images/chlorellasp.jpg" alt="*Chlorella sp.* (Chlorophycée)" width="70%" />
 <p class="caption">
 Figure 4.3: <em>Chlorella sp.</em> (Chlorophycée)
 </p>
 </div>
-<div class="figure" style="text-align: center"><span id="fig:pleurosigma"></span>
-<img src="images/pleurosigma.jpg" alt="*Pleurosigma sp.* (Bacillariophycée)" width="70%" />
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:pleurosigma"></span>
+<img src="images/pleurosigma.jpg" alt="*Pleurosigma sp.* (Bacillariophycée)" width="40%" />
 <p class="caption">
 Figure 4.4: <em>Pleurosigma sp.</em> (Bacillariophycée)
 </p>
 </div>
 <p><strong>Thalle MONADOÏDE</strong> : Cellules isolées et <strong>mobiles</strong> nageant à l’aide d’un ou plusieurs flagelles (<em>Figures <a href="morphologie.html#fig:chlamydomonas">4.5</a>-<a href="morphologie.html#fig:euglene">4.6</a> </em>). Ces organismes sont appelés <em>monades</em> (<em>e.g.</em> <em>Chlamydo<strong>monas</strong> sp.</em>, <em>Crypto<strong>monas</strong> sp.</em>,)</p>
-<div class="figure" style="text-align: center"><span id="fig:chlamydomonas"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:chlamydomonas"></span>
 <img src="images/chlamydomonas.jpg" alt="*Chlamydo**monas** sp.* (Chlorophycée)" width="70%" />
 <p class="caption">
 Figure 4.5: <em>Chlamydo<strong>monas</strong> sp.</em> (Chlorophycée)
 </p>
 </div>
-<div class="figure" style="text-align: center"><span id="fig:euglene"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:euglene"></span>
 <img src="images/euglene.jpg" alt="*Chlamydo**monas** sp.* (Chlorophycée)" width="70%" />
 <p class="caption">
 Figure 4.6: <em>Chlamydo<strong>monas</strong> sp.</em> (Chlorophycée)
 </p>
 </div>
 </div>
-<div id="cellules-groupées" class="section level4">
-<h4><span class="header-section-number">4.1.1.2</span> Cellules groupées</h4>
+<div id="cellules-groupées" class="section level4 hasAnchor" number="4.1.1.2">
+<h4><span class="header-section-number">4.1.1.2</span> Cellules groupées<a href="morphologie.html#cellules-groupées" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Thalles pluricellulaires <strong>d’une même espèce</strong>, flagellés ou non, rassemblés dans une substance constituée de polysaccharides qui gonfle au contact de l’eau (<strong>mucilage</strong>). Le mucilage protège la colonie des agressions extérieures et des infections.</p>
 <ul>
 <li><strong>Colonie SARCINOÏDE</strong> : quelques cellules sont réunies en amas dans un mucilage (<em>Figure <a href="morphologie.html#fig:sarcino">4.7</a></em>).</li>
 </ul>
-<div class="figure" style="text-align: center"><span id="fig:sarcino"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:sarcino"></span>
 <img src="images/chlorosarcinopsis.png" alt="*Chloro**sarcino**psis sp.* (Chlorophycée)" width="70%" />
 <p class="caption">
 Figure 4.7: <em>Chloro<strong>sarcino</strong>psis sp.</em> (Chlorophycée)
@@ -266,7 +334,7 @@ Figure 4.7: <em>Chloro<strong>sarcino</strong>psis sp.</em> (Chlorophycée)
 </ul>
 <p>Colonie de 3000 à 50000 cellules formant une sphère creuse de 5mm de diamètre (<em>Figure <a href="morphologie.html#fig:volvox">4.8</a></em>). Les cellules en périphérie sont biflagellées et unies entre elles par des connexions cytoplasmiques. Les colonies de cellules sont séparées i) cellules végétatives ou somatiques (petites et nombreuses) en périphérie et ii) grandes cellules reproductrices légèrement en retrait des cellules somatiques, en fonction des conditions elles vont soit se diviser activement pour former des colonies filles (reproduction asexuée), soit être à l’origine de la formation de gamètes mâle et femelle (reproduction sexuée).</p></li>
 </ul>
-<div class="figure" style="text-align: center"><span id="fig:volvox"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:volvox"></span>
 <img src="images/volvox.png" alt="*Volvox sp.* (Chlorophycée) [(Sundance Raphael, 2007)](http://commons.wikimedia.org/wiki/User:Sundance_Raphael) 1. Cellules biflagellées; 2. Colonies filles; 3. Ponts cytoplasmiques; 4. Mucilage; 5. Cellules reproductrices; 6. Cellules somatiques" width="70%" />
 <p class="caption">
 Figure 4.8: <em>Volvox sp.</em> (Chlorophycée) <a href="http://commons.wikimedia.org/wiki/User:Sundance_Raphael">(Sundance Raphael, 2007)</a> 1. Cellules biflagellées; 2. Colonies filles; 3. Ponts cytoplasmiques; 4. Mucilage; 5. Cellules reproductrices; 6. Cellules somatiques
@@ -274,7 +342,7 @@ Figure 4.8: <em>Volvox sp.</em> (Chlorophycée) <a href="http://commons.wikimedi
 </div>
 <pre><code>Les genres Pandorina et Volvox montrent les débuts de la polarisation des colonies, en effet les cellules ou les colonies présentent des fonctions différentes entre les parties antérieures/postérieures, périphérie/intérieur,... .Bien que ces colonies soient des archéthalles, on remarque un début de spécialisation entre les cellules ayant un rôle dans la mobilité et/ou dans la photosynhèse et/ou dans la reproduction.</code></pre>
 <p><strong>Attention</strong>, les colonies de cyanobactéries (<em>Figure <a href="morphologie.html#fig:merismopedia">4.9</a></em>) ne sont pas des cœnobes car il y a une constante augmentation du nombre de cellules jusqu’à la fragmentation du thalle (multiplication végétative).</p>
-<div class="figure" style="text-align: center"><span id="fig:merismopedia"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:merismopedia"></span>
 <img src="images/merismopedia.png" alt="Colonie de *Merismopedia glauca* (Cyanobactérie)" width="70%" />
 <p class="caption">
 Figure 4.9: Colonie de <em>Merismopedia glauca</em> (Cyanobactérie)
@@ -284,7 +352,7 @@ Figure 4.9: Colonie de <em>Merismopedia glauca</em> (Cyanobactérie)
 <li><strong>Colonie PALMELLOÏDE</strong> : Cellules immobiles réunies dans un mucilage formant un amas. Il n’y a pas de connexions intercellulaires.</li>
 </ul>
 <p>Beaucoup d’espèces formant ce type de colonie font partie de la famille des Palmellaceae (<em>e.g.</em> <em>Sphaerocystis sp.</em>, <em>Palmella sp.</em>, <em>Figure <a href="morphologie.html#fig:palmell">4.10</a>A1, A2 et B</em>). Parfois, ce type de colonie correspond à un stade de vie lors de la perte des flagelles (<em>e.g.</em> <em>Chlamydomonas sp.</em>, <em>Figure <a href="morphologie.html#fig:palmell">4.10</a>C</em>).</p>
-<div class="figure" style="text-align: center"><span id="fig:palmell"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:palmell"></span>
 <img src="images/palmell.png" alt="Exemple de colonies palmelloïdes. A1. *Palmella sp.* en colonie ; A2. *Palmella sp.* en solitaire ; B. *Sphaerocystis sp.* ; C. *Chlamydomonas sp.*" width="70%" />
 <p class="caption">
 Figure 4.10: Exemple de colonies palmelloïdes. A1. <em>Palmella sp.</em> en colonie ; A2. <em>Palmella sp.</em> en solitaire ; B. <em>Sphaerocystis sp.</em> ; C. <em>Chlamydomonas sp.</em>
@@ -293,7 +361,7 @@ Figure 4.10: Exemple de colonies palmelloïdes. A1. <em>Palmella sp.</em> en col
 <ul>
 <li><strong>Colonie DENDROÏDE</strong> : Cellules réunies dans un mucilage de forme arbusculaire (<em>Figure <a href="morphologie.html#fig:dendroide">4.11</a></em>).</li>
 </ul>
-<div class="figure" style="text-align: center"><span id="fig:dendroide"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:dendroide"></span>
 <img src="images/dendroide.png" alt="Exemples de colonies dendroïdes. A. *Colacium  sp.* ; B. *Ophiocytium arbuscula* ; C. *Dinobryon divergens*" width="70%" />
 <p class="caption">
 Figure 4.11: Exemples de colonies dendroïdes. A. <em>Colacium sp.</em> ; B. <em>Ophiocytium arbuscula</em> ; C. <em>Dinobryon divergens</em>
@@ -301,19 +369,19 @@ Figure 4.11: Exemples de colonies dendroïdes. A. <em>Colacium sp.</em> ; B. <em
 </div>
 </div>
 </div>
-<div id="nématothalles" class="section level3">
-<h3><span class="header-section-number">4.1.2</span> Nématothalles</h3>
-<div id="structure" class="section level4">
-<h4><span class="header-section-number">4.1.2.1</span> Structure</h4>
+<div id="nématothalles" class="section level3 hasAnchor" number="4.1.2">
+<h3><span class="header-section-number">4.1.2</span> Nématothalles<a href="morphologie.html#nématothalles" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="structure" class="section level4 hasAnchor" number="4.1.2.1">
+<h4><span class="header-section-number">4.1.2.1</span> Structure<a href="morphologie.html#structure" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p><strong>Les nématothalles</strong> sont des thalles avec des cellules spécialisées et une zone spécifique de croissance (apicale ou diffuse). Ces thalles sont constitués de filaments rampants ou dressés / ramifiés ou non. Les cellules peuvent communiquer entre elles via des ponts cytoplasmiques ou des synapses bouchées par un bouchon synaptique.</p>
 </div>
-<div id="les-filaments" class="section level4">
-<h4><span class="header-section-number">4.1.2.2</span> Les filaments</h4>
+<div id="les-filaments" class="section level4 hasAnchor" number="4.1.2.2">
+<h4><span class="header-section-number">4.1.2.2</span> Les filaments<a href="morphologie.html#les-filaments" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p><strong>Un filament</strong> est un thalle constitué de files de cellules qui forment des axes et des ramifications ayant un diamètre fin. C’est la construction pluricellulaire la plus simple. Pour former des filaments les cellules se divisent dans un même plan et ne s’individualisent pas à l’issu de la mitose, ainsi elles partagent la lamelle moyenne et forment des ponts cytoplasmiques.</p>
 <ul>
 <li><strong>Filaments unisériés (haplostiques)</strong> : Une seule file de cellules séparées par <em>des cloisons transversales</em> (<em>Figure <a href="morphologie.html#fig:haplostique">4.12</a></em>).</li>
 </ul>
-<div class="figure" style="text-align: center"><span id="fig:haplostique"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:haplostique"></span>
 <img src="images/haplostique.png" alt="Exemples filaments unisériés sans ramifications A. *Spyrogira  sp.* ; avec ramifications B. *Pylaiella sp.*" width="70%" />
 <p class="caption">
 Figure 4.12: Exemples filaments unisériés sans ramifications A. <em>Spyrogira sp.</em> ; avec ramifications B. <em>Pylaiella sp.</em>
@@ -322,39 +390,39 @@ Figure 4.12: Exemples filaments unisériés sans ramifications A. <em>Spyrogira 
 <ul>
 <li><strong>Filaments plurisériés (polystiques)</strong> : Plusieurs files de cellules séparées par des cloisons transversales et longitudinales (<em>Figure <a href="morphologie.html#fig:polystique">4.13</a></em>).</li>
 </ul>
-<div class="figure" style="text-align: center"><span id="fig:polystique"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:polystique"></span>
 <img src="images/polystique.png" alt="Exemples filaments plurisériés *Bangia sp.*" width="70%" />
 <p class="caption">
 Figure 4.13: Exemples filaments plurisériés <em>Bangia sp.</em>
 </p>
 </div>
 </div>
-<div id="les-thalles-foliacés" class="section level4">
-<h4><span class="header-section-number">4.1.2.3</span> les thalles foliacés</h4>
+<div id="les-thalles-foliacés" class="section level4 hasAnchor" number="4.1.2.3">
+<h4><span class="header-section-number">4.1.2.3</span> les thalles foliacés<a href="morphologie.html#les-thalles-foliacés" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Les cellules dans un thalle foliacé (<em>Figure <a href="morphologie.html#fig:thallefoliace">4.14</a></em>) peuvent se diviser à la fois sur le plan latéral et longitudinal formant des thalles monostromatiques, <em>i.e.</em> avec une seule couche de cellule (<em>Porphyra sp.</em>). Chez certaines algues, la lame peut être formée de deux couches (bistromatique, <em>Ulva sp.</em>) ou plus (pluristromatique, <em>Dilsea carnosa</em>).</p>
-<div class="figure" style="text-align: center"><span id="fig:thallefoliace"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:thallefoliace"></span>
 <img src="images/thallefoliace.png" alt="Développement d'un thalle foliacé : *Ulva lactuca*" width="70%" />
 <p class="caption">
 Figure 4.14: Développement d’un thalle foliacé : <em>Ulva lactuca</em>
 </p>
 </div>
 </div>
-<div id="les-thalles-tubulaires" class="section level4">
-<h4><span class="header-section-number">4.1.2.4</span> les thalles tubulaires</h4>
+<div id="les-thalles-tubulaires" class="section level4 hasAnchor" number="4.1.2.4">
+<h4><span class="header-section-number">4.1.2.4</span> les thalles tubulaires<a href="morphologie.html#les-thalles-tubulaires" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Ces thalles ont la particularité <em>d’être creux</em> entourés d’une ou plusieurs couches de cellules. Ils peuvent être tubulaire ou aplati (<em>Figure <a href="morphologie.html#fig:thalletube">4.15</a></em>).</p>
-<div class="figure" style="text-align: center"><span id="fig:thalletube"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:thalletube"></span>
 <img src="images/thalletube.png" alt="Structure de thalles tubulaires. *Enteromorpha sp.* et *Enteromorpha linza* (FAO)" width="70%" />
 <p class="caption">
 Figure 4.15: Structure de thalles tubulaires. <em>Enteromorpha sp.</em> et <em>Enteromorpha linza</em> (FAO)
 </p>
 </div>
 </div>
-<div id="les-cordons" class="section level4">
-<h4><span class="header-section-number">4.1.2.5</span> les cordons</h4>
+<div id="les-cordons" class="section level4 hasAnchor" number="4.1.2.5">
+<h4><span class="header-section-number">4.1.2.5</span> les cordons<a href="morphologie.html#les-cordons" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Contrairement aux thalles tubulaires, les thalles en forme de cordon sont plein, remplis d’un parenchyme. Ce parenchyme est constitué de grandes cellules spécialisées dans le stockage des réserves.</p>
 </div>
-<div id="les-thalles-encroûtants" class="section level4">
-<h4><span class="header-section-number">4.1.2.6</span> les thalles encroûtants</h4>
+<div id="les-thalles-encroûtants" class="section level4 hasAnchor" number="4.1.2.6">
+<h4><span class="header-section-number">4.1.2.6</span> les thalles encroûtants<a href="morphologie.html#les-thalles-encroûtants" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Les thalles encroûtants sont plus ou moins fixés sur le substrat, ils peuvent être calcaire ou non.</p>
 <p><em>Processus de calcification chez les algues calcaires</em></p>
 <p>La précipitation du carbonate de calcium ou calcite (CaCO<sub>3</sub>) a lieu dans les parois des cellules qui sont totalement calcifiées par ces dépôts carbonatés, à l’exception des cellules reproductives et des cellules externes de l’épithélium. Les thalles épais présentent une différenciation cellulaire; les cellules de l’épithélium possèdent des pigments photosynthétiques alors que les cellules de réserves sans pigments photosynthétiques se situe dans la zone médullaire.</p>
@@ -364,7 +432,7 @@ Figure 4.15: Structure de thalles tubulaires. <em>Enteromorpha sp.</em> et <em>E
 cellulaire suivant un modèle de calcification. Ces substrats organiques se lient avec des ions calcium (Ca<sup>2+</sup>) pour former des sites de nucléation favorisant la calcification.</p>
 <p>L’utilisation du CO<sub>2</sub> par la photosynthèse (induite par la diffusion du CO<sub>2</sub> ou la déshydratation du HCO3<sup>-</sup> en CO<sub>2</sub> par une anhydrase carbonique) et l’excrétion des H<sup>+</sup> par des pompes à protons déplacent l’équilibre des carbonates vers le
 CO3<sup>2-</sup> et favorise donc la précipitation du CaCO<sub>3</sub>.</p>
-<div class="figure" style="text-align: center"><span id="fig:calcification"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:calcification"></span>
 <img src="images/calcification.JPG" alt="Schéma récapitulatif des processus de calcification dans la paroi cellulaire des Corallinacées (d'après Noisette F., 2013)" width="70%" />
 <p class="caption">
 Figure 4.16: Schéma récapitulatif des processus de calcification dans la paroi cellulaire des Corallinacées (d’après Noisette F., 2013)
@@ -372,10 +440,10 @@ Figure 4.16: Schéma récapitulatif des processus de calcification dans la paroi
 </div>
 </div>
 </div>
-<div id="cladomothalles" class="section level3">
-<h3><span class="header-section-number">4.1.3</span> Cladomothalles</h3>
-<div id="structure-générale" class="section level4">
-<h4><span class="header-section-number">4.1.3.1</span> Structure générale</h4>
+<div id="cladomothalles" class="section level3 hasAnchor" number="4.1.3">
+<h3><span class="header-section-number">4.1.3</span> Cladomothalles<a href="morphologie.html#cladomothalles" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="structure-générale" class="section level4 hasAnchor" number="4.1.3.1">
+<h4><span class="header-section-number">4.1.3.1</span> Structure générale<a href="morphologie.html#structure-générale" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Les thalles cladomiens sont les thalles les plus complexes possèdent des zones spécifiques de croissance.
 (<em>Figure <a href="morphologie.html#fig:cladom1">4.17</a></em>)</p>
 <ul>
@@ -383,32 +451,32 @@ Figure 4.16: Schéma récapitulatif des processus de calcification dans la paroi
 <li>Des cellules coaxiales vont former des cladomes II<sup>aire</sup></li>
 <li>Certaines cellules des cladomes I<sup>aire</sup> et II<sup>aire</sup> vont former des pleuridies.</li>
 </ul>
-<div class="figure" style="text-align: center"><span id="fig:cladom1"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:cladom1"></span>
 <img src="images/cladom1.png" alt="Structure d'un thalle cladomien." width="70%" />
 <p class="caption">
 Figure 4.17: Structure d’un thalle cladomien.
 </p>
 </div>
 <p>Les thalles peuvent être uniaxiaux, il n’y a donc qu’un seul cladome I<sup>aire</sup> (<em>Figure <a href="morphologie.html#fig:cladom2">4.18</a>A</em>) ou multiaxiaux, <em>i.e</em> que le thalle possèdent plusieurs cladomes I<sup>aire</sup> (<em>Figure <a href="morphologie.html#fig:cladom2">4.18</a>B</em>). Les pleuridies peuvent également fusionnées pour former des thalles foliacées, on parle alors de pseudo-nervures <em>Figure <a href="morphologie.html#fig:cladom3">4.19</a></em>).</p>
-<div class="figure" style="text-align: center"><span id="fig:cladom2"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:cladom2"></span>
 <img src="images/cladom2.png" alt="Structure des thalles cladomiens. A. Cladome uniaxial d'*Antithamnion sp.*; B. Cladome multiaxial de *Codium sp.*" width="70%" />
 <p class="caption">
 Figure 4.18: Structure des thalles cladomiens. A. Cladome uniaxial d’<em>Antithamnion sp.</em>; B. Cladome multiaxial de <em>Codium sp.</em>
 </p>
 </div>
-<div class="figure" style="text-align: center"><span id="fig:cladom3"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:cladom3"></span>
 <img src="images/cladom3.png" alt="Exemple d'un thalle cladomien avec fusion des pleuridies" width="70%" />
 <p class="caption">
 Figure 4.19: Exemple d’un thalle cladomien avec fusion des pleuridies
 </p>
 </div>
 </div>
-<div id="formation-dun-thalle-cladomien" class="section level4">
-<h4><span class="header-section-number">4.1.3.2</span> Formation d’un thalle cladomien</h4>
+<div id="formation-dun-thalle-cladomien" class="section level4 hasAnchor" number="4.1.3.2">
+<h4><span class="header-section-number">4.1.3.2</span> Formation d’un thalle cladomien<a href="morphologie.html#formation-dun-thalle-cladomien" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 </div>
 </div>
-<div id="thalles-fucoïdes" class="section level3">
-<h3><span class="header-section-number">4.1.4</span> Thalles fucoïdes</h3>
+<div id="thalles-fucoïdes" class="section level3 hasAnchor" number="4.1.4">
+<h3><span class="header-section-number">4.1.4</span> Thalles fucoïdes<a href="morphologie.html#thalles-fucoïdes" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Les thalles fucoïdes sont propres aux algues brunes (<em>Figure <a href="morphologie.html#fig:thallefucoide">4.20</a></em>). Ces thalles sont divisés en trois parties :</p>
 <ul>
 <li><p><strong>La lame</strong> (ou la fronde) est la partie la plus longue de l’algue est peu avoir des morphologies très variées (digitée, monolame, gaufrée, avec sous sans pseudo-nervure.)</p></li>
@@ -419,7 +487,7 @@ Figure 4.19: Exemple d’un thalle cladomien avec fusion des pleuridies
 </ul></li>
 <li><p><strong>Le crampon</strong> : permettant à l’algue de s’ancrer sur le substrat plus ou moins irrégulier.</p></li>
 </ul>
-<div class="figure" style="text-align: center"><span id="fig:thallefucoide"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:thallefucoide"></span>
 <img src="images/thalle_fucoide.png" alt="Exemple d'un thalle cladomien avec fusion des pleuridies" width="70%" />
 <p class="caption">
 Figure 4.20: Exemple d’un thalle cladomien avec fusion des pleuridies
@@ -427,14 +495,14 @@ Figure 4.20: Exemple d’un thalle cladomien avec fusion des pleuridies
 </div>
 </div>
 </div>
-<div id="les-différentes-ramifications" class="section level2">
-<h2><span class="header-section-number">4.2</span> Les différentes ramifications</h2>
+<div id="les-différentes-ramifications" class="section level2 hasAnchor" number="4.2">
+<h2><span class="header-section-number">4.2</span> Les différentes ramifications<a href="morphologie.html#les-différentes-ramifications" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Le type de ramification est un critère de morphologie important pour déterminer le nom d’une algue.</p>
 <ul>
 <li><p><strong>Dichotome</strong> : La dichotomie est issue de la division latérale régulière de la cellule initiale du cladome (<em>Figure <a href="morphologie.html#fig:dicho">4.21</a>A</em>)</p></li>
 <li><p><strong>Pseudo-dichotomie</strong> : La cellule initiale du cladome ne se divise pas régulièrement sur le plan latéral (<em>Figure <a href="morphologie.html#fig:dicho">4.21</a>B</em>)</p></li>
 </ul>
-<div class="figure" style="text-align: center"><span id="fig:dicho"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:dicho"></span>
 <img src="images/dichotomie.png" alt="Ramification dichotomique A. Régulière *Dictyota dichotoma* ; B. Irrégulière *Rhodymenia pseudo-palmata*" width="70%" />
 <p class="caption">
 Figure 4.21: Ramification dichotomique A. Régulière <em>Dictyota dichotoma</em> ; B. Irrégulière <em>Rhodymenia pseudo-palmata</em>
@@ -444,32 +512,32 @@ Figure 4.21: Ramification dichotomique A. Régulière <em>Dictyota dichotoma</em
 <p><strong>Alternée</strong> : Alternance de l’insertion des rameaux latéraux (<em>Figure <a href="morphologie.html#fig:ramif">4.22</a>B</em>)</p>
 <p><strong>Verticilée</strong> : Sur l’axe principal sont insérés plusieurs filaments au même niveau. (<em>Figure <a href="morphologie.html#fig:ramif">4.22</a>C</em>)</p>
 <p><strong>Irrégulière</strong> : Rameaux latéraux insérés de façon irrégulière sur l’axe (alterne + opposée) (<em>Figure <a href="morphologie.html#fig:ramif">4.22</a>D</em>)</p>
-<div class="figure" style="text-align: center"><span id="fig:ramif"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:ramif"></span>
 <img src="images/ramifications.png" alt="Ramifications A. opposée ; B. alternée ; C. verticilée ; D. Irrégulière" width="70%" />
 <p class="caption">
 Figure 4.22: Ramifications A. opposée ; B. alternée ; C. verticilée ; D. Irrégulière
 </p>
 </div>
 </div>
-<div id="les-différentes-fixations" class="section level2">
-<h2><span class="header-section-number">4.3</span> Les différentes fixations</h2>
+<div id="les-différentes-fixations" class="section level2 hasAnchor" number="4.3">
+<h2><span class="header-section-number">4.3</span> Les différentes fixations<a href="morphologie.html#les-différentes-fixations" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Les algues présentes plusieurs types de fixation qui font partis des critères morphologiques importants pour déterminer le nom d’une espèce. Lors que vous échantillonnez des algues, il est <strong>IMPORTANT</strong> que vous préleviez la fixation.</p>
 <p><strong>Les disques</strong> : simple différenciation du thalle en base arrondie plus ou moins importante (<em>Figure <a href="morphologie.html#fig:ulvadisque">4.23</a></em>).</p>
-<div class="figure" style="text-align: center"><span id="fig:ulvadisque"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:ulvadisque"></span>
 <img src="images/Ulva_disques.png" alt="Disque de fixation chez *Ulva sp.*" width="70%" />
 <p class="caption">
 Figure 4.23: Disque de fixation chez <em>Ulva sp.</em>
 </p>
 </div>
 <p><strong>Les rhizoïdes</strong> : Il peut être unicellulaire ou multicellulaire (<em>Figure <a href="morphologie.html#fig:rhizoide">4.24</a></em>). Ce sont des cellules dont la différenciation a abouti à <em>l’apoptose</em>, qui sont donc des <em>cellules mortes</em>. Les rhizoïdes peuvent être assimilés à des racines mais n’en sont pas. En effet, les racines jouent un important rôle dans l’absorption minérale, ce qui n’est pas le cas des rhizoïdes (<em>les cellules mortes ne peuvent pas participer aux échanges</em>).</p>
-<div class="figure" style="text-align: center"><span id="fig:rhizoide"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:rhizoide"></span>
 <img src="images/rhizoide.png" alt="Exemples de rhizoïdes chez A. *Desmarescia sp.*; B. *Polysophinia sp.*" width="70%" />
 <p class="caption">
 Figure 4.24: Exemples de rhizoïdes chez A. <em>Desmarescia sp.</em>; B. <em>Polysophinia sp.</em>
 </p>
 </div>
 <p><strong>Les stolons</strong> : Base de fixation enfouie dans le sédiment, elle correspond à la partie rampante portant des rhizoïdes sur laquelle se développe les axes dressés (<em>Figure <a href="morphologie.html#fig:stolon">4.25</a></em>). Le stolon est donc la partie rampante, fixée par des rhizoïdes, sur laquelle se développent les axes dressés.</p>
-<div class="figure" style="text-align: center"><span id="fig:stolon"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:stolon"></span>
 <img src="images/caulerpa_stolon.jpg" alt="Stolons chez *Caulerpa sp.*" width="70%" />
 <p class="caption">
 Figure 4.25: Stolons chez <em>Caulerpa sp.</em>
@@ -481,18 +549,18 @@ On distingue :</p>
 <li><p>Les haptères formés de ramifications qui s’insèrent dans les infractuaosité du substrat (<em>Figure <a href="morphologie.html#fig:crampon">4.26</a>A</em>)</p></li>
 <li><p>Les bulbes : le crampon formé de radicelles est recouvert d’un bulbe creux, épais et verruqueux. (<em>Figure <a href="morphologie.html#fig:crampon">4.26</a>B</em>)</p></li>
 </ul>
-<div class="figure" style="text-align: center"><span id="fig:crampon"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:crampon"></span>
 <img src="images/crampons.png" alt="Exemples d' haptères chez *Laminaria digitata* (A.) et de bulbes chez *Sacchoriza polyschides* (B.)" width="70%" />
 <p class="caption">
 Figure 4.26: Exemples d’ haptères chez <em>Laminaria digitata</em> (A.) et de bulbes chez <em>Sacchoriza polyschides</em> (B.)
 </p>
 </div>
 </div>
-<div id="les-particularités-morphologiques" class="section level2">
-<h2><span class="header-section-number">4.4</span> Les particularités morphologiques</h2>
+<div id="les-particularités-morphologiques" class="section level2 hasAnchor" number="4.4">
+<h2><span class="header-section-number">4.4</span> Les particularités morphologiques<a href="morphologie.html#les-particularités-morphologiques" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Certaines algues présentent des particularités morphologiques qui permettent de leur donner rapidement un nom. Il est <em>INDISPENSABLE</em> que vous connaissiez les algues ayant ces particularités.</p>
-<div id="les-aérocystes" class="section level3">
-<h3><span class="header-section-number">4.4.1</span> Les aérocystes</h3>
+<div id="les-aérocystes" class="section level3 hasAnchor" number="4.4.1">
+<h3><span class="header-section-number">4.4.1</span> Les aérocystes<a href="morphologie.html#les-aérocystes" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Les aérocystes ou vésicules aérifères sont des vésicules plus ou moins volumineuses contenant un mélange gazeux ou de l’air participant à maintenant l’algue dressée lorsqu’elle est immergée. Ces vésicules ont alors le rôle de flotteur.</p>
 <p>Ces vésicules peuvent être :</p>
 <ul>
@@ -500,49 +568,49 @@ Figure 4.26: Exemples d’ haptères chez <em>Laminaria digitata</em> (A.) et de
 <li><p>de part et d’autre de la pseudo-nervure (<em>e.g.</em> <em>Fucus serratus</em>, <em>Figure <a href="morphologie.html#fig:aero">4.27</a>B</em>)</p></li>
 <li><p>latéral porté ou non par des pédoncules (<em>e.g.</em> <em>Sargassum muticum</em>, <em>Figure <a href="morphologie.html#fig:aero">4.27</a>C</em>)</p></li>
 </ul>
-<div class="figure" style="text-align: center"><span id="fig:aero"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:aero"></span>
 <img src="images/aerocystes.png" alt="Vésicules aérifères chez *Ascosphyllum nododum* (A.), *Fucus vesiculosus* (B.), *Sargassum muticum*(C.)" width="70%" />
 <p class="caption">
 Figure 4.27: Vésicules aérifères chez <em>Ascosphyllum nododum</em> (A.), <em>Fucus vesiculosus</em> (B.), <em>Sargassum muticum</em>(C.)
 </p>
 </div>
 </div>
-<div id="les-cils" class="section level3">
-<h3><span class="header-section-number">4.4.2</span> Les cils</h3>
+<div id="les-cils" class="section level3 hasAnchor" number="4.4.2">
+<h3><span class="header-section-number">4.4.2</span> Les cils<a href="morphologie.html#les-cils" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Ce sont des protubérances formant des épines plus ou moins rigides sur la bordure ou sur l’intérieur du thalle (<em>e.g</em> <em>Calliblepharis ciliata</em>,<em>Figure <a href="morphologie.html#fig:calliblepharis">4.28</a></em>)</p>
-<div class="figure" style="text-align: center"><span id="fig:calliblepharis"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:calliblepharis"></span>
 <img src="images/calliblepharis.png" alt="Epines chez *Calliblepharis ciliata*" width="70%" />
 <p class="caption">
 Figure 4.28: Epines chez <em>Calliblepharis ciliata</em>
 </p>
 </div>
 </div>
-<div id="les-ramifications-latérales" class="section level3">
-<h3><span class="header-section-number">4.4.3</span> Les ramifications latérales</h3>
+<div id="les-ramifications-latérales" class="section level3 hasAnchor" number="4.4.3">
+<h3><span class="header-section-number">4.4.3</span> Les ramifications latérales<a href="morphologie.html#les-ramifications-latérales" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Certaines algues présentent des ramifications qui ne sont pas dans la continuité de l’axe principal, mais perpendiculaire ou sur la bordure du thalle, leur conférant une structure 3D.</p>
 <ul>
 <li><p>développement de thalles sur la bordure du thalle principal (<em>e.g.</em> <em>Palmaria palmata</em>, <em>Figure <a href="morphologie.html#fig:croiss-lateral">4.29</a>A</em>)</p></li>
 <li><p>développement de thalles le long de la pseudo-nervure (<em>e.g.</em> <em>Hypoglossum hypoglossoides</em>, <em>Figure <a href="morphologie.html#fig:croiss-lateral">4.29</a>B</em>)</p></li>
 </ul>
-<div class="figure" style="text-align: center"><span id="fig:croiss-lateral"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:croiss-lateral"></span>
 <img src="images/croissance_lateral.png" alt="Exemples de ramifications sur la bordure du thalle chez *Palmaria palmata* (A) et le long de la pseudo-nervure chez *Hypoglossum hypoglossoides* (B)" width="70%" />
 <p class="caption">
 Figure 4.29: Exemples de ramifications sur la bordure du thalle chez <em>Palmaria palmata</em> (A) et le long de la pseudo-nervure chez <em>Hypoglossum hypoglossoides</em> (B)
 </p>
 </div>
 </div>
-<div id="les-pseudo-nervures" class="section level3">
-<h3><span class="header-section-number">4.4.4</span> Les pseudo-nervures</h3>
+<div id="les-pseudo-nervures" class="section level3 hasAnchor" number="4.4.4">
+<h3><span class="header-section-number">4.4.4</span> Les pseudo-nervures<a href="morphologie.html#les-pseudo-nervures" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Les pseudo-nervures sont spécifiques aux cladomothalles et aux thalles fucoïdes, elles correspondent à un épaississement autour des axes principaux et secondaires de croissances (<em>Figure <a href="morphologie.html#fig:pseudo-nervure">4.30</a></em>). Contrairement aux végétaux supérieurs, il n’y a pas de conduction de sèves dans les pseudo-nervures.</p>
-<div class="figure" style="text-align: center"><span id="fig:pseudo-nervure"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:pseudo-nervure"></span>
 <img src="images/pseudo_nervure.png" alt="Exemples de pseudo-nervures. A. *Undaria pinnatifida*; B. *Delesseria sanguinea*; C. *Alaria esculenta*" width="70%" />
 <p class="caption">
 Figure 4.30: Exemples de pseudo-nervures. A. <em>Undaria pinnatifida</em>; B. <em>Delesseria sanguinea</em>; C. <em>Alaria esculenta</em>
 </p>
 </div>
 </div>
-<div id="les-ramules" class="section level3">
-<h3><span class="header-section-number">4.4.5</span> Les ramules</h3>
+<div id="les-ramules" class="section level3 hasAnchor" number="4.4.5">
+<h3><span class="header-section-number">4.4.5</span> Les ramules<a href="morphologie.html#les-ramules" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Une ramule est une petite ramification d’un axe de croissance qui a subit une métamorphose ayant pour conséquence un arrêt de croissance du rameau. Il existe une grande diversité de forme des ramules :</p>
 <ul>
 <li>Crosse (<em>e.g.</em> <em>Acrosorium uncinatum</em>, <em>Figure <a href="morphologie.html#fig:ramule">4.31</a>A-B</em>)</li>
@@ -551,7 +619,7 @@ Figure 4.30: Exemples de pseudo-nervures. A. <em>Undaria pinnatifida</em>; B. <e
 <li>Peignes (<em>e.g.</em> <em>Plocamium cartilagineum</em>, <em>Figure <a href="morphologie.html#fig:ramule">4.31</a>G-H</em>)</li>
 <li>Pinnules (<em>e.g.</em> <em>Caulerpa taxifolia</em>, <em>Figure <a href="morphologie.html#fig:ramule">4.31</a>I-J</em>)</li>
 </ul>
-<div class="figure" style="text-align: center"><span id="fig:ramule"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:ramule"></span>
 <img src="images/ramules.png" alt="Exemples de ramules chez différentes algues. A-B Crosses *Acrosorium uncinatum* ; C-D *Asparagopsis armata* ; E-F Crochets *Ceramium sp.* ; G-H Peignes *Plocamium cartilagineum* ; I-J Pinnules *Caulerpa taxifolia*" width="70%" />
 <p class="caption">
 Figure 4.31: Exemples de ramules chez différentes algues. A-B Crosses <em>Acrosorium uncinatum</em> ; C-D <em>Asparagopsis armata</em> ; E-F Crochets <em>Ceramium sp.</em> ; G-H Peignes <em>Plocamium cartilagineum</em> ; I-J Pinnules <em>Caulerpa taxifolia</em>
@@ -578,7 +646,6 @@ Figure 4.31: Exemples de ramules chez différentes algues. A-B Crosses <em>Acros
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -597,6 +664,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": false
 },
 "fontsettings": {
@@ -617,11 +685,13 @@ gitbook.start({
 "text": null
 },
 "download": null,
-"toc": {
-"collapse": "subsection",
-"scroll_highlight": false
+"search": {
+"engine": "fuse",
+"options": null
 },
-"search": true,
+"toc": {
+"collapse": "subsection"
+},
 "info": false
 });
 });
@@ -633,7 +703,7 @@ gitbook.start({
     var script = document.createElement("script");
     script.type = "text/javascript";
     var src = "true";
-    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
     if (location.protocol !== "file:")
       if (/^https?:/.test(src))
         src = src.replace(/^https?:/, '');

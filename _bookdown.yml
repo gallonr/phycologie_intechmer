@@ -1,13 +1,12 @@
 output_dir: "docs"
 lang: Fr-fr
-book_filename: "phycology_book"
+book_filename: "STM015_BiologieVegetaleMarine"
 delete_merged_file: true
 language:
   label:
     fig: 'Figure '
     tab: 'Tableau '
     eq: 'Equation '
-    def: 'Définition'
-
+    def: 'Définition '
   ui:
     chapter_name: " "

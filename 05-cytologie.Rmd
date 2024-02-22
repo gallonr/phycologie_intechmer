@@ -9,10 +9,69 @@ opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE,fig.align = "cente
 ## Introduction 
 ### Cellule animale *vs.* végétale
 
+Les cellules animales et végétales, bien que partageant certaines caractéristiques fondamentales, présentent des différences structurelles marquées (*Figure \@ref(fig:animalvsvegetal)*) reflétant leurs besoins biologiques distincts. 
+
+L'une des différences les plus évidentes réside dans la présence de la paroi cellulaire chez les cellules végétales, une structure rigide composée de cellulose qui confère une résistance mécanique et une forme stable à la cellule. Les cellules animales, en revanche, ne possèdent pas de paroi cellulaire, ce qui les rend plus flexibles et adaptatives à des environnements changeants.
+
+Un autre aspect distinctif est la présence de chloroplastes dans les cellules végétales, des organites responsables de la photosynthèse. Ces chloroplastes confèrent aux cellules végétales leur couleur verte caractéristique et leur capacité à produire de la matière organique à partir de la lumière solaire, un processus vital pour la croissance et le métabolisme des plantes. Les cellules animales ne possèdent pas de chloroplastes et dépendent plutôt de la consommation d'aliments pour obtenir de l'énergie.
+
+En outre, les cellules végétales ont souvent une grande vacuole centrale, une structure membranaire remplie de liquide cellulaire, qui joue un rôle clé dans le stockage de nutriments, la régulation de la pression cellulaire et l'élimination de déchets. Les cellules animales peuvent également avoir des vacuoles, mais elles sont généralement plus petites et ont un rôle moins central dans le métabolisme cellulaire.
+
+```{r animalvsvegetal,echo=F,fig.cap="Comparaison de la structure d'une cellule animale et d'une cellule végétale",out.width = "70%"}
+knitr::include_graphics("./images/comparaison_animale_vegetale.jpg")
+```
+
 ### Les technique d'observation de la cellule
 #### La microscopie optique
+
+La microscopie optique est une technique largement utilisée pour l'étude des algues. Elle repose sur le principe de l'utilisation de la lumière visible ou d'autres formes de lumière électromagnétique pour observer des échantillons biologiques à une échelle microscopique.
+
+
+Un microscope optique  (*Figure \@ref(fig:microscopeoptique)*) possède les élements suivants :
+
++ **Source de lumière artificielle** : Elle présente une température de couleur et une stabilité optimales. Un condenseur est utilisé pour assurer une distribution homogène et régulière de la lumière dans le champ observé. Cela permet de masquer, par un réglage approprié, les détails mécaniques de la source lumineuse tels que les spires du filament de l'ampoule. La source d'éclairage peut être plus élaborée, comportant éventuellement un boîtier indépendant, notamment en lumière polarisée ou ultraviolette, pour mettre en évidence certaines propriétés chimiques de la matière, ou éclairer l'échantillon par-dessus, notamment en métallurgie.
+
++ **Diaphragme** : Il s'agit d'une ouverture de diamètre variable permettant de réguler la quantité de lumière atteignant l'échantillon. Comme pour un appareil photo, le diaphragme est principalement utilisé pour ajuster la profondeur de champ, en l'ouvrant complètement pour des coupes histologiques et en le fermant davantage pour des recherches d'œufs de parasites digestifs.
+
+
++ **Platine porte-échantillon** : C'est la surface sur laquelle l'échantillon est placé. Les "valets" sont utilisés pour maintenir l'échantillon lorsqu'il est mince, comme une lame. La platine peut être mobile, permettant de balayer l'échantillon et de sélectionner la partie à observer.
+
++ **Objectifs** : Il s'agit de lentilles ou d'ensembles de lentilles responsables du grossissement. Plusieurs objectifs, correspondant à différents niveaux de grossissement, sont généralement montés sur un barillet. Certains objectifs sont dits "à immersion" car leur puissance maximale est atteinte en éliminant l'air entre l'échantillon et la lentille frontale de l'objectif, en utilisant de l'huile de cèdre ou des huiles de synthèse ayant un indice de réfraction proche de celui du verre.
+
++ **Mise au point rapide et micrométrique** : Pour obtenir une image nette, il est essentiel que l'objet soit dans le plan focal de l'objectif. Les molettes de mise au point permettent de déplacer l'ensemble objectif-oculaire vers le haut ou vers le bas à l'aide d'un système de crémaillère, afin d'ajuster le plan focal sur la zone de l'échantillon à observer.
+
++ **Oculaire** : Il s'agit d'une lentille ou d'un ensemble de lentilles qui forme une image reposante pour l'œil. Les rayons lumineux arrivent de manière parallèle, simulant une provenance de très loin, ce qui permet un relâchement des muscles contrôlant le cristallin. L'utilisation de deux oculaires sur une tête binoculaire rend l'observation plus confortable, bien que cela n'apporte pas de vision stéréoscopique.
+
+```{r microscopeoptique,echo=F,fig.cap="Description d'un microscope optique",out.width = "70%"}
+knitr::include_graphics("./images/microscopeoptique.png")
+```
+
 #### La microscopie à balayage
 
+Le microscope électronique à balayage (MEB) joue un rôle crucial en biologie végétale en permettant une analyse détaillée de la morphologie et de la structure des cellules et des tissus végétaux. En MEB, l'échantillon est préparé en vue d'une observation détaillée de sa surface, des revêtements métalliques peuvent être appliqués pour améliorer la conductivité électrique.
+
+Un MEB (*Figure \@ref(fig:meb)*) possède les éléments suivants : 
+
++ **Source d'électrons** : Un faisceau d'électrons est utilisé pour sonder la surface de l'échantillon. Ce faisceau est généré par un canon à électrons situé dans la colonne électronique du microscope.
+
++ **Bobine de Balayage** : La bobine de balayage dirige le faisceau d'électrons sur la surface de l'échantillon de manière systématique et méthodique. Cette procédure permet de générer des signaux caractéristiques en fonction des propriétés de la surface, contribuant à la création d'une image tridimensionnelle détaillée.
+
++ **Détection des Signaux** : Les interactions entre le faisceau d'électrons et la surface de l'échantillon génèrent divers signaux, tels que des électrons rétrodiffusés, des électrons secondaires, et des rayons X caractéristiques. Ces signaux sont détectés et utilisés pour créer une image représentative de la topographie et de la composition chimique de la surface.
+
+Il offre une résolution élevée, permettant d'observer des détails extrêmement fins à l'échelle nanométrique. Cela permet une visualisation précise de la morphologie et de la structure des échantillons.
+
+
+```{r meb,echo=F,fig.cap="Description d'un microscope optique",out.width = "70%"}
+knitr::include_graphics("./images/mebGemmaddis.jpeg")
+```
+
+#### Synthèse
+
+| **Microscopie optique** 	| **Microscopie à balayage** 	|  	|  	|  	|
+|---	|---	|---	|---	|---	|
+| Elle utilise la lumière visible pour observer les échantillons. Il est  particulièrement adapté à l'observation de structures biologiques  transparentes ou légèrement colorées. 	| Il utilise un faisceau d'électrons pour sonder la surface de l'échantillon.  Il est adapté à l'observation de détails fins à l'échelle nanométrique. 	|  	|  	|  	|
+| ils sont généralement utilisés pour des grossissements modérés, allant jusqu'à environ 1000x. 	| La MEB offre une résolution nettement plus élevée que les microscopes  optiques, ce qui permet d'obtenir des images détaillées de la  topographie de la surface et de la composition chimique. 	|  	|  	|  	|
+| Les microscopes optiques permettent une observation en temps réel, ce  qui est utile pour étudier des processus dynamiques ou pour la sélection  rapide d'aires d'intérêt. 	| La MEB permet la génération d'images tridimensionnelles détaillées de la surface de l'échantillon. 	|  	|  	|  	|
 
 
 ## Les plastes 
@@ -35,7 +94,7 @@ Pour la symbiose c'est totalement différent, le symbionte va être absorber et 
 #### L'endosymbiose
 
 Dès le début du XX^ème^ siècle, les chercheurs ont pensé que les plastes et les mitochondrie provenaient de bactéries ingérées par des cellules primitives. Ces bactéries non digérées et non assimilées vivraient à l'intérieur des cellules primitives en symbiose.  
-Suite à des études approfondies de l'ultrastructure des plastes et des mitochondries par des analyses protéomiques, génomiques et phylogénétiques dans des cellules eucaryotes. Il a été démontré que leur présence résulte de l'endosymbiose de bactéries archaïques :  
+Suite à des études approfondies de l'ultrastructure des plastes et des mitochondries par des analyses protéomiques, génomiques et phylogénétiques dans des cellules eucaryotes, il a été démontré que leur présence résulte de l'endosymbiose de bactéries archaïques [^6.1] :  
 
   1. **Mitochondrie et chloroplastes possèdent de l'ADN** qui codent pour des caractères qui leurs sont propres
   
@@ -45,7 +104,7 @@ Suite à des études approfondies de l'ultrastructure des plastes et des mitocho
   
   4. La structure de la membrane interne de ces organites est très proche de celle d'une bactérie car très riche en protéines. Cette organisation laisse penser que les bactéries ont été phagocytées.
   
----  
+
 > *Rappel sur la phagocytose* :
 La phagocytose est le processus par lequel des cellules eucaryotes ingèrent de grosses particules (>0.5µm), par exemple des bactéries. Elle est souvent découpé en trois phases : adhésion, ingestion, et digestion. 
 
@@ -53,7 +112,6 @@ La phagocytose est le processus par lequel des cellules eucaryotes ingèrent de 
   2. Ingestion :  la particule phagocytée est entourée par les pseudopodes de la cellule et entre ces pseudopodes se forme une nouvelle vacuole intracellulaire, **le phagosome**. 
   3. Digestion: La phagocytose s’accompagne le plus souvent d’une brutale élévation de la consommation cellulaire en oxygène. En effet, la liaison d’une particule exogène à son récepteur membranaire entraîne une activation de la NADPH oxydase, qui transfère des électrons du NADPH à l'oxygène moléculaire. Les formes actives de l'oxygène formées (H~2~O~2~, radicaux OH^-^ et O~2~) se retrouvent en forte concentration dans le phagosome, où elles exercent des effets toxiques sur les micro-organismes phagocytés. 
 
----
 
 Toutes ces preuves étayent la théorie endosymbiotique découverte entre 1950 et 1960. Ceci est d'autant plus conforté par la forte ressemblance entre les chloroplastes de cellules eucaryotes photosynthétiques et des bactéries photosynthétiques (cyanobactéries). Les endosymbioses ont pu se réaliser à différents moments et de diverses façons, par absorption par une cellule (Procaryote ou Eucaryote) primitive d'une autre cellule (Procaryote ou Eucaryote). **On parle alors d'endosymbiose primaire ou secondaire.**
 
@@ -61,15 +119,21 @@ Toutes ces preuves étayent la théorie endosymbiotique découverte entre 1950 e
   
 L'endosymbiose I^aire^ sera à l'origine des plastes des rhodophycées et des chlorophycées.  
 
-Lors de l'**endosymbiose I^aire^**, *une cellule eucaryote hétérotrophe va phagocyter une bactérie photosynthétique sans entrainer la lyse de la membrane bactérienne*. Cette bactérie va devenir **un chloroplaste à deux membranes**, la membrane interne a une origine bactérienne et la membrane externe a pour origine la membrane plasmique de la cellule ayant phagocyté. Cette endosymbiose primaire est à l'origine de la lignée verte (Chlorophytes et plantes supérieures) et de la lignée rouge (Rhodophytes).
+Lors de l'**endosymbiose I^aire^**, *une cellule eucaryote hétérotrophe va phagocyter une bactérie photosynthétique sans entrainer la lyse de la membrane bactérienne* (*Figure \@ref(fig:endoprimaire)*). Cette bactérie va devenir **un chloroplaste à deux membranes**, la membrane interne a une origine bactérienne et la membrane externe a pour origine la membrane plasmique de la cellule ayant phagocyté. Cette endosymbiose primaire est à l'origine de la lignée verte (Chlorophytes et plantes supérieures) et de la lignée rouge (Rhodophytes).
 Comme nous l'avons vu dans le cours d'introduction, rhodophycées et chlorophycées diffèrent par la composition en pigments accessoires et notamment les rhodophycées possèdent des phycobiloprotéines également présentent dans les cyanobactéries, ce qui conforte d'autant plus la théorie de l'endosymbiose. Pour les chlorophycées et les plantes supérieures, deux hypothèses subsistent concernant l'absence de phycobiloprotéines :  
 
   1. la cyanobactérie possédait une composition pigmentaire différente lors de absorption
   2. au cours du temps les phycobiloprotéines ont disparu car elles n'étaient pas utiles.
 
+
+```{r endoprimaire,echo=F,fig.cap="Schéma explicatif de l'endosymbiose primaire",out.width = "70%"}
+knitr::include_graphics("./images/endoprimaire.jpg")
+```
+
+
   + **L'endosymbiose II^aire^**
 
-Lors de l'**endosymbiose II^aire^**, *une cellule eucaryote hétérotrophe va phagocyter une cellule eucaryote autotrophe sans entrainer la lyse de la membrane plasmique*. Le noyau et le cytoplasme dégénère, le chloroplaste est alors entouré de **4 membranes** (de l'intérieur vers l'extérieur du plaste) :   
+Lors de l'**endosymbiose II^aire^**, *une cellule eucaryote hétérotrophe va phagocyter une cellule eucaryote autotrophe sans entrainer la lyse de la membrane plasmique* (*Figure \@ref(fig:endosecondaire)*). Le noyau et le cytoplasme dégénère, le chloroplaste est alors entouré de **4 membranes** (de l'intérieur vers l'extérieur du plaste) :   
 
   1. membrane bactérienne
   2. membrane plasmique (endosymbiose I)
@@ -86,11 +150,19 @@ Pour certains taxa (*Euglénophytes et Dinophytes*), le chloroplaste ne possède
   1. Au cours de l'évolution, une membrane a disparu par fusion ou par lyse
   2. La cellule autotrophe a été absorbée par *myzocytose*, *i.e.* la cellule qui absorbe va détruire la membrane plasmique de la cellule cible et va absorber le contenu cellulaire.
 
+```{r endosecondaire,echo=F,fig.cap="Schéma explicatif de l'endosymbiose secondaire",out.width = "70%"}
+knitr::include_graphics("./images/endosecondaire.jpg")
+```
 
-### Ultrastructure
 
-Le chloroplaste est un organite composé de deux membranes séparées par un espace inter-membranaire . Il contient un réseau membraneux constitué de sacs aplatis nommés thylakoïdes qui baignent dans le stroma (liquide intra-chloroplastique). Les thylakoïdes sont composés d'un lumen entouré d'une membrane et contiennent des pigments. Un empilement de thylakoïdes se nomme granum (au pluriel : des grana ). Dans le stroma se trouve des réserves sous forme d'amidon. 
-De plus, les chloroplastes contiennent de l' ADN regroupé en nucléoides. Les ribosomes (10) sont constitués d' ARNr, synthétisés dans les chloroplastes, et de protéines codées par les génomes nucléaires et chloroplastiques. 
+### Ultrastructure du chloroplaste [^6.4]
+
+Le chloroplaste (*Figure \@ref(fig:chloropultra)*) est un organite composé de deux membranes séparées par un espace inter-membranaire . Il contient un réseau membraneux constitué de sacs aplatis nommés thylakoïdes qui baignent dans le stroma (liquide intra-chloroplastique). Les thylakoïdes sont composés d'un lumen entouré d'une membrane et contiennent des pigments. Un empilement de thylakoïdes se nomme granum (au pluriel : des grana). Dans le stroma se trouve des réserves sous forme d'amidon. 
+De plus, les chloroplastes contiennent de l' ADN regroupé en nucléoides. Les ribosomes sont constitués d' ARNr, synthétisés dans les chloroplastes, et de protéines codées par les génomes nucléaires et chloroplastiques. 
+
+```{r chloropultra,echo=F,fig.cap="Ultrastructure d'un chloroplaste",out.width = "70%"}
+knitr::include_graphics("./images/chlorop.gif")
+```
 
 Chez les algues, les chloroplastes contiennent les chlorophylles a, b ou c ou d ou e, ce sont les pigments photosynthétiques, mais seule la chlorophylle a est capable de réaliser la conversion de l’énergie lumineuse en énergie chimique et les ions minéraux (dioxyde de carbone notamment) en matière organique.
 
@@ -100,23 +172,36 @@ Une structure archéoplastidée se caractérise par la présence d'un seul chlor
 
 La position du plaste peut être : 
 
-  * *pariétal* : le plaste sur situe le long de la paroi de la cellule
-  * *focal* : le plaste se situe au centre de la cellule
-  * *ceinturant* : le plaste entoure le noyaux et d'autres organites
+  * *pariétal* : le plaste sur situe le long de la paroi de la cellule (*i.e* [Ulva](https://doriscdn.ffessm.fr/var/doris/storage/images/images/ulva-compressa_mv/3088033-1-fre-FR/ulva-compressa_mv_image1200.jpg) )
+  * *focal* : le plaste se situe au centre de la cellule (*i.e* Porphyra )
+  * *ceinturant* : le plaste entoure le noyaux et d'autres organites (*i.e* [Ulothrix](https://labsuppliesusa.com/wp-content/uploads/2018/02/ulothrix1.jpg))
   
 #### Structure mésoplastidiée
 
-Une structure mésoplastidiée se caractérise par un réseau de territoires plastidiaux reliés par des trabécules. Chaque territoire peut posséder ou non un pyrénoïde. La forme en réseau est la seule forme existante.
-  
+Une structure mésoplastidiée (*Figure \@ref(fig:mesoplastidiee)*) se caractérise par un réseau de territoires plastidiaux reliés par des trabécules. Chaque territoire peut posséder ou non un pyrénoïde. La forme en réseau est la seule forme existante.
+
+```{r mesoplastidiee,echo=F,fig.cap="Structure mésoplastidée de *Cladophora sp.* (d'après Ruen-Pham et al. 2021)",out.width = "50%"}
+knitr::include_graphics("https://www.researchgate.net/publication/355551479/figure/fig1/AS:1083018928238592@1635223242615/Morphological-characteristic-of-Cladophora-sp-collected-from-Nan-River-Thailand-and.jpg")
+```  
 
 #### Structure néoplastidiée
 
-Une structure néoplastidiée se caractérise par de nombreux plastes avec ou sans pyrénoïdes répartis dans chaque cellule. Cette structure est présente dans la plupart des algues et des végétaux supérieurs. Les plastes peuvent être discoïdes ou rubannées.
+Une structure néoplastidiée  se caractérise par de nombreux plastes avec ou sans pyrénoïdes répartis dans chaque cellule. Cette structure est présente dans la plupart des algues et des végétaux supérieurs. Les plastes peuvent être discoïdes ou rubannées.
 Chez les Chlorophytes on distingue *le type homoplastidié* correspondant à des plastes ayant tous la même structure et *le type hétéroplastidié* dans lequel il y a une différenciation entre des chloroplastes assurant la photo-synthèse et des amyloplastes assurant le stockage de l'amidon 
+
+
+```{r neoplastidiee,echo=F,fig.cap="Structure néoplastidiée de *Pylaeilla littoralis*",out.width = "70%"}
+knitr::include_graphics("https://www.ccap.ac.uk/catalogue/image/cache/catalog/strainImages/image_3453_6399-800x600.png")
+```
 
 ### Les thylakoïdes
 
 Les thylakoïdes sont des "sacs" se situant à l'intérieur du chloroplaste et baignant dans le stroma. Ils sont le siège de la phase claire de la photosynthèse en convertissant l'énergie lumineuse en énergie chimique. L'agencement des thylakoïdes dans le chloroplaste peut être caractéristique de certains taxa.
+
+
+```{r thylakoide,echo=F,fig.cap="Le thylakoïde siège de la phase claire de la photosynthèse.",out.width = "60%"}
+knitr::include_graphics("./images/pngegg.png")
+```
 
 #### Les thylakoïdes isolés
 
@@ -152,22 +237,37 @@ Les hétérokontophytes ont une particularité, les chloroplastes présentent un
 
 Les thylakoïdes sont empilés par 2 (et jusqu’à 7) sur toute la longueur ou sur une grande partie (granum). Cet arrangment est caractéristique des **chlorophytes**, des **streptophytes** (groupe frère des chlorophytes) et des **plantes supérieures**.
 
+```{r grana,echo=F,fig.cap="Observation en microscopie à transmission de grana d'un chlorophyte",out.width = "60%"}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Lettuce_Thylakoid.jpg/250px-Lettuce_Thylakoid.jpg
+")
+```
 
-### Les organistes complémentaires de la photosynthèse
+
+### Les organites complémentaires de la photosynthèse
 
 Le pyrénoïde est une structure cellulaire interne aux plastes de certaines lignées végétales, qui concentre les enzymes responsables de la photosynthèse, notamment la RubisCO (qui fixe le dioxyde de carbone) et l'anhydrase carbonique (qui concentre le dioxyde de carbone à proximité de la RubisCO). Des grains d'amidon, ou une gaine d'amidon, viennent s'accoler à l'extérieur du pyrénoïde.
+
+
+```{r pyrenoid,echo=F,fig.cap="Observation en microscopie par transmission du pyrénoïde (P) entouré par l'amidon. Le pyrénoïde se situe à l'intérieur du chloroplaste (c) ",out.width = "60%"}
+knitr::include_graphics("https://www.researchgate.net/publication/268432265/figure/fig1/AS:668919937388546@1536494349361/Pyrenoid-p-with-homogenous-starch-sheath-and-additional-stroma-starch-grains-s-in-the.ppm")
+```
+
 
 ## La paroi cellulaire 
 
 ### Ultra-structure
 
-La paroi cellulaire constitue un cytosquelette externe, elle est consituée de :  
+La paroi cellulaire (*Figure \@ref(fig:structureparoi)*) constitue un cytosquelette externe, elle est consituée de :  
 
   * **La lamelle moyenne** : membrane pectidique qui est un support pour l'élaboration de la paroi primaire et de la paroi secondaire.
   * **La paroi primaire** : paroi des plus jeunes cellules, elle est souple et hydrophile permettant aux cellules de croitre et de se diviser. Cette paroi participe à la régulation de la croissance et également à l'équilibre hydrique.
   * **La paroi secondaire** : paroi des cellules les plus agées, elle a principalement un rôle de consolidation et de soutien en raison des parois plus rigides.
   * **Les plasmodesmes** : Les plasmodesmes sont des communications intercellulaires qui traversent la paroi. Ils sont formés lors de la constitution de la paroi à la fin de la division cellulaire. Vue de profils, ils apparaissent comme des canaux complexes, limités par la membrane plasmique et traversés par un tractus en rapport avec le réticulum endoplasmique. Les communications ne sont pas une libre circulation passive mais sont très sélectives.
   * **Les synapses** :
+
+```{r structureparoi,echo=F,fig.cap="Schéma simplifié de l'organisation structurale de la paroi végétale ",out.width = "60%"}
+knitr::include_graphics("https://www.cours-pharmacie.com/images/paroi-vegetale-structure.png")
+```
 
 ### Composition
 #### Lamelle moyenne
@@ -183,6 +283,7 @@ Les parois primaires contiennent des molécules de cellulose. Ces molécules de 
 elle apparaît lors de la différenciation de la cellule. Elle est constituée de cellulose et d'hémicellulose et est enrichie en composés phénoliques :
 
 + lignine (pour renforcer la rigidité), 
+
 + cutine et subérine (pour l'imperméabiliser). 
 
 Cette différenciation s'observe pour les cellules conductrices de sève du xylème (le bois) et pour différents tissus de soutien (sclérenchyme) ou de protection (liège).
@@ -199,6 +300,7 @@ La minéralisation correspond à un dépôt de silice (SiO2) ou alors à un dép
 uniquement, non comestibles par les herbivores. Les Poacées et les Cypéracées
 possèdent des épidermes riches en silices ; on prendra pour exemple les poils urticants
 des orties.
+
 + Le dépôt de calcaire s’effectue au niveau des poils en les rigidifiant.
 
 #### Gélification par des mucilages
@@ -327,10 +429,52 @@ Ces physodes permettent par la présence de phlorotannins :
 
 ### Les vacuoles pulsatiles chez les algues d’eau douce
 
-
-
+Ces organites intracellulaires sont responsables du maintien de l'équilibre osmotique en régulant la pression osmotique interne. Les vacuoles pulsatiles agissent comme des organes de pompage, alternativement se remplissant et se vidant rythmiquement pour expulser l'excès d'eau accumulé par osmose. Ce mécanisme de régulation osmotique est crucial pour la survie des algues d'eau douce dans des environnements variables, où les conditions hydriques peuvent fluctuer. De plus, les vacuoles pulsatiles jouent un rôle dans l'élimination des déchets métaboliques et peuvent également être impliquées dans le stockage de nutriments et d'autres substances vitales pour la cellule. 
 
 ### les corps mucifères
+
+Ces structures cellulaires spécialisées sont souvent constituées de sécrétions mucilagineuses, formant des zones gélatineuses à l'intérieur ou à la surface des cellules. Les corps mucifères remplissent diverses fonctions cruciales. Ils peuvent servir de mécanisme de protection contre la dessiccation en emprisonnant l'eau et en formant une barrière contre les conditions environnementales défavorables. De plus, ces structures mucilagineuses peuvent jouer un rôle dans l'adhérence cellulaire, facilitant l'ancrage des algues aux substrats et favorisant leur stabilité dans des habitats avec un hydrodynamisme important. Les corps mucifères sont également impliqués dans la capture de particules nutritives, contribuant ainsi au processus d'alimentation des algues. 
+```{r cpsmucifere, echo=FALSE, fig.cap= "Illustration d'une euglène avec les corps mucifères à proximité du flagelle.", fig.align='center'}
+
+knitr::include_graphics("https://www.universalis.fr/typo3temp/assets/_processed_/b/c/csm_v090018_05eb4e428c.webp")
+
+```
+
 ### Trichocystes
-### L’iridescence
+
+Les trichocystes sont des organites spécialisés présents chez certaines algues, contribuant à leur mécanisme de défense et à leur capacité de capture alimentaire. Ces structures, souvent observées chez les cryptophytes, sont des organes éjectables présents à la surface des cellules des algues. En réponse à des stimuli externes, tels que la présence de prédateurs potentiels ou d'autres stimuli environnementaux, les trichocystes se déploient rapidement, libérant des filaments protéiques extrêmement fins. Ces filaments peuvent immobiliser des organismes prédateurs ou des particules alimentaires, offrant ainsi à l'algue une stratégie défensive et alimentaire.
+
+```{r trichocyste, echo=FALSE, fig.cap= "Observation en microscopie optique de *Cryptomonas* en mettant en évidance les trichocystes dans l'éjectosome et le flagelle.", fig.align='center'}
+
+knitr::include_graphics("https://lh3.googleusercontent.com/proxy/UVtb9VgLl9az1NMt7yEZDzSCFsQ4N9j6fuCO7El148UtzHHxrhXVfJbHN-s0ErD7w95vGxzNH4tJLPpUE7Vg-o3VAKHdYJU62Llbq400rAxPMjsk8blP1Gxi264279powQM")
+
+```
+
+
+### L’iridescence [^6.2] [^6.3]
+
+Structural mechanisms capable of producing color can vary in dimensions, complexity and ordering (e.g., ranging from periodic structures to highly disordered). Marine macroalgae employ different strategies to produce complex optical responses using different architectures and materials. These intracellular inclusions, distributed throughout the epidermis, consist of highly packed vacuoles with multiple dense, proteinaceous globules scattered throughout a matrix of polysaccharides and an osmiophilic material. Cystoseira stricta is suggested to contain protein within the inclusions, however the presence of proteins may differ between species 
+
+
+```{r irid1, echo=FALSE, fig.cap= "Morphologie et couleur structurelle de *C. tamariscifolia*. (A) *C. tamariscifolia* sur le site de collecte montrant une couleur structurelle. (B) Image à faible grossissement (barre d'échelle, 500 μm) d'un spécimen avec deux couleurs différentes. Gros plan des extrémités des spécimens bleus (C) et verts (D). Barres d'échelle, 50 μm. (E et F) Vésicules individuelles dans les cellules épidermiques de deux spécimens différents sous un microscope optique à fort grossissement. Barres d'échelle, 2 μm. [^6.3]", fig.align='center'}
+
+knitr::include_graphics("./images/irridescence.jpeg")
+
+```
+
+```{r irid2, echo=FALSE, fig.cap= "Structure et composition des OPC (organites de pigments chromatiques). (A) Image Cryo-SEM d'une cellule épidermique. Barre d'échelle, 2 μm. Les flèches indiquent les positions des OPC (en trait plein) et des chloroplastes (en pointillés) à l'intérieur de la cellule. (B) Coupe transversale d'une cellule épidermique unique (image TEM). Barre d'échelle, 2.5 μm. (C) Nanosphères en configuration quasi-compacte. Barre d'échelle, 1 μm. (D) Images confocales de fluorescence en fausses couleurs des cellules épidermiques pour la chlorophylle (vert) et le colorant lipophile Nile red (rouge). Barre d'échelle, 10 μm. (E) Croquis de la position des OPC (en bleu) et des chloroplastes (en vert) à l'intérieur des cellules épidermiques.[^6.3]", fig.align='center'}
+
+knitr::include_graphics("./images/iridescence_2.jpeg")
+
+```
+
 ### Les cellules spécialisées
+
+
+[^6.1] :[Delwiche, C. F. (1999). *Tracing the thread of plastid diversity through the tapestry of life*. the american naturalist, 154(S4), S164-S177.](https://www.jstor.org/stable/pdf/10.1086/303291.pdf?casa_token=1S1RBVv7DnoAAAAA:KD7rJTcllPzH9uKQacTyUmQHsDvU-MitqyvzG5nbTgH3ENazdPfK1nkSeWSLLD94UGx1wZZuWyANt3Nq-Qo8-qlVnV_iHvPF1r6uqb_xlg39wNgjuko)
+
+[^6.2] : [Chandler, C. J., Wilts, B. D., Brodie, J., & Vignolini, S. (2017). *Structural color in marine algae*. Advanced Optical Materials, 5(5), 1600646.](https://onlinelibrary.wiley.com/doi/10.1002/adom.201600646)
+
+[^6.3] : [Lopez-Garcia, M., Masters, N., O’Brien, H. E., Lennon, J., Atkinson, G., Cryan, M. J., ... & Whitney, H. M. (2018). *Light-induced dynamic structural color by intracellular 3D photonic crystals in brown algae*. Science advances, 4(4), eaan8917.](https://www.science.org/doi/pdf/10.1126/sciadv.aan8917)
+
+[^6.4] [Staehelin, L. A. (2003). *Chloroplast structure: from chlorophyll granules to supra-molecular architecture of thylakoid membranes. Photosynthesis research*, 76, 185-196.](https://www.life.illinois.edu/govindjee/Part2/16_Staehelin.pdf)

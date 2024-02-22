@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title> 1 Histoire de l’utilisation des algues | La Biologie Végétale Marine à Intechmer</title>
   <meta name="description" content="Ce livre reprend toutes les notions importantes en biologie végétale marine enseignée au Cnam-Intechmer" />
-  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.37 and GitBook 2.6.7" />
 
   <meta property="og:title" content=" 1 Histoire de l’utilisation des algues | La Biologie Végétale Marine à Intechmer" />
   <meta property="og:type" content="book" />
-  
-  <meta property="og:image" content="images/Adolphe_Millot_algues.jpg" />
+  <meta property="og:image" content="/images/Adolphe_Millot_algues.jpg" />
   <meta property="og:description" content="Ce livre reprend toutes les notions importantes en biologie végétale marine enseignée au Cnam-Intechmer" />
   
 
@@ -19,12 +18,12 @@
   <meta name="twitter:title" content=" 1 Histoire de l’utilisation des algues | La Biologie Végétale Marine à Intechmer" />
   
   <meta name="twitter:description" content="Ce livre reprend toutes les notions importantes en biologie végétale marine enseignée au Cnam-Intechmer" />
-  <meta name="twitter:image" content="images/Adolphe_Millot_algues.jpg" />
+  <meta name="twitter:image" content="/images/Adolphe_Millot_algues.jpg" />
 
 <meta name="author" content="Régis GALLON" />
 
 
-<meta name="date" content="2020-10-22" />
+<meta name="date" content="2024-02-22" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,7 +32,8 @@
   
 <link rel="prev" href="index.html"/>
 <link rel="next" href="usage.html"/>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -49,10 +49,38 @@
 
 
 
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 
 
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -67,50 +95,60 @@
       <nav role="navigation">
 
 <ul class="summary">
-<li><a href="./"> <b>BIOLOGIE VEGETAL MARINE</b> </a></li>
+<li><a href="./">A Minimal Book Example</a></li>
 
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Préface</a></li>
-<li class="chapter" data-level="1" data-path="histoire.html"><a href="histoire.html"><i class="fa fa-check"></i><b>1</b> Histoire de l’utilisation des algues</a><ul>
+<li class="chapter" data-level="1" data-path="histoire.html"><a href="histoire.html"><i class="fa fa-check"></i><b>1</b> Histoire de l’utilisation des algues</a>
+<ul>
 <li class="chapter" data-level="1.1" data-path="histoire.html"><a href="histoire.html#la-préhistoire"><i class="fa fa-check"></i><b>1.1</b> La Préhistoire</a></li>
 <li class="chapter" data-level="1.2" data-path="histoire.html"><a href="histoire.html#lantiquité"><i class="fa fa-check"></i><b>1.2</b> L’Antiquité</a></li>
 <li class="chapter" data-level="1.3" data-path="histoire.html"><a href="histoire.html#moyen-âge"><i class="fa fa-check"></i><b>1.3</b> Moyen-âge</a></li>
-<li class="chapter" data-level="1.4" data-path="histoire.html"><a href="histoire.html#xviième-siècle-début-de-lindustrialisation-des-algues"><i class="fa fa-check"></i><b>1.4</b> XVII<sup>ème</sup> siècle : Début de l’industrialisation des algues</a><ul>
+<li class="chapter" data-level="1.4" data-path="histoire.html"><a href="histoire.html#xviième-siècle-début-de-lindustrialisation-des-algues"><i class="fa fa-check"></i><b>1.4</b> XVII<sup>ème</sup> siècle : Début de l’industrialisation des algues</a>
+<ul>
 <li class="chapter" data-level="1.4.1" data-path="histoire.html"><a href="histoire.html#lindustrie-du-verre-17-18ème-siècle"><i class="fa fa-check"></i><b>1.4.1</b> L’industrie du verre (17-18<sup>ème</sup> siècle)</a></li>
 <li class="chapter" data-level="1.4.2" data-path="histoire.html"><a href="histoire.html#la-production-diode-19ème-siècle"><i class="fa fa-check"></i><b>1.4.2</b> La production d’iode (19<sup>ème</sup> siècle)</a></li>
 <li class="chapter" data-level="1.4.3" data-path="histoire.html"><a href="histoire.html#la-production-dhydrocolloïdes-fin-du-19ème-siècle"><i class="fa fa-check"></i><b>1.4.3</b> La production d’hydrocolloïdes (fin du 19<sup>ème</sup> siècle)</a></li>
 </ul></li>
 <li class="chapter" data-level="1.5" data-path="histoire.html"><a href="histoire.html#de-nos-jours"><i class="fa fa-check"></i><b>1.5</b> De nos jours</a></li>
 </ul></li>
-<li class="chapter" data-level="2" data-path="usage.html"><a href="usage.html"><i class="fa fa-check"></i><b>2</b> Usages, économie et règlementation</a><ul>
-<li class="chapter" data-level="2.1" data-path="usage.html"><a href="usage.html#intérêts-et-usages"><i class="fa fa-check"></i><b>2.1</b> Intérêts et Usages</a><ul>
+<li class="chapter" data-level="2" data-path="usage.html"><a href="usage.html"><i class="fa fa-check"></i><b>2</b> Usages, économie et règlementation</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="usage.html"><a href="usage.html#intérêts-et-usages"><i class="fa fa-check"></i><b>2.1</b> Intérêts et Usages</a>
+<ul>
 <li class="chapter" data-level="2.1.1" data-path="usage.html"><a href="usage.html#lalimentation-humaine"><i class="fa fa-check"></i><b>2.1.1</b> L’alimentation humaine</a></li>
 <li class="chapter" data-level="2.1.2" data-path="usage.html"><a href="usage.html#agriculture"><i class="fa fa-check"></i><b>2.1.2</b> Agriculture</a></li>
 <li class="chapter" data-level="2.1.3" data-path="usage.html"><a href="usage.html#zootechnologie"><i class="fa fa-check"></i><b>2.1.3</b> Zootechnologie</a></li>
 <li class="chapter" data-level="2.1.4" data-path="usage.html"><a href="usage.html#bio-carburant-et-bio-plastique"><i class="fa fa-check"></i><b>2.1.4</b> Bio-carburant et Bio-plastique</a></li>
 <li class="chapter" data-level="2.1.5" data-path="usage.html"><a href="usage.html#cosmétique-et-santé-humaine"><i class="fa fa-check"></i><b>2.1.5</b> Cosmétique et santé humaine</a></li>
 </ul></li>
-<li class="chapter" data-level="2.2" data-path="usage.html"><a href="usage.html#léconomie-de-lalgue"><i class="fa fa-check"></i><b>2.2</b> L’économie de l’algue</a><ul>
+<li class="chapter" data-level="2.2" data-path="usage.html"><a href="usage.html#léconomie-de-lalgue"><i class="fa fa-check"></i><b>2.2</b> L’économie de l’algue</a>
+<ul>
 <li class="chapter" data-level="2.2.1" data-path="usage.html"><a href="usage.html#le-marché-mondial"><i class="fa fa-check"></i><b>2.2.1</b> Le marché mondial</a></li>
 <li class="chapter" data-level="2.2.2" data-path="usage.html"><a href="usage.html#le-marché-français"><i class="fa fa-check"></i><b>2.2.2</b> Le marché français</a></li>
 </ul></li>
-<li class="chapter" data-level="2.3" data-path="usage.html"><a href="usage.html#règlementation-de-pêche-et-de-récolte-des-végétaux-marins"><i class="fa fa-check"></i><b>2.3</b> Règlementation de pêche et de récolte des végétaux marins</a><ul>
+<li class="chapter" data-level="2.3" data-path="usage.html"><a href="usage.html#règlementation-de-pêche-et-de-récolte-des-végétaux-marins"><i class="fa fa-check"></i><b>2.3</b> Règlementation de pêche et de récolte des végétaux marins</a>
+<ul>
 <li class="chapter" data-level="2.3.1" data-path="usage.html"><a href="usage.html#le-goémon-de-rive"><i class="fa fa-check"></i><b>2.3.1</b> Le goémon de rive</a></li>
 <li class="chapter" data-level="2.3.2" data-path="usage.html"><a href="usage.html#le-goémon-de-fond"><i class="fa fa-check"></i><b>2.3.2</b> Le goémon de fond</a></li>
 <li class="chapter" data-level="2.3.3" data-path="usage.html"><a href="usage.html#le-goémon-épave"><i class="fa fa-check"></i><b>2.3.3</b> Le goémon épave</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="classification.html"><a href="classification.html"><i class="fa fa-check"></i><b>3</b> Classification et Diversité des algues</a><ul>
+<li class="chapter" data-level="3" data-path="classification.html"><a href="classification.html"><i class="fa fa-check"></i><b>3</b> Classification et Diversité des algues</a>
+<ul>
 <li class="chapter" data-level="3.1" data-path="classification.html"><a href="classification.html#quelques-définitions"><i class="fa fa-check"></i><b>3.1</b> Quelques définitions</a></li>
 <li class="chapter" data-level="3.2" data-path="classification.html"><a href="classification.html#quest-ce-quune-algue"><i class="fa fa-check"></i><b>3.2</b> Qu’est-ce qu’une algue?</a></li>
-<li class="chapter" data-level="3.3" data-path="classification.html"><a href="classification.html#diversité-des-thallophytes"><i class="fa fa-check"></i><b>3.3</b> Diversité des thallophytes</a><ul>
+<li class="chapter" data-level="3.3" data-path="classification.html"><a href="classification.html#diversité-des-thallophytes"><i class="fa fa-check"></i><b>3.3</b> Diversité des thallophytes</a>
+<ul>
 <li class="chapter" data-level="3.3.1" data-path="classification.html"><a href="classification.html#pélagique-versus-benthique"><i class="fa fa-check"></i><b>3.3.1</b> Pélagique <em>versus</em> Benthique</a></li>
 <li class="chapter" data-level="3.3.2" data-path="classification.html"><a href="classification.html#microalgues-versus-macroalgues"><i class="fa fa-check"></i><b>3.3.2</b> Microalgues <em>versus</em> Macroalgues</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="morphologie.html"><a href="morphologie.html"><i class="fa fa-check"></i><b>4</b> Diversité morphologique des algues</a><ul>
-<li class="chapter" data-level="" data-path="classification.html"><a href="classification.html#quelques-définitions"><i class="fa fa-check"></i>Quelques définitions</a></li>
-<li class="chapter" data-level="4.1" data-path="morphologie.html"><a href="morphologie.html#structure-du-thalle"><i class="fa fa-check"></i><b>4.1</b> Structure du thalle</a><ul>
+<li class="chapter" data-level="4" data-path="morphologie.html"><a href="morphologie.html"><i class="fa fa-check"></i><b>4</b> Diversité morphologique des algues</a>
+<ul>
+<li class="chapter" data-level="" data-path="morphologie.html"><a href="morphologie.html#quelques-définitions-1"><i class="fa fa-check"></i>Quelques définitions</a></li>
+<li class="chapter" data-level="4.1" data-path="morphologie.html"><a href="morphologie.html#structure-du-thalle"><i class="fa fa-check"></i><b>4.1</b> Structure du thalle</a>
+<ul>
 <li class="chapter" data-level="4.1.1" data-path="morphologie.html"><a href="morphologie.html#archétalles"><i class="fa fa-check"></i><b>4.1.1</b> Archétalles</a></li>
 <li class="chapter" data-level="4.1.2" data-path="morphologie.html"><a href="morphologie.html#nématothalles"><i class="fa fa-check"></i><b>4.1.2</b> Nématothalles</a></li>
 <li class="chapter" data-level="4.1.3" data-path="morphologie.html"><a href="morphologie.html#cladomothalles"><i class="fa fa-check"></i><b>4.1.3</b> Cladomothalles</a></li>
@@ -118,7 +156,8 @@
 </ul></li>
 <li class="chapter" data-level="4.2" data-path="morphologie.html"><a href="morphologie.html#les-différentes-ramifications"><i class="fa fa-check"></i><b>4.2</b> Les différentes ramifications</a></li>
 <li class="chapter" data-level="4.3" data-path="morphologie.html"><a href="morphologie.html#les-différentes-fixations"><i class="fa fa-check"></i><b>4.3</b> Les différentes fixations</a></li>
-<li class="chapter" data-level="4.4" data-path="morphologie.html"><a href="morphologie.html#les-particularités-morphologiques"><i class="fa fa-check"></i><b>4.4</b> Les particularités morphologiques</a><ul>
+<li class="chapter" data-level="4.4" data-path="morphologie.html"><a href="morphologie.html#les-particularités-morphologiques"><i class="fa fa-check"></i><b>4.4</b> Les particularités morphologiques</a>
+<ul>
 <li class="chapter" data-level="4.4.1" data-path="morphologie.html"><a href="morphologie.html#les-aérocystes"><i class="fa fa-check"></i><b>4.4.1</b> Les aérocystes</a></li>
 <li class="chapter" data-level="4.4.2" data-path="morphologie.html"><a href="morphologie.html#les-cils"><i class="fa fa-check"></i><b>4.4.2</b> Les cils</a></li>
 <li class="chapter" data-level="4.4.3" data-path="morphologie.html"><a href="morphologie.html#les-ramifications-latérales"><i class="fa fa-check"></i><b>4.4.3</b> Les ramifications latérales</a></li>
@@ -126,40 +165,69 @@
 <li class="chapter" data-level="4.4.5" data-path="morphologie.html"><a href="morphologie.html#les-ramules"><i class="fa fa-check"></i><b>4.4.5</b> Les ramules</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="cytologie.html"><a href="cytologie.html"><i class="fa fa-check"></i><b>5</b> Diversité cytologique des algues</a><ul>
-<li class="chapter" data-level="5.1" data-path="cytologie.html"><a href="cytologie.html#introduction"><i class="fa fa-check"></i><b>5.1</b> Introduction</a><ul>
+<li class="chapter" data-level="5" data-path="cytologie.html"><a href="cytologie.html"><i class="fa fa-check"></i><b>5</b> Diversité cytologique des algues</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="cytologie.html"><a href="cytologie.html#introduction"><i class="fa fa-check"></i><b>5.1</b> Introduction</a>
+<ul>
 <li class="chapter" data-level="5.1.1" data-path="cytologie.html"><a href="cytologie.html#cellule-animale-vs.-végétale"><i class="fa fa-check"></i><b>5.1.1</b> Cellule animale <em>vs.</em> végétale</a></li>
 <li class="chapter" data-level="5.1.2" data-path="cytologie.html"><a href="cytologie.html#les-technique-dobservation-de-la-cellule"><i class="fa fa-check"></i><b>5.1.2</b> Les technique d’observation de la cellule</a></li>
 </ul></li>
-<li class="chapter" data-level="5.2" data-path="cytologie.html"><a href="cytologie.html#les-plastes"><i class="fa fa-check"></i><b>5.2</b> Les plastes</a><ul>
+<li class="chapter" data-level="5.2" data-path="cytologie.html"><a href="cytologie.html#les-plastes"><i class="fa fa-check"></i><b>5.2</b> Les plastes</a>
+<ul>
 <li class="chapter" data-level="5.2.1" data-path="cytologie.html"><a href="cytologie.html#quest-ce-quun-plaste"><i class="fa fa-check"></i><b>5.2.1</b> Qu’est-ce-qu’un plaste?</a></li>
 <li class="chapter" data-level="5.2.2" data-path="cytologie.html"><a href="cytologie.html#la-théorie-de-lendosymbiose"><i class="fa fa-check"></i><b>5.2.2</b> La théorie de l’endosymbiose</a></li>
-<li class="chapter" data-level="5.2.3" data-path="cytologie.html"><a href="cytologie.html#ultrastructure"><i class="fa fa-check"></i><b>5.2.3</b> Ultrastructure</a></li>
+<li class="chapter" data-level="5.2.3" data-path="cytologie.html"><a href="cytologie.html#ultrastructure-du-chloroplaste-6.4"><i class="fa fa-check"></i><b>5.2.3</b> Ultrastructure du chloroplaste [^6.4]</a></li>
 <li class="chapter" data-level="5.2.4" data-path="cytologie.html"><a href="cytologie.html#les-thylakoïdes"><i class="fa fa-check"></i><b>5.2.4</b> Les thylakoïdes</a></li>
-<li class="chapter" data-level="5.2.5" data-path="cytologie.html"><a href="cytologie.html#les-organistes-complémentaires-de-la-photosynthèse"><i class="fa fa-check"></i><b>5.2.5</b> Les organistes complémentaires de la photosynthèse</a></li>
+<li class="chapter" data-level="5.2.5" data-path="cytologie.html"><a href="cytologie.html#les-organites-complémentaires-de-la-photosynthèse"><i class="fa fa-check"></i><b>5.2.5</b> Les organites complémentaires de la photosynthèse</a></li>
 </ul></li>
-<li class="chapter" data-level="5.3" data-path="cytologie.html"><a href="cytologie.html#la-paroi-cellulaire"><i class="fa fa-check"></i><b>5.3</b> La paroi cellulaire</a><ul>
+<li class="chapter" data-level="5.3" data-path="cytologie.html"><a href="cytologie.html#la-paroi-cellulaire"><i class="fa fa-check"></i><b>5.3</b> La paroi cellulaire</a>
+<ul>
 <li class="chapter" data-level="5.3.1" data-path="cytologie.html"><a href="cytologie.html#ultra-structure"><i class="fa fa-check"></i><b>5.3.1</b> Ultra-structure</a></li>
 <li class="chapter" data-level="5.3.2" data-path="cytologie.html"><a href="cytologie.html#composition"><i class="fa fa-check"></i><b>5.3.2</b> Composition</a></li>
 <li class="chapter" data-level="5.3.3" data-path="cytologie.html"><a href="cytologie.html#mucilage-et-imprégnation"><i class="fa fa-check"></i><b>5.3.3</b> Mucilage et imprégnation</a></li>
 </ul></li>
-<li class="chapter" data-level="5.4" data-path="cytologie.html"><a href="cytologie.html#les-flagelles-et-cils"><i class="fa fa-check"></i><b>5.4</b> Les flagelles et cils</a><ul>
+<li class="chapter" data-level="5.4" data-path="cytologie.html"><a href="cytologie.html#les-flagelles-et-cils"><i class="fa fa-check"></i><b>5.4</b> Les flagelles et cils</a>
+<ul>
 <li class="chapter" data-level="5.4.1" data-path="cytologie.html"><a href="cytologie.html#composition-1"><i class="fa fa-check"></i><b>5.4.1</b> Composition</a></li>
-<li class="chapter" data-level="5.4.2" data-path="morphologie.html"><a href="morphologie.html#structure"><i class="fa fa-check"></i><b>5.4.2</b> Structure</a></li>
+<li class="chapter" data-level="5.4.2" data-path="cytologie.html"><a href="cytologie.html#structure-1"><i class="fa fa-check"></i><b>5.4.2</b> Structure</a></li>
 <li class="chapter" data-level="5.4.3" data-path="cytologie.html"><a href="cytologie.html#lhaptonème"><i class="fa fa-check"></i><b>5.4.3</b> L’haptonème</a></li>
 </ul></li>
-<li class="chapter" data-level="5.5" data-path="cytologie.html"><a href="cytologie.html#les-organites-originaux"><i class="fa fa-check"></i><b>5.5</b> Les organites originaux</a><ul>
+<li class="chapter" data-level="5.5" data-path="cytologie.html"><a href="cytologie.html#les-organites-originaux"><i class="fa fa-check"></i><b>5.5</b> Les organites originaux</a>
+<ul>
 <li class="chapter" data-level="5.5.1" data-path="cytologie.html"><a href="cytologie.html#les-physodes-chez-les-algues-brunes"><i class="fa fa-check"></i><b>5.5.1</b> Les physodes chez les algues brunes</a></li>
 <li class="chapter" data-level="5.5.2" data-path="cytologie.html"><a href="cytologie.html#les-vacuoles-pulsatiles-chez-les-algues-deau-douce"><i class="fa fa-check"></i><b>5.5.2</b> Les vacuoles pulsatiles chez les algues d’eau douce</a></li>
 <li class="chapter" data-level="5.5.3" data-path="cytologie.html"><a href="cytologie.html#les-corps-mucifères"><i class="fa fa-check"></i><b>5.5.3</b> les corps mucifères</a></li>
 <li class="chapter" data-level="5.5.4" data-path="cytologie.html"><a href="cytologie.html#trichocystes"><i class="fa fa-check"></i><b>5.5.4</b> Trichocystes</a></li>
-<li class="chapter" data-level="5.5.5" data-path="cytologie.html"><a href="cytologie.html#liridescence"><i class="fa fa-check"></i><b>5.5.5</b> L’iridescence</a></li>
+<li class="chapter" data-level="5.5.5" data-path="cytologie.html"><a href="cytologie.html#liridescence-6.2-6.3"><i class="fa fa-check"></i><b>5.5.5</b> L’iridescence [^6.2] [^6.3]</a></li>
 <li class="chapter" data-level="5.5.6" data-path="cytologie.html"><a href="cytologie.html#les-cellules-spécialisées"><i class="fa fa-check"></i><b>5.5.6</b> Les cellules spécialisées</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="biochimie.html"><a href="biochimie.html"><i class="fa fa-check"></i><b>6</b> Biochimie associée aux algues</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="biochimie.html"><a href="biochimie.html#introduction-1"><i class="fa fa-check"></i><b>6.1</b> Introduction</a></li>
+<li class="chapter" data-level="6.2" data-path="biochimie.html"><a href="biochimie.html#les-pigments-des-algues-et-limplication-dans-la-photosynthèse"><i class="fa fa-check"></i><b>6.2</b> Les pigments des algues et l’implication dans la photosynthèse</a>
+<ul>
+<li class="chapter" data-level="6.2.1" data-path="biochimie.html"><a href="biochimie.html#les-pigments-et-la-photosynthèse"><i class="fa fa-check"></i><b>6.2.1</b> Les pigments et la photosynthèse</a></li>
+<li class="chapter" data-level="6.2.2" data-path="biochimie.html"><a href="biochimie.html#les-pigments-chlorophylliens"><i class="fa fa-check"></i><b>6.2.2</b> Les pigments chlorophylliens</a></li>
+<li class="chapter" data-level="6.2.3" data-path="biochimie.html"><a href="biochimie.html#les-caroténoïdes"><i class="fa fa-check"></i><b>6.2.3</b> Les caroténoïdes</a></li>
+<li class="chapter" data-level="6.2.4" data-path="biochimie.html"><a href="biochimie.html#les-phycobiliprotéines"><i class="fa fa-check"></i><b>6.2.4</b> Les phycobiliprotéines</a></li>
+<li class="chapter" data-level="6.2.5" data-path="biochimie.html"><a href="biochimie.html#pigments-et-distribution-des-macroalgues"><i class="fa fa-check"></i><b>6.2.5</b> Pigments et distribution des macroalgues</a></li>
+</ul></li>
+<li class="chapter" data-level="6.3" data-path="biochimie.html"><a href="biochimie.html#composition-biochimique-de-la-paroi-cellulaire"><i class="fa fa-check"></i><b>6.3</b> Composition biochimique de la paroi cellulaire</a>
+<ul>
+<li class="chapter" data-level="6.3.1" data-path="biochimie.html"><a href="biochimie.html#lultra-structure-de-la-paroi-cellulaire"><i class="fa fa-check"></i><b>6.3.1</b> L’ultra-structure de la paroi cellulaire</a></li>
+<li class="chapter" data-level="6.3.2" data-path="biochimie.html"><a href="biochimie.html#les-composés-cellulosiques"><i class="fa fa-check"></i><b>6.3.2</b> Les composés cellulosiques</a></li>
+<li class="chapter" data-level="6.3.3" data-path="biochimie.html"><a href="biochimie.html#les-phycocolloïdes"><i class="fa fa-check"></i><b>6.3.3</b> Les phycocolloïdes</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="biochimie.html"><a href="biochimie.html#les-réserves-énergétiques-des-algues"><i class="fa fa-check"></i><b>6.4</b> Les réserves énergétiques des algues</a>
+<ul>
+<li class="chapter" data-level="6.4.1" data-path="biochimie.html"><a href="biochimie.html#les-réserves-de-flaibles-poids-moléculaire"><i class="fa fa-check"></i><b>6.4.1</b> Les réserves de flaibles poids moléculaire</a></li>
+<li class="chapter" data-level="6.4.2" data-path="biochimie.html"><a href="biochimie.html#les-réserves-de-hauts-poids-moléculaire"><i class="fa fa-check"></i><b>6.4.2</b> Les réserves de hauts poids moléculaire</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="références.html"><a href="références.html"><i class="fa fa-check"></i>Références</a></li>
 <li class="divider"></li>
-<li><a href="https://gallonr.github.io/webpage/index.html" target="blank"> Régis Gallon - 2020 </a></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
 
 </ul>
 
@@ -178,30 +246,30 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="histoire" class="section level1">
-<h1><span class="header-section-number"> 1</span> Histoire de l’utilisation des algues</h1>
-<div id="la-préhistoire" class="section level2">
-<h2><span class="header-section-number">1.1</span> La Préhistoire</h2>
-<p>Les premières traces de l’utilisation des algues datent de la préhistoire. <span class="citation">Dillehay et al. (<a href="#ref-dillehay2008" role="doc-biblioref">2008</a>)</span>, professeur d’anthropologie à l’Université Vanderbuilt (Tenessee, Nashville) et son équipe ont découvert à Monte Verde (Chili, <em>Figure <a href="histoire.html#fig:monteverde">1.1</a></em>), dans d’anciens foyers et différents lieux du site, des restes de repas incluant une quarantaine de plantes, des ossements d’animaux, des mollusques d’eau douce ET <strong>9 espèces d’algues</strong> (<em>e.g.</em> <em>Gigartina sp.</em>, <em>Porphira sp.</em>, <em>Durvillaea antarctica</em>,<em>Mazzaella sp</em>, <em>Macrocystis pyrifera</em>,…) (<em>Figure <a href="histoire.html#fig:monteverdealgue">1.2</a></em>). Ces restes ont été très bien conservés car les sols sont acides et ont limité la prolifération bactérienne.
+<div id="histoire" class="section level1 hasAnchor" number="1">
+<h1><span class="header-section-number"> 1</span> Histoire de l’utilisation des algues<a href="histoire.html#histoire" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="la-préhistoire" class="section level2 hasAnchor" number="1.1">
+<h2><span class="header-section-number">1.1</span> La Préhistoire<a href="histoire.html#la-préhistoire" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Les premières traces de l’utilisation des algues datent de la préhistoire. <span class="citation">Dillehay et al. (<a href="#ref-dillehay2008">2008</a>)</span>, professeur d’anthropologie à l’Université Vanderbuilt (Tenessee, Nashville) et son équipe ont découvert à Monte Verde (Chili, <em>Figure <a href="histoire.html#fig:monteverde">1.1</a></em>), dans d’anciens foyers et différents lieux du site, des restes de repas incluant une quarantaine de plantes, des ossements d’animaux, des mollusques d’eau douce ET <strong>9 espèces d’algues</strong> (<em>e.g.</em> <em>Gigartina sp.</em>, <em>Porphira sp.</em>, <em>Durvillaea antarctica</em>,<em>Mazzaella sp</em>, <em>Macrocystis pyrifera</em>,…) (<em>Figure <a href="histoire.html#fig:monteverdealgue">1.2</a></em>). Ces restes ont été très bien conservés car les sols sont acides et ont limité la prolifération bactérienne.
 Ces algues sont d’excellentes sources d’iode, de fer, de zinc, de protéines, d’hormones et d’un grand panel d’éléments traces (cobalt, cuivre, bore). De plus, elles ont un effet bénéfique dans l’assimilation du calcium par les os, l’amélioration des capacités de l’organisme à lutter contre les infections.</p>
-<div class="figure" style="text-align: center"><span id="fig:monteverde"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:monteverde"></span>
 <img src="images/Monte_verde.jpg" alt="Localisation du site archéologique de Monte Verde (Chili)" width="186" />
 <p class="caption">
 Figure 1.1: Localisation du site archéologique de Monte Verde (Chili)
 </p>
 </div>
-<div class="figure" style="text-align: center"><span id="fig:monteverdealgue"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:monteverdealgue"></span>
 <img src="images/Monte_verde_algue.png" alt="Espèces d'algues retrouvées dans les restes des foyers du site archéologique de Monte Verde (Chili)" width="514" />
 <p class="caption">
 Figure 1.2: Espèces d’algues retrouvées dans les restes des foyers du site archéologique de Monte Verde (Chili)
 </p>
 </div>
-<p>D’autres traces d’utilisation des algues ont été découvertes sur le continent eurasien et datées de la période mésolithique (-7000 ans). Il a été montré par analyse isotopique que les peuples vivants sur le littoral récoltaient les algues échouées et nourrissaient leurs bétails (moutons) <span class="citation">(Balasse et al. <a href="#ref-balasse2005" role="doc-biblioref">2005</a>)</span>.</p>
+<p>D’autres traces d’utilisation des algues ont été découvertes sur le continent eurasien et datées de la période mésolithique (-7000 ans). Il a été montré par analyse isotopique que les peuples vivants sur le littoral récoltaient les algues échouées et nourrissaient leurs bétails (moutons) <span class="citation">(<a href="#ref-balasse2005">Balasse et al. 2005</a>)</span>.</p>
 </div>
-<div id="lantiquité" class="section level2">
-<h2><span class="header-section-number">1.2</span> L’Antiquité</h2>
+<div id="lantiquité" class="section level2 hasAnchor" number="1.2">
+<h2><span class="header-section-number">1.2</span> L’Antiquité<a href="histoire.html#lantiquité" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Une trace écrite de l’utilisation des algues est décrite dans le “Classique de la médecine par les plantes” ou “Shennon bencao jing” (<em>Figure <a href="histoire.html#fig:shennong">1.3</a></em>) traitant des drogues végétales, animales et minérales (plus de 300 drogues sont décrites). Son origine est attribué à l’empereur Shennong qui vécu aux environs de -2800 ans. Toutefois, l’original du texte est perdu et l’histoire de sa reconstitution est un peu compliquée. L’empereur Shennong (<em>Figure <a href="histoire.html#fig:shennong">1.3</a></em>) est considéré comme le père des pharmaciens et des médecins.Il testa toutes les plantes pour connaitre leurs propriétés et ordonna au peuple de prendre connaissance des espèces qu’on devait préserver. Certaines versions lui prétendent le pouvoir divin de mourir et revivre plusieurs fois au hasard de ses essais, alors que d’autres supposent que son action finit par lui coûter la vie en accentuant ainsi son esprit de sacrifice.</p>
-<div class="figure" style="text-align: center"><span id="fig:shennong"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:shennong"></span>
 <img src="images/shennong.jpg" alt="Shennong goûtant une herbe médicinale ; les protubérances sur son crâne rappellent qu’on lui prêtait une tête de bovidé, la collerette de feuilles son rôle d’herboriste (www.art.com)" width="40%" /><img src="images/bencaojing.jpg" alt="Shennong goûtant une herbe médicinale ; les protubérances sur son crâne rappellent qu’on lui prêtait une tête de bovidé, la collerette de feuilles son rôle d’herboriste (www.art.com)" width="40%" />
 <p class="caption">
 Figure 1.3: Shennong goûtant une herbe médicinale ; les protubérances sur son crâne rappellent qu’on lui prêtait une tête de bovidé, la collerette de feuilles son rôle d’herboriste (www.art.com)
@@ -210,7 +278,7 @@ Figure 1.3: Shennong goûtant une herbe médicinale ; les protubérances sur son
 <p>Toujours en Asie, des écrits datant du VI<sup>ème</sup> avt.J.-C. montre que les algues furent des aliments réservés pour les hauts dignitaires (rois et invités distingués).
 &gt; Sze Teu écrit :“Certaines algues sont un délice pour les hôtes les plus honorés, et pour le Roi lui-même.”</p>
 <p>Au VII<sup>ème</sup> apr. J.-C. au moins une douzaine d’algues était cultivée dont les trois plus communes la <em>Nori</em> (pour faire des sushis), le <em>Kombu</em> (dans les soupes), le <em>Wakame</em> (dans les soupes et les salades)(<em>Figure <a href="histoire.html#fig:japonalgues">1.4</a></em>).</p>
-<div class="figure" style="text-align: center"><span id="fig:japonalgues"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:japonalgues"></span>
 <img src="images/japon_algues.png" alt="A. Préparation des feuilles de Nori pour les sushis; B. Feuilles de Kombu; C. Feuilles de Wakame " width="554" />
 <p class="caption">
 Figure 1.4: A. Préparation des feuilles de Nori pour les sushis; B. Feuilles de Kombu; C. Feuilles de Wakame
@@ -218,14 +286,14 @@ Figure 1.4: A. Préparation des feuilles de Nori pour les sushis; B. Feuilles de
 </div>
 <p>Au V<sup>ème</sup> siècle, Palladius auteur latin écrivit dans son traité sur l’agriculture<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> que les algues produisent une fumure de qualité très favorable à l’amendement des sols agricoles.</p>
 </div>
-<div id="moyen-âge" class="section level2">
-<h2><span class="header-section-number">1.3</span> Moyen-âge</h2>
+<div id="moyen-âge" class="section level2 hasAnchor" number="1.3">
+<h2><span class="header-section-number">1.3</span> Moyen-âge<a href="histoire.html#moyen-âge" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Au Moyen-Âge, les algues représentent un usage traditionnel pour les populations côtières et insulaires. Elles sont utilisées dans l’agriculture comme alimentation pour le bétail et l’enrichissement des sols, dans l’usage domestique comme combustible pour le chauffage et l’alimentation humaine direct en temps de famine.</p>
 </div>
-<div id="xviième-siècle-début-de-lindustrialisation-des-algues" class="section level2">
-<h2><span class="header-section-number">1.4</span> XVII<sup>ème</sup> siècle : Début de l’industrialisation des algues</h2>
-<div id="lindustrie-du-verre-17-18ème-siècle" class="section level3">
-<h3><span class="header-section-number">1.4.1</span> L’industrie du verre (17-18<sup>ème</sup> siècle)</h3>
+<div id="xviième-siècle-début-de-lindustrialisation-des-algues" class="section level2 hasAnchor" number="1.4">
+<h2><span class="header-section-number">1.4</span> XVII<sup>ème</sup> siècle : Début de l’industrialisation des algues<a href="histoire.html#xviième-siècle-début-de-lindustrialisation-des-algues" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="lindustrie-du-verre-17-18ème-siècle" class="section level3 hasAnchor" number="1.4.1">
+<h3><span class="header-section-number">1.4.1</span> L’industrie du verre (17-18<sup>ème</sup> siècle)<a href="histoire.html#lindustrie-du-verre-17-18ème-siècle" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>L’industrialisation des algues commence en Normandie par l’industrie du verre. En effet, les verriers utilisaient les cendres des algues récoltées sur l’estran pour abaisser le point de fusion de la silice facilitant la production de verre. Les algues étaient d’autant plus utilisées que le coût du bois était très élevé.Le fort intérêt économique des algues obligea Jean-Baptiste Colbert, ministre des finances de Louis XIV, de réglementer la récolte des algues : <strong>Edit de Colbert (1681)</strong>.</p>
 <p><strong>Titre X de l’ordonnance: Concernant la récolte des algues</strong></p>
 <ul>
@@ -236,7 +304,7 @@ Figure 1.4: A. Préparation des feuilles de Nori pour les sushis; B. Feuilles de
 <li><p><em>Article V</em> - <em>Le droit de rassembler toutes les algues jetées sur la côte par les marées, et de les transporter là où elles le veulent, est accordé à tous.</em></p></li>
 </ul>
 <p>L’extraction de la soude commençait par le ramassage des algues échouées sur l’estran et par le séchage des algues en tas en haut de l’estran. Le tas d’algues devait être suffisamment compacte pour empêcher l’eau de pénétrer mais pas trop pour laisser l’air circuler pour le séchage. Une fois les algues suffisamment sèchent, une fosse de cinq à six pieds de long et de deux pieds de large est creusée (<em>Figure <a href="histoire.html#fig:soude">1.5</a></em>). Au fond de la fosse sont posés des branchage pour le feu et les algues sont posés successivement pour éviter une combustion trop rapide. La soude coule au fond de la fosse. Le feu éteint la soude refroidit en 2-3 jours formant des blocs très durs. <a href="http://patrimoinedesabers.fr/de/landeda/histoires/214-historique-des-fours-a-goemon.html">Plus d’informations</a></p>
-<div class="figure" style="text-align: center"><span id="fig:soude"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:soude"></span>
 <img src="images/extract_soude.png" alt="A. Tas de goémon sec devant alimenter un four à soude; B. Fours à Goémon le long du littoral breton utilisés pour le brûlage des algues; C. Pains de soude" width="900" />
 <p class="caption">
 Figure 1.5: A. Tas de goémon sec devant alimenter un four à soude; B. Fours à Goémon le long du littoral breton utilisés pour le brûlage des algues; C. Pains de soude
@@ -245,29 +313,29 @@ Figure 1.5: A. Tas de goémon sec devant alimenter un four à soude; B. Fours à
 <p>L’industrie du verre pris énormément d’importance sous Louis XIV pour lutter contre l’hégémonie de l’industrie du verre vénitienne favorisant le prestige du roi et renforçant l’économie du pays.
 La Manufacture Royale des Glaces et des Miroirs (<em>Figure <a href="histoire.html#fig:manufacture">1.6</a></em>) fut créée à Paris pour fournir des glaces à la Galerie des glaces. Des verriers vénitiens furent attirés en France contre argent et femmes, mais ils ne partageaient pas leurs savoirs et préféraient profiter de la distraction parisienne. Ainsi en 1667, la fabrication fut transférée à <em>La Glacerie</em> (Cherbourg). L’intégralité des miroirs de la galerie des Glaces (château de Versailles) a été fabriquée à La Glacerie entre 1683 et 1684 (<em>Figure <a href="histoire.html#fig:versailles">1.7</a></em>).
 À la fin du règne de Louis XIV, l’industrie miroitière avec à sa tête, la Manufacture royale de glaces de miroirs, exporte des glaces dans toute l’Europe pour un équivalent de 300 000 à 400 000 livres or par an. Le monopole vénitien est remplacé par le monopole français.</p>
-<div class="figure" style="text-align: center"><span id="fig:manufacture"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:manufacture"></span>
 <img src="images/manufacture_royale.jpg" alt="Devanture de la Manufacture Royale des Glaces et des Miroirs" width="94" />
 <p class="caption">
 Figure 1.6: Devanture de la Manufacture Royale des Glaces et des Miroirs
 </p>
 </div>
-<div class="figure" style="text-align: center"><span id="fig:versailles"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:versailles"></span>
 <img src="images/galerie%20des%20glaces.jpg" alt="Galerie des glaces du château de Versailles" width="378" />
 <p class="caption">
 Figure 1.7: Galerie des glaces du château de Versailles
 </p>
 </div>
 </div>
-<div id="la-production-diode-19ème-siècle" class="section level3">
-<h3><span class="header-section-number">1.4.2</span> La production d’iode (19<sup>ème</sup> siècle)</h3>
-<p>La découverte de l’iode en 1811 est attribuée à Bernard Courtois (1777-1838) salpêtrier et chimiste français<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> vers la fin du 19<sup>ème</sup> siècle <span class="citation">(Guitard <a href="#ref-guitard1922" role="doc-biblioref">1922</a>)</span>. Bernard Courtois travaillait dans une salpêtrière, <em>i.e.</em> lieu où l’on produit du salpêtre (nitrate de potassium) composant essentiel de la poudre à canon. La production de salpêtre devenant très chère en raison du coût du bois qui s’éleva sous la pression des industries consommatrice de bois et sous l’effet d’un blocus continental interdisant l’importation, Bernard Courtois eut l’idée d’utiliser les cendres d’algues pour permettre la transformation du nitrate de calcium et nitrate de potassium.
+<div id="la-production-diode-19ème-siècle" class="section level3 hasAnchor" number="1.4.2">
+<h3><span class="header-section-number">1.4.2</span> La production d’iode (19<sup>ème</sup> siècle)<a href="histoire.html#la-production-diode-19ème-siècle" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>La découverte de l’iode en 1811 est attribuée à Bernard Courtois (1777-1838) salpêtrier et chimiste français<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> vers la fin du 19<sup>ème</sup> siècle <span class="citation">(<a href="#ref-guitard1922">Guitard 1922</a>)</span>. Bernard Courtois travaillait dans une salpêtrière, <em>i.e.</em> lieu où l’on produit du salpêtre (nitrate de potassium) composant essentiel de la poudre à canon. La production de salpêtre devenant très chère en raison du coût du bois qui s’éleva sous la pression des industries consommatrice de bois et sous l’effet d’un blocus continental interdisant l’importation, Bernard Courtois eut l’idée d’utiliser les cendres d’algues pour permettre la transformation du nitrate de calcium et nitrate de potassium.
 La production de salpêtre entraîne la production d’un revêtement visqueux qui doit être nettoyé à l’acide. Un jour Bernard Courtois utilisa une solution d’acide plus concentrée et voit ses cuves se remplir de fumées violettes qui se cristallisent au contact des parois froides. Il réalise quelques études mais n’approfondira pas, il découvrit néanmoins que l’iode avec un fort pouvoir corrosif. Ce fut Louis-Joseph Gay-Lussac qui donna son nom à l’iode (du grec iodes qui veut dire violet).
 François Benoît Tissier, élève de Nicolas Clément (confrère chimiste de Bernard Courtois), développe un procédé industriel de fabrication de l’iode et l’adapte à la production de soude raffinée de l’usine Coudurier à Cherbourg (<em>Figure <a href="histoire.html#fig:tissier">1.8</a></em>). Il arrive à obtenir une production annuelle de 400kg en 1825. Apprenant qu’en Bretagne les algues étaient plus abondantes, il entre chez “Guilhem” grande fabrique de soude dans le Finistère et augmente la production d’iode.
 La production de l’iode à base d’algue prendra fin vers la fin du XX<sup>ème</sup> siècle avec l’essor de la chimie de synthèse.</p>
 <blockquote>
 <p>5-6 tonnes d’algues fraiches <span class="math inline">\(\Rightarrow\)</span> 1 tonnes d’algues séchées <span class="math inline">\(\Rightarrow\)</span> 200 kg de soude <span class="math inline">\(\Rightarrow\)</span> 3kg d’iode</p>
 </blockquote>
-<div class="figure" style="text-align: center"><span id="fig:tissier"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:tissier"></span>
 <img src="images/tissier.jpg" alt="L'usine Tissier vers 1910" width="204" />
 <p class="caption">
 Figure 1.8: L’usine Tissier vers 1910
@@ -275,27 +343,27 @@ Figure 1.8: L’usine Tissier vers 1910
 </div>
 <p>En parallèle de la production industrielle, on découvre des propriétés thérapeutiques de l’iode. Le pouvoir corrosif de l’iode fait que c’est un puissant antiseptique (seul désinfectant connu à l’époque). C’est également un oligo-élément indispensable dans l’alimentation humaine car il assure le bon fonctionnement de la glande thyroïdienne siège de la régulation hormonale.</p>
 <p>Encore actuellement, la carence en iode est un problème de santé mondiale, plus d’une 1/4 de la population mondiale souffre de carence en iode en principalement en Asie, Afrique, Amérique de sud,… (<em>Figure <a href="histoire.html#fig:iode">1.9</a></em>). Cela peut s’exprimer par l’apparition d’un goitre chez certaines populations (goitre endémique des population des hauts plateaux de la Tanzanie), arriération mentale, altérations de la reproduction, désordres mentaux et psychiques.</p>
-<div class="figure" style="text-align: center"><span id="fig:iode"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:iode"></span>
 <img src="images/iode.jpg" alt="Localisation des zones où les habitants sont carencés en iode" width="128" />
 <p class="caption">
 Figure 1.9: Localisation des zones où les habitants sont carencés en iode
 </p>
 </div>
 </div>
-<div id="la-production-dhydrocolloïdes-fin-du-19ème-siècle" class="section level3">
-<h3><span class="header-section-number">1.4.3</span> La production d’hydrocolloïdes (fin du 19<sup>ème</sup> siècle)</h3>
+<div id="la-production-dhydrocolloïdes-fin-du-19ème-siècle" class="section level3 hasAnchor" number="1.4.3">
+<h3><span class="header-section-number">1.4.3</span> La production d’hydrocolloïdes (fin du 19<sup>ème</sup> siècle)<a href="histoire.html#la-production-dhydrocolloïdes-fin-du-19ème-siècle" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <blockquote>
 <p><strong>Hydrocolloïdes</strong> : matière constituée de nano et microparticules (2 - 200 nm) dispersées dans un liquide ou un gel formant une solution plus ou moins épaisse.Les principaux colloïdes extraits des algues sont des polysaccharides.</p>
 </blockquote>
 <p>Dans les années 1800, des extraits de <em>Chondrus crispus</em> (Irish moss) contenant des carraghénanes sont utilisés comme agent épaississant. Dans les années 1930, c’est au tour des alginates extraits des algues brunes d’être vendu comme gélifiant et épaississant. Cette filière permis aux goémoniers de continuer leur activité de récolte à la fin des industries du verre et de l’iode. Après la 2<sup>nde</sup> guerre mondiale, il y a eu un essor rapide de l’utilisation des extraits d’algues dans l’agroalimentaire et la pharmaceutique. Cette essor fut si rapide que la production fut limitée par la disponibilité des ressources naturelles. Ainsi, dès les années 70, de nombreuses industries et instituons de recherches se sont intéressées aux cycles de vie des algues pour pouvoir maîtriser la culture et approvisionner en continue la production d’hydrocolloïde.</p>
 </div>
 </div>
-<div id="de-nos-jours" class="section level2">
-<h2><span class="header-section-number">1.5</span> De nos jours</h2>
-<p>La plus grande consommation d’algue se concentre entre la Chine, le Japon et la Corée. En moyenne, un asiatique mange 5kg d’algue/an. Comme nous l’avons vu précédemment la consommation d’algue en Asie à débuter très tôt, c’est devenue une tradition. Des chercheurs de l’Université de Pierre et Marie Curie et de la station biologique de Roscoff ont montré qu’au fil du temps, les japonais ont acquis la capacité de dégrader la porphyrane (sucre de la paroi des algues rouges) par transfert de gène entre des bactéries marines vers des certaines bactéries peuplant les intestins des Japonais <span class="citation">(Hehemann et al. <a href="#ref-hehemann2010" role="doc-biblioref">2010</a>)</span>.
+<div id="de-nos-jours" class="section level2 hasAnchor" number="1.5">
+<h2><span class="header-section-number">1.5</span> De nos jours<a href="histoire.html#de-nos-jours" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>La plus grande consommation d’algue se concentre entre la Chine, le Japon et la Corée. En moyenne, un asiatique mange 5kg d’algue/an. Comme nous l’avons vu précédemment la consommation d’algue en Asie à débuter très tôt, c’est devenue une tradition. Des chercheurs de l’Université de Pierre et Marie Curie et de la station biologique de Roscoff ont montré qu’au fil du temps, les japonais ont acquis la capacité de dégrader la porphyrane (sucre de la paroi des algues rouges) par transfert de gène entre des bactéries marines vers des certaines bactéries peuplant les intestins des Japonais <span class="citation">(<a href="#ref-hehemann2010">Hehemann et al. 2010</a>)</span>.
 Toutefois en Europe la consommation est indirect, on retrouve des extraits d’algues dans les aliments, les boissons, le textiles,… .
 Nous aborderons cet aspect dans le cours sur la biochimie des algues.</p>
-<div class="figure" style="text-align: center"><span id="fig:algueatoutfaire"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:algueatoutfaire"></span>
 <img src="images/alguetoutfaire.jpg" alt="Les algues se retrouvent cachées dans notre alimentation" width="432" />
 <p class="caption">
 Figure 1.10: Les algues se retrouvent cachées dans notre alimentation
@@ -304,25 +372,25 @@ Figure 1.10: Les algues se retrouvent cachées dans notre alimentation
 
 </div>
 </div>
-<h3>Références</h3>
-<div id="refs" class="references">
-<div id="ref-balasse2005">
-<p>Balasse, Marie, Anne Tresset, Keith Dobney, and Stanley H Ambrose. 2005. “The Use of Isotope Ratios to Test for Seaweed Eating in Sheep.” <em>Journal of Zoology</em> 266 (3): 283–91.</p>
+<h3>Références<a href="références.html#références" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-balasse2005" class="csl-entry">
+Balasse, Marie, Anne Tresset, Keith Dobney, and Stanley H Ambrose. 2005. <span>“The Use of Isotope Ratios to Test for Seaweed Eating in Sheep.”</span> <em>Journal of Zoology</em> 266 (3): 283–91.
 </div>
-<div id="ref-dillehay2008">
-<p>Dillehay, Tom D, Carlos Ramı́rez, Mario Pino, Michael B Collins, Jack Rossen, and JD Pino-Navarro. 2008. “Monte Verde: Seaweed, Food, Medicine, and the Peopling of South America.” <em>Science</em> 320 (5877): 784–86.</p>
+<div id="ref-dillehay2008" class="csl-entry">
+Dillehay, Tom D, Carlos Ramı́rez, Mario Pino, Michael B Collins, Jack Rossen, and JD Pino-Navarro. 2008. <span>“Monte Verde: Seaweed, Food, Medicine, and the Peopling of South America.”</span> <em>Science</em> 320 (5877): 784–86.
 </div>
-<div id="ref-guitard1922">
-<p>Guitard, Eugène-Humbert. 1922. “L.-G. Toraude, Bernard Courtois et La découverte de L’iode.” <em>Revue d’Histoire de La Pharmacie</em> 10 (34): 48–49.</p>
+<div id="ref-guitard1922" class="csl-entry">
+Guitard, Eugène-Humbert. 1922. <span>“L.-g. Toraude, Bernard Courtois Et La d<span>é</span>couverte de l’iode.”</span> <em>Revue d’Histoire de La Pharmacie</em> 10 (34): 48–49.
 </div>
-<div id="ref-hehemann2010">
-<p>Hehemann, Jan-Hendrik, Gaëlle Correc, Tristan Barbeyron, William Helbert, Mirjam Czjzek, and Gurvan Michel. 2010. “Transfer of Carbohydrate-Active Enzymes from Marine Bacteria to Japanese Gut Microbiota.” <em>Nature</em> 464 (7290): 908–12.</p>
+<div id="ref-hehemann2010" class="csl-entry">
+Hehemann, Jan-Hendrik, Gaëlle Correc, Tristan Barbeyron, William Helbert, Mirjam Czjzek, and Gurvan Michel. 2010. <span>“Transfer of Carbohydrate-Active Enzymes from Marine Bacteria to Japanese Gut Microbiota.”</span> <em>Nature</em> 464 (7290): 908–12.
 </div>
 </div>
 <div class="footnotes">
 <hr />
 <ol start="1">
-<li id="fn1"><p>Son traité est rassemblé avec d’autres traités portant sur l’agriculture et la vie rurale dans le <em>De re rustica</em><a href="histoire.html#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn1"><p>Jean-Charles Leclerc. Biodiversité, Structure et Fonctionnement Trophique des communautés à Laminaria hyperborea, en conditions naturelles et exploitées, en Bretagne. Sciences de l’environnement. Paris 6, 2013. Français.<a href="histoire.html#fnref1" class="footnote-back">↩︎</a></p></li>
 <li id="fn2"><p><a href="https://plozevet.hypotheses.org/2905" class="uri">https://plozevet.hypotheses.org/2905</a><a href="histoire.html#fnref2" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>
@@ -336,7 +404,6 @@ Figure 1.10: Les algues se retrouvent cachées dans notre alimentation
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -355,6 +422,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": false
 },
 "fontsettings": {
@@ -375,11 +443,13 @@ gitbook.start({
 "text": null
 },
 "download": null,
-"toc": {
-"collapse": "subsection",
-"scroll_highlight": false
+"search": {
+"engine": "fuse",
+"options": null
 },
-"search": true,
+"toc": {
+"collapse": "subsection"
+},
 "info": false
 });
 });
@@ -391,7 +461,7 @@ gitbook.start({
     var script = document.createElement("script");
     script.type = "text/javascript";
     var src = "true";
-    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
     if (location.protocol !== "file:")
       if (/^https?:/.test(src))
         src = src.replace(/^https?:/, '');

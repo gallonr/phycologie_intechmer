@@ -1,0 +1,365 @@
+# Biochimie associée aux algues {#biochimie}
+
+
+```{r setup6, include=FALSE}
+require(knitr)
+opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE,fig.align = "center", fig.pos = "H")
+```
+
+
+## Introduction
+
+La biochimie s'intéresse aux processus métaboliques et aux interactions moléculaires qui sous-tendent la physiologie des algues. Parmi les aspects cruciaux de cette discipline, nous pouvons citer l'analyse des pigments, des composants de la paroi cellulaire et des réserves cellulaires.
+
+
+## Les pigments des algues et l'implication dans la photosynthèse
+
+Les pigments photosynthétiques, tels que les chlorophylles, les caroténoïdes et les phycobiliprotéines, sont des molécules complexes responsables de la capture de l'énergie lumineuse et de sa conversion en énergie chimique lors de la photosynthèse. Ces pigments présentent une diversité remarquable chez les algues, reflétant leur adaptation à des conditions environnementales variées et leur rôle dans la photoprotection et la photoréception.
+
+### Les pigments et la photosynthèse
+
+Les pigments des algues constituent une palette diversifiée de molécules photosynthétiques qui captent l'énergie lumineuse nécessaire à la photosynthèse, processus vital pour la survie des organismes photosynthétiques. Cette synergie pigmentaire permet aux algues de prospérer dans des environnements variés et souvent changeants, en optimisant l'utilisation de la lumière pour la photosynthèse. De plus, les pigments jouent un rôle crucial dans la photoprotection en dissipant l'énergie excédentaire sous forme de chaleur ou en neutralisant les radicaux libres produits lors de la photosynthèse, ce qui contribue à prévenir les dommages causés par le stress lumineux. 
+
+La photosynthèse est le processus métabolique fondamental par lequel les organismes photosynthétiques convertissent l'énergie lumineuse en énergie chimique, sous forme de molécules organiques, principalement des glucides. Cette réaction biochimique se déroule dans les chloroplastes, et implique plusieurs étapes, dont la capture de la lumière, la conversion de l'énergie lumineuse en énergie chimique, et la fixation du dioxyde de carbone.
+
+La formule générale de la photosynthèse est :
+
+CO~2~ + H~2~O + lumière -> (CH~2~O) + O~2~
+
+
+```{r photosynthese, echo=FALSE, fig.cap= "Schéma de fonctionnement de la photosynthèse dans le chloroplaste", fig.align='center'}
+
+knitr::include_graphics("https://www.biologie101.fr/images/biologie-vegetale/Photosynthese/photosynthese-photochimique/photosysteme-II-photosysteme-I.png")
+
+```
+
+La première étape de la photosynthèse, la capture de la lumière, est réalisée par les pigments photosynthétiques, tels que les chlorophylles et les phycobiliprotéines, qui absorbent sélectivement différentes longueurs d'onde de la lumière solaire. Les pigments photosynthétiques doivent absorber la lumière solaire et exciter les électrons à des niveaux d'énergie supérieurs. Cependant, cette excitation n'est pas spontanée et nécessite une certaine quantité d'énergie pour surmonter la barrière énergétique initiale, appelée énergie d'activation. Lorsque les photons de lumière sont absorbés par les pigments, ils transfèrent leur énergie aux électrons des pigments, lesquels sont alors excités à des niveaux d'énergie plus élevés. Cependant, pour que ces électrons excités puissent participer aux réactions chimiques ultérieures de la photosynthèse, ils doivent d'abord surmonter l'énergie d'activation nécessaire pour passer d'un état fondamental à un état excité. Une fois que les électrons des pigments photosynthétiques ont absorbé suffisamment d'énergie pour surmonter l'énergie d'activation, ils deviennent hautement réactifs et peuvent participer aux réactions de transfert d'électrons qui alimentent la production d'ATP et la fixation du dioxyde de carbone dans le cycle de Calvin.
+
+
+```{r photosyntheseZ, echo=FALSE, fig.cap= "Schéma en Z de la photosynthèse", fig.align='center'}
+
+knitr::include_graphics("https://www.biologie101.fr/images/biologie-vegetale/Photosynthese/photosynthese-photochimique/schema-en-Z-photosynthese.png")
+
+```
+
+Le transfert d'électrons constitue la deuxième étape essentielle de la photosynthèse, connue sous le nom de chaîne de transport d'électrons. Cette chaîne se compose de complexes protéiques membranaires, situés dans les thylakoïdes des chloroplastes, qui acceptent et transfèrent les électrons à des niveaux d'énergie de plus en plus élevés. Les électrons sont d'abord transférés du photosystème II (PSII) au photosystème I (PSI) par une série de transporteurs d'électrons, tels que les plastoquinones et les cytochromes, générant ainsi un gradient électrochimique à travers la membrane thylakoïdienne.
+
+Ce gradient électrochimique est ensuite utilisé pour générer de l'ATP, la monnaie énergétique de la cellule, via un processus appelé phosphorylation photophosphorique. L'énergie de l'ATP ainsi produite est utilisée pour conduire les réactions biochimiques nécessaires à la fixation du dioxyde de carbone et à la synthèse de glucides dans le cycle de Calvin, une série de réactions enzymatiques qui se déroulent dans le stroma des chloroplastes. Le cycle de Calvin consiste à fixer le CO2, capté dans l’atmosphère par les stomates, pour former du Glycéraldéhyde-3-phosphate qui servira de précurseur aux glucides et aux acides gras. Le cycle de Calvin peut être décomposé en trois phases successives : la carboxylation (fixation du carbone), la réduction et enfin la régénération du produit de départ.
+
+```{r calvin, echo=FALSE, fig.cap= "Schéma de du cycle de Calvin", fig.align='center'}
+
+knitr::include_graphics("https://www.biologie101.fr/images/biologie-vegetale/Photosynthese/photosynthese-cycle-de-Calvin/cycle-de-calvin.png")
+
+```
+
+Simultanément au transport d'électrons, les électrons perdus par la chlorophylle du photosystème II sont remplacés par la photolyse de l'eau, un processus qui libère de l'oxygène comme sous-produit. Cette réaction d'oxydation de l'eau fournit également les protons nécessaires pour maintenir le gradient électrochimique dans la chaîne de transport d'électrons. 
+
+### Les pigments chlorophylliens
+
+Les chlorophylles sont des pigments tétrapyrroliques contenant un anneau porphyrinique central lié à un groupe phytol hydrophobe. La structure de base de la chlorophylle est composée d'un anneau porphyrinique avec un atome de magnésium au centre. Autour du noyau porphyrinique, la chlorophylle présente plusieurs groupes latéraux qui déterminent son type spécifique et ses propriétés chimiques. Le groupe principal est un groupe phytol hydrophobe, qui est une chaîne hydrocarbonée longue et insoluble dans l'eau. Ce groupe phytol est responsable de l'ancrage de la chlorophylle dans les membranes des thylakoïdes des chloroplastes.
+
+- *Chlorophylle a (Chl a)* : C'est le type le plus courant de chlorophylle et il est présent dans la plupart des plantes, des algues vertes et des cyanobactéries. La chlorophylle a a un groupe phytol en position C3 du noyau porphyrinique et un groupe méthyle en position C7. Elle absorbe principalement la lumière bleue (430 nm) et rouge (662 nm) du spectre lumineux.
+
+
+- *Chlorophylle b (Chl b)* : La chlorophylle b est présente dans certaines plantes et les algues vertes. Elle se distingue de la chlorophylle a par la présence d'un groupe carboxyle à la position C3 au lieu du groupe méthyle. La chlorophylle b a un rôle accessoire dans la photosynthèse, car elle peut capter les longueurs d'onde de lumière que la chlorophylle a ne peut pas absorber efficacement.
+
+
+- *Chlorophylle c (Chl c)* : Les algues brunes (Hétérokontophytes) et les diatomées possèdent principalement de la chlorophylle c. Cette chlorophylle se distingue par la présence de deux groupes vinyle substituants en position C7 et C8 du noyau porphyrinique. La chlorophylle c est généralement associée à des pigments accessoires, comme les fucoxanthines, qui lui permettent de capter la lumière dans des environnements marins plus profonds. La chlorophylle c3 est une chlorophylle polaire isolée de l'algue haptophyte *Emiliania huxleyi* et du chrysophyte picoplanctonique *Pelagococcus subviridis*.
+
+
+- *Chlorophylle d (Chl d)* : La chlorophylle d est présente chez les cyanobactéries. Elle se distingue par la présence d'un groupe aldehyde à la position C7 du noyau porphyrinique. La chlorophylle d absorbe la lumière dans la région orange du spectre (env. 700 nm), ce qui lui permet de compléter la photosynthèse en absorbant la lumière qui n'est pas efficacement absorbée par la chlorophylle a.
+
+
+- *Chlorophylle f (Chl f)* : La chlorophylle f est présente dans certaines cyanobactéries. Elle présente une modification de la chaîne latérale par rapport à la chlorophylle a, avec un groupe formyle à la position C2. La chlorophylle f permet une meilleure adaptation à des conditions lumineuses spécifiques, notamment en absorbant la lumière dans l'infrarouge (env. 700-750 nm). La chlorophylle f est la forme la plus récente de chlorophylle, découverte dans des stromatolithes en 2010.
+
+```{r chl, echo=FALSE, fig.cap= "Structure chimique des différentes chlorophylles", fig.align='center'}
+
+knitr::include_graphics("https://microbenotes.com/wp-content/uploads/2020/12/Chlorophyll-Types.jpeg")
+
+```
+
+*Utilisation industrielle des chlorophylles*
+
+Les chlorophylles sont largement utilisées comme colorants alimentaires naturels dans l'industrie alimentaire sous la dénomination E140. Les propriétés colorantes des chlorophylles les rendent également populaires dans l'industrie des cosmétiques et des produits de soins personnels. Elles sont utilisées dans la formulation de produits tels que les rouges à lèvres, les fonds de teint, les crèmes hydratantes et les dentifrices pour leur donner une teinte verte naturelle. De plus, les chlorophylles sont parfois ajoutées à des produits de soins de la peau en raison de leurs propriétés antioxydantes et de leur capacité à neutraliser les radicaux libres. Elles sont parfois utilisées dans des produits pharmaceutiques en raison de leurs propriétés antioxydantes et anti-inflammatoires potentielles.
+Dans l'agriculture et l'horticulture, les chlorophylles sont utilisées comme indicateurs de santé des plantes. Les tests de chlorophylle peuvent être utilisés pour évaluer la santé des cultures et diagnostiquer les carences nutritionnelles. De plus, les extraits de chlorophylle sont parfois utilisés comme engrais foliaires pour améliorer la croissance des plantes et renforcer leur système immunitaire.
+
+### Les caroténoïdes
+
+La structure chimique des caroténoïdes est caractérisée par une série d'unités isopréniques reliées par des liaisons doubles conjuguées, ce qui confère aux caroténoïdes leur couleur vive allant du jaune au rouge, en passant par l'orange. Les caroténoïdes les plus courants sont les carotènes, tels que le bêta-carotène, qui ne contiennent que des atomes de carbone et d'hydrogène, et les xanthophylles, qui contiennent également des groupes oxygénés. Parmi les xanthophylles, on trouve des molécules comme la lutéine et la violaxanthine.
+
+```{r carotenoide, echo=FALSE, fig.cap= "Structure chimique des carotenoides", fig.align='center'}
+
+knitr::include_graphics("https://nutrixeal-info.b-cdn.net/wp-content/uploads/2020/03/Astaxanthine_structure_moleculaire.png")
+
+```
+
+Les caroténoïdes remplissent plusieurs fonctions vitales dans les algues :
+
+- **Photosynthèse** : Les caroténoïdes jouent un rôle important dans la photosynthèse en capturant la lumière et en transférant l'énergie lumineuse aux chlorophylles. Ils élargissent ainsi la gamme de longueurs d'onde absorbées par les algues, ce qui augmente l'efficacité de la photosynthèse dans des conditions lumineuses variables.
+
+- **Photoprotection** : Les caroténoïdes agissent comme des antioxydants et protègent les algues contre les dommages causés par les radicaux libres et les rayons UV nocifs. En absorbant l'énergie lumineuse excédentaire, ils réduisent les risques de photo-oxydation et de stress oxydatif.
+
+- **Réponse aux stress environnementaux** : Les caroténoïdes jouent un rôle crucial dans la réponse des algues aux changements environnementaux, tels que les variations de température, d'intensité lumineuse et de salinité. Leur production peut être régulée en réponse à ces stress pour protéger les algues et maintenir leur homéostasie.
+
+
+#### Les carotènes
+
+Les carotènes sont une classe de pigments naturels présents dans de nombreuses algues. Ils font partie de la famille des tétraterpènes. Parmi les carotènes les plus courants dans les algues, on trouve le $\beta$-carotène, l' $\alpha$-carotène et le lycopène. Ces pigments sont abondamment présents dans les algues et leur donnent une couleur vive.
+
+
+```{r carotene, echo=FALSE, fig.cap= "Structure chimique du béta-carotène, l' alpha-carotène et du lycopène", fig.align='center'}
+
+knitr::include_graphics("https://www.pharmacorama.com/ezine/images/20110411160027.png")
+
+```
+
+
+En plus de leur rôle en tant que pigments, les carotènes ont également des propriétés antioxydantes dans les algues, ce qui signifie qu'ils peuvent neutraliser les radicaux libres et protéger les cellules contre les dommages oxydatifs. Cette capacité antioxydante des carotènes contribue à renforcer la santé des algues et à les protéger contre les stress environnementaux, tels que l'exposition aux rayons UV et les variations de température.
+
+
+> Dans les algues comestibles, les carotènes sont également importants d'un point de vue nutritionnel. Ils sont des précurseurs de la vitamine A, un nutriment essentiel pour la santé humaine. Par conséquent, la consommation d'algues riches en carotènes peut contribuer à maintenir une bonne santé oculaire, immunitaire et cellulaire chez les consommateurs.
+
+#### Les xanthophylles
+
+les xanthophylles sont des caroténoïdes contenant des groupes oxygénés, tels que des groupes hydroxyle (-OH) ou des groupes cétoniques (=O). Cette présence de groupes oxygénés leur confère une solubilité dans les solvants polaires tels que l'eau.
+
+Parmi les xanthophylles les plus courantes dans les algues, on trouve la lutéine, la zéaxanthine, la violaxanthine et la fucoxanthine. Chacune de ces xanthophylles contribue à la couleur caractéristique des algues et remplit des fonctions biologiques spécifiques.
+
+La lutéine et la zéaxanthine sont deux xanthophylles abondamment présentes dans les algues vertes et rouges. Elles jouent un rôle important dans la photosynthèse en absorbant la lumière et en transférant l'énergie aux chlorophylles. De plus, la lutéine et la zéaxanthine sont des antioxydants puissants, protégeant les algues contre les dommages oxydatifs causés par les radicaux libres.
+
+La violaxanthine est une xanthophylle présente dans les algues rouges et brunes. Elle joue un rôle essentiel dans la régulation de la photosynthèse en fonction de la disponibilité de lumière et de nutriments. En conditions de faible luminosité, la violaxanthine est convertie en zéaxanthine pour optimiser l'utilisation de l'énergie lumineuse par les algues.
+
+La fucoxanthine est une xanthophylle spécifique aux algues brunes, leur donnant leur couleur distinctive. En plus de son rôle pigmentaire, la fucoxanthine est également étudiée pour ses propriétés bioactives potentielles, notamment ses effets anti-inflammatoires, antioxydants et anticancéreux.
+
+```{r xanthophylle, echo=FALSE, fig.cap= "Structure chimique des caroténoïdes", fig.align='center'}
+
+knitr::include_graphics("https://www.researchgate.net/profile/Thibault-Lefebvre-2/publication/350031533/figure/fig2/AS:1000708803399680@1615598979060/Exemples-de-carotenes-et-xanthophylles-Les-chlorophylles-sont-les-pigments-cles-de_W640.jpg")
+
+```
+
+### Les phycobiliprotéines
+
+Les phycobiliprotéines sont des pigments photosynthétiques présents dans les cyanobactéries et les algues rouges. Les phycobiliprotéines sont composées d'une protéine associée à un ou plusieurs groupes pigmentaires appelés phycobilines. La structure des phycobiliprotéines se compose généralement de deux parties principales : la protéine support et les phycobilines. La protéine support forme un squelette protéique complexe qui permet l'ancrage des phycobilines et leur organisation spatiale pour maximiser l'absorption de la lumière. Les phycobilines, quant à elles, sont des pigments hydrophiles qui absorbent la lumière dans les régions du spectre où la chlorophylle est peu efficace, principalement dans le spectre orange et rouge.
+
+Le chromophore des phycobilines est un groupe prostétique linéaire qui consiste généralement en une chaîne d'atomes de carbone conjugés avec des doubles liaisons. Cette structure conjugée permet aux phycobilines d'absorber la lumière dans des régions spécifiques du spectre électromagnétique, principalement dans les spectres orange et rouge. La longueur de cette chaîne carbonée et la présence de certains groupes fonctionnels déterminent la longueur d'onde exacte à laquelle chaque phycobiline absorbe la lumière.  Les différents types de phycobilines ont des structures chromophores distinctes qui leur confèrent des couleurs spécifiques. Par exemple :
+
+- *La phycoérythrobiline* est associée à la couleur rouge.
+- *La phycocyanobiline* est associée à la couleur bleu-vert.
+- *La phycourobiline* est associée à la couleur jaune.
+- *La phycoviolobiline* est associée à la couleur violette.
+
+Les principales phycobiliprotéines comprennent la phycoérythrine, la phycocyanine, l'allophycocyanine et la phycoérythrocyanine. La phycoérythrine est responsable de la couleur rouge caractéristique des algues rouges, tandis que la phycocyanine et l'allophycocyanine confèrent une teinte bleu-vert aux cyanobactéries et aux algues bleues-vertes. La phycoérythrocyanine est une phycobiliprotéine hybride trouvée dans certaines algues rouges.
+
+Les phycobiliprotéines remplissent plusieurs fonctions importantes dans la photosynthèse. Elles absorbent la lumière et transfèrent ensuite l'énergie lumineuse aux chlorophylles, augmentant ainsi l'efficacité globale de la photosynthèse. De plus, les phycobiliprotéines peuvent agir comme des antioxydants, protégeant les cellules contre les dommages causés par les radicaux libres produits lors de la photosynthèse.
+
+Les phycobiliprotéines sont associées à des protéines porteuses pour former des structures complexes appelées phycobilisomes. La structure globale du phycobilisome est en forme de rosette ou de cylindre creux, avec les phycobiliprotéines externes absorbant la lumière à plus longue longueur d'onde situées à la périphérie, tandis que celles absorbant la lumière à des longueurs d'onde plus courtes sont situées vers le centre. Lorsque la lumière frappe le phycobilisome, les phycobiliprotéines absorbent les photons lumineux et les excitent, générant un état d'énergie élevé dans les électrons. Les phycobiliprotéines situées à la périphérie du phycobilisome absorbent principalement la lumière dans les spectres orange et rouge, tandis que celles situées plus à l'intérieur absorbent la lumière dans les spectres bleu-vert.
+Une fois excités, les électrons transfèrent l'énergie lumineuse de manière efficace et coordonnée le long des phycobiliprotéines jusqu'aux complexes photosynthétiques, où elle est utilisée pour convertir le dioxyde de carbone et l'eau en hydrates de carbone lors de la photosynthèse.
+La structure organisée du phycobilisome permet une absorption maximale de la lumière sur une large gamme de longueurs d'onde, ce qui permet aux organismes qui en sont pourvus de s'adapter efficacement à différentes conditions d'éclairage dans leur environnement.
+
+```{r phycobilisome, echo=FALSE, fig.cap= "Ultrastructure d'un phycobilisome", fig.align='center'}
+
+knitr::include_graphics("https://ars.els-cdn.com/content/image/1-s2.0-S2214799318300304-gr3.jpg")
+
+```
+
+
+
+
+### Pigments et distribution des macroalgues
+
+La distribution des algues dans les écosystèmes côtiers est étroitement liée à la profondeur de l'eau et à la capacité de la lumière à pénétrer dans la colonne d'eau. En surface, où la lumière du soleil pénètre directement dans l'eau, les algues photophiles prospèrent. Ces algues, telles que les algues vertes, brunes et rouges, sont bien adaptées aux conditions lumineuses intenses et se trouvent généralement dans les zones côtières peu profondes, où la lumière est abondante. Leur distribution peut être influencée par d'autres facteurs tels que la turbidité de l'eau et la disponibilité en nutriments.
+
+```{r pigment, echo=FALSE, fig.cap= "Absorbance relative des pigments photosynthétique en fonction des longueurs d'onde", fig.align='center'}
+
+knitr::include_graphics("https://www.researchgate.net/publication/346624608/figure/fig3/AS:964930849226757@1607068850936/Absorption-range-of-different-algae-pigments-including-chlorophyll-a-b-c-carotenoids.jpg")
+
+```
+
+À mesure que la profondeur augmente, la quantité de lumière disponible diminue progressivement en raison de l'absorption et de la diffusion de la lumière par les molécules d'eau et les particules en suspension. À des profondeurs plus importantes, seules les longueurs d'onde de lumière les plus courtes, telles que le bleu et le vert, parviennent à pénétrer efficacement dans l'eau. En conséquence, les algues qui prospèrent dans ces environnements plus sombres sont souvent adaptées à des niveaux de lumière plus faibles.
+
+En zone subtidale peu profonde, les algues brunes qui contiennent des pigments tels que la fucoxanthine, sont bien adaptées à ces conditions et peuvent prospérer dans des eaux peu profondes.
+
+En zone subtidale profonde les algues sciaphiles, adaptées à des niveaux de lumière faibles, prédominent dans cette zone. Certaines espèces de macroalgues et de phytoplancton possèdent des pigments spécialisés, tels que les phycoérythrobilines et les phycocyanobilines, qui leur permettent de capturer efficacement la lumière disponible dans les longueurs d'onde bleue et verte.
+
+```{r spectreProf, echo=FALSE, fig.cap= "Distribution bathymétrique des algues en fonction de l'absorbance relative", fig.align='center'}
+
+knitr::include_graphics("https://uel.unisciel.fr/biologie/module1/module1_ch01/res/phyco-spectre.gif")
+
+```
+
+## Composition biochimique de la paroi cellulaire
+
+La paroi cellulaire des algues constitue une structure essentielle qui assure la stabilité, la protection et l'interaction avec l'environnement extérieur des cellules algales. Contrairement aux plantes terrestres, les algues présentent une grande diversité dans la composition de leur paroi cellulaire, ce qui reflète leur adaptation à des environnements aquatiques variés. 
+
+### L'ultra-structure de la paroi cellulaire
+
+La paroi cellulaire des algues est composée de plusieurs couches distinctes, notamment la paroi primaire et la lamelle moyenne, qui jouent des rôles essentiels dans la structure et la fonction de la cellule.
+
+```{r cellwall, echo=FALSE, fig.cap= "Description de l'ultrastructure de la paroi cellulaire", fig.align='center'}
+
+knitr::include_graphics("https://t3.ftcdn.net/jpg/04/46/60/64/360_F_446606481_XOmmUXuUjMGxlaPjWopiezMcRU6UkFqR.jpg")
+
+```
+
+
+#### La lamelle moyenne
+
+La lamelle moyenne est une structure intermédiaire située entre les parois primaires de cellules adjacentes. Elle agit comme une zone de liaison et de communication entre les cellules adjacentes, facilitant les échanges de signaux et de nutriments. Elle joue également un rôle dans le maintien de l'intégrité structurale des tissus en liant les parois cellulaires adjacentes.
+
+La lamelle moyenne commence à se former pendant la cytokinèse, la phase de division cellulaire, lorsque la nouvelle paroi cellulaire commence à se développer entre les deux cellules filles. Elle est déposée dans la région centrale de la plaque cellulaire, qui est la zone de séparation entre les cellules filles. Sa formation commence par la sécrétion de pectines, des polysaccharides complexes riches en acide uronique, par les vésicules de Golgi dans la région de la plaque cellulaire. Les pectines sont transportées vers la zone de division cellulaire et s'accumulent entre les parois primaires des cellules filles. Les pectines sécrétées sont ionisées par les ions calcium et magnésium présents dans le milieu extracellulaire, ce qui entraîne la formation d'un gel complexe appelé pectate de calcium. Ce gel de pectate de calcium agit comme un ciment qui lie les parois primaires des cellules filles et stabilise la structure de la lamelle moyenne. Au fur et à mesure que la division cellulaire progresse et que les parois primaires des cellules filles se développent, la déposition de pectines et la formation de la lamelle moyenne se poursuivent. La lamelle moyenne atteint sa taille maximale lorsque la division cellulaire est terminée et que les cellules filles sont complètement séparées
+
+#### La paroi primaire
+
+La création de la paroi primaire commence à l'intérieur de la cellule, où les polysaccharides et les protéines constitutifs de la paroi sont synthétisés par les ribosomes et les complexes de Golgi. Ces composants comprennent principalement la cellulose, les hémicelluloses, les pectines et diverses protéines structurelles. Une fois synthétisés, les polysaccharides et les protéines sont transportés vers la paroi cellulaire à travers le réseau endomembranaire de la cellule. Ce transport se fait via des vésicules de transport qui transportent les composants de la paroi vers la membrane plasmique, où ils sont sécrétés dans l'espace extracellulaire. Une fois dans l'espace extracellulaire, les différents composants de la paroi primaire s'assemblent et s'organisent pour former une structure cohérente. La cellulose, un polymère de glucose, est synthétisée par des complexes d'enzyme appelés cellulose synthases et forme une matrice fibrillaire qui confère résistance et rigidité à la paroi. Les hémicelluloses et les pectines se lient à la cellulose et agissent comme des composants de liaison qui stabilisent la structure de la paroi.
+
+### Les composés cellulosiques
+
+Les composés cellulosiques sont des constituants majeurs de la paroi cellulaire des algues, contribuant à sa structure et à sa fonction. Ces composés sont principalement constitués de cellulose, un polysaccharide linéaire de glucose lié par des liaisons $\beta$-(1$\rightarrow$4). La cellulose est synthétisée à l'intérieur de la cellule par des complexes enzymatiques appelés cellulose synthases, puis sécrétée dans l'espace extracellulaire où elle s'assemble en microfibrilles. Les microfibrilles de cellulose sont organisées en réseaux tridimensionnels qui confèrent résistance et rigidité à la paroi cellulaire, assurant sa stabilité mécanique et sa protection contre les forces extérieures.
+
+
+```{r cellulose, echo=FALSE, fig.cap= "Structure chimique de la cellulose dans la paroi cellulaire", fig.align='center'}
+
+knitr::include_graphics("https://www.mdpi.com/polymers/polymers-15-03615/article_deploy/html/images/polymers-15-03615-g004.png
+")
+
+```
+
+Les algues peuvent également contenir d'autres polysaccharides associés dans leur paroi cellulaire, tels que les hémicelluloses et les pectines. Les hémicelluloses sont des polymères de sucres variés, tels que le xylose, le mannose et le galactose, qui sont associés à la cellulose et aux protéines pour former une matrice complexe. Elles contribuent à la cohésion de la paroi cellulaire et à sa flexibilité en permettant une plus grande variabilité dans la composition et la structure de la paroi.
+
+Les pectines sont des polysaccharides riches en acide uronique, tels que l'acide galacturonique, qui sont impliqués dans la régulation de la perméabilité de la paroi cellulaire et dans les interactions cellulaires. 
+
+### Les phycocolloïdes
+
+Les phycocolloïdes sont principalement constitués de polysaccharides complexes, tels que les alginate, les carraghénanes, les fucanes et les ulvanes, qui sont produits par les algues pour remplir diverses fonctions biologiques telles que le stockage d'énergie, la protection contre les stress environnementaux et la régulation de l'interaction avec l'environnement. 
+
+Les phycocolloïdes sont largement utilisés en raison de leurs propriétés fonctionnelles uniques, telles que leur capacité à former des gels, à épaissir des solutions, à stabiliser des émulsions et à former des films. 
+
+#### Les alginates
+
+les alginates sont des copolymères d'acide $\beta$-D-mannuronique (M) et d'acide $\alpha$-L-guluronique (G), liés par des liaisons glycosidiques α-1,4 et β-1,4. La proportion de résidus M et G dans la structure des alginates varie en fonction de l'espèce d'algue, de son environnement et des conditions de traitement. Cette variation dans la composition chimique confère aux alginates une gamme de propriétés physico-chimiques, notamment leur solubilité, leur viscosité, leur capacité de gélification et leur stabilité aux variations de pH et de température.
+
+```{r alginate, echo=FALSE, fig.cap= "Structure chimique de l'acide alginique.", fig.align='center'}
+
+knitr::include_graphics("https://www.therascience.com/media/wysiwyg/ALGINATE_MOLECULE_-_370X425.png")
+
+```
+
+La teneur en alginates dans les algues varie considérablement en fonction de l'espèce, de la saison, de l'emplacement géographique et des conditions environnementales. Par exemple, les laminaires (*Laminaria spp.*) peuvent contenir jusqu'à 30 % d'alginates dans leur composition sèche, tandis que les algues *Ascophyllum nodosum* peuvent contenir environ 20 % d'alginates. 
+
+```{r alginateConc, echo=FALSE, fig.cap= "Teneur en alginates de quelques alginophytes.", fig.align='center'}
+
+knitr::include_graphics("https://www.memoireonline.com/10/13/7626/etude-des-polysaccharides-des-macro-algues-alginophytes-caracterisation-et-dosage-des-alginates13.png")
+
+```
+
+
+
+Les blocs M ont tendance à former des structures plus flexibles et solubles dans l'eau, tandis que les blocs G favorisent la formation de structures plus rigides et insolubles. Ainsi, une plus grande proportion de blocs M peut conduire à des alginates plus solubles et visqueux, tandis qu'une plus grande proportion de blocs G peut conduire à des alginates plus gélifiés et stables.
+
+*Applications industrielles* :
+
+Le code additif est E401 pour l'alginate de sodium. La variabilité de la proportion de blocs M et G permet d'adapter les alginates à différentes applications industrielles. Par exemple, les alginates à haute teneur en blocs M sont souvent utilisés comme épaississants et stabilisants dans les produits alimentaires et les produits pharmaceutiques, où une viscosité élevée et une bonne solubilité sont recherchées. En revanche, les alginates à haute teneur en blocs G sont utilisés dans des applications de gélification, telles que la fabrication de gels, de films et de capsules, où une rigidité et une stabilité élevées sont nécessaires.
+
+```{r alginophytes, echo=FALSE, fig.cap= "Zones de récolte des alginophytes dans le monde", fig.align='center'}
+
+knitr::include_graphics("https://www.memoireonline.com/10/13/7626/etude-des-polysaccharides-des-macro-algues-alginophytes-caracterisation-et-dosage-des-alginates12.png")
+
+```
+
+
+
+#### Les carraghénanes
+
+Les carraghénanes sont des polysaccharides sulfatés dérivés d'algues rougees.  Ce sont des polymères linéaires de galactose, reliés par des liaisons glycosidiques $\alpha$-1,3 et $\alpha$-1,4 et des groupes sulfate. Ils peuvent être classés en plusieurs types en fonction de leur composition et de leur structure, notamment les kappa-carraghénanes, les iota-carraghénanes et les lambda-carraghénanes, qui diffèrent par le nombre et la position des groupes sulfate.
+
+**- Les kappa-carraghénanes** sont des polymères de galactose fortement sulfatés, qui contiennent principalement des liaisons $\alpha$-1,4 entre les résidus de galactose. Ces carraghénanes forment des gels rigides et cassants en présence d'ions calcium
+
+**- Les iota-Carraghénanes** sont des polymères de galactose sulfatés, mais ils contiennent des liaisons α-1,3 entre les résidus de galactose, en plus des liaisons α-1,4. Ces carraghénanes forment des gels souples et élastiques en présence d'ions calcium.
+
+**- Les lambda-carraghénanes** sont des polymères de galactose sulfatés qui contiennent principalement des liaisons β-1,3 entre les résidus de galactose. Ces carraghénanes ne forment pas de gels en présence d'ions calcium, mais ils peuvent former des solutions visqueuses
+
+
+```{r carraghenanes, echo=FALSE, fig.cap= "Structure chimique des différents carraghénanes", fig.align='center'}
+
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Moleculare_structure_of_different_carrageenan_types.svg/langfr-800px-Moleculare_structure_of_different_carrageenan_types.svg.png")
+
+```
+
+La teneur en carraghénanes dans les algues varie en fonction de l'espèce, de la saison, de l'emplacement géographique et des conditions environnementales. Par exemple, les algues *Chondrus crispus*, communément appelées "mousses de mer", peuvent contenir jusqu'à 60 % de carraghénanes dans leur composition sèche. Les espèces d'Eucheuma et de Kappaphycus, cultivées dans des fermes marines dans les régions tropicales, sont également des sources importantes de carraghénanes.
+
+*Applications industrielles* :
+
+Les carraghénanes sont largement utilisés dans l'industrie alimentaire en tant qu'agents gélifiants, épaississants et stabilisants dans une variété de produits, tels que les desserts, les produits laitiers, les confitures et les produits de boulangerie. Ils sont également utilisés dans l'industrie pharmaceutique pour la fabrication de gels topiques, de capsules et de comprimés, ainsi que dans l'industrie cosmétique pour la fabrication de crèmes, de lotions et de gels pour les cheveux.
+
+#### Les agars
+
+Les agars sont des polysaccharides sulfatés dérivés principalement des algues rouges des genres Gracilaria et Gelidium. Ils sont composés de motifs répétés de galactose, reliés par des liaisons $\beta$-1,3 et $\beta$-1,4, avec des groupes sulfate. La texture du gel peut varier en fonction de la proportion de liaisons $\beta$-1,3 et $\beta$-1,4 dans la structure de l'agar. les agars à forte teneur en liaisons $\beta$-1,4 ont tendance à former des gels plus solides et plus rigides, tandis que ceux à forte teneur en liaisons $\beta$-1,3 ont tendance à former des gels plus souples et plus élastiques.
+
+Les gracilaires sont souvent exploitées pour leur teneur élevée en agars, qui peut représenter jusqu'à 40 % de leur composition sèche. Les espèces de Gelidium sont également des sources importantes d'agars, avec des teneurs variables en fonction de leur variété et de leur environnement de croissance.
+
+## Les réserves énergétiques des algues
+
+Outre leur contribution à la production de biomasse et à la fixation du carbone, les algues présentent également une grande diversité dans leurs mécanismes de stockage et d'utilisation des réserves énergétiques. Ces réserves énergétiques sont essentielles pour la survie, la croissance et la reproduction des algues, et peuvent prendre différentes formes en fonction de l'espèce d'algue, de son environnement et de ses besoins métaboliques. 
+
+### Les réserves de flaibles poids moléculaire
+
+Les réserves à faible poids moléculaire des algues comprennent une gamme de composés organiques, parmi lesquels se trouvent les hétérosides, les sucres simples et les polyols. Ces molécules jouent un rôle essentiel dans le métabolisme et la survie des algues, offrant une source d'énergie, de carbone et de réserve osmotique.
+
+#### Les sucres simples et diholosides
+
+Les sucres simples, également connus sous le nom de monosaccharides, sont des unités de base des glucides. Ils comprennent des molécules telles que le glucose, le fructose et le galactose. Ces sucres simples sont souvent utilisés comme sources d'énergie immédiate par les algues lors de la photosynthèse et de la respiration, et sont également impliqués dans la biosynthèse d'autres composés organiques, tels que les polysaccharides et les lipides.
+
+Les diholosides, également connus sous le nom de disaccharides, sont des glucides composés de deux monosaccharides liés par une liaison glycosidique.  le laminaribiose est un diholoside composé de deux molécules de glucose liées par une liaison $\beta$-1,3, et il est souvent trouvé dans les algues brunes comme composant de la laminarine. Les diholosides jouent un rôle important dans le métabolisme des algues, fournissant une source d'énergie lorsque les liaisons glycosidiques sont hydrolysées par des enzymes spécifiques. 
+
+#### Les hétérosides
+
+Les hétérosides sont des composés organiques formés par la combinaison d'un sucre (généralement un monosaccharide) avec un autre groupe fonctionnel, tel qu'un alcool, un acide ou un aglycone. Dans les algues, les hétérosides sont souvent des métabolites secondaires qui peuvent avoir une variété de fonctions biologiques, telles que la défense contre les prédateurs, la protection contre les rayonnements UV et la régulation du stress oxydatif.
+
+Le fucoidane est un hétéroside sulfaté extrait principalement des algues brunes, telles que les Fucus et les Laminaires. Il est constitué d'un noyau de fucose sulfaté, associé à des groupes sulfates et à d'autres résidus de sucres.
+Le fucoidane possède diverses propriétés biologiques intéressantes, notamment des activités anticoagulantes, anti-inflammatoires, antivirales et antitumorales. En raison de ses propriétés pharmacologiques potentielles, le fucoidane suscite un intérêt croissant dans la recherche biomédicale pour son utilisation potentielle dans le traitement de diverses affections, telles que les maladies cardiovasculaires, le cancer et les maladies inflammatoires.
+
+#### Les polyols
+
+Les polyols sont des dérivés réduits des sucres qui contiennent plusieurs groupes hydroxyle (-OH). Ils comprennent des molécules telles que le sorbitol, le mannitol et le glycérol. Les polyols agissent souvent comme des agents osmotiques, aidant les algues à réguler leur équilibre hydrique dans des environnements changeants. De plus, ils peuvent servir de réserves d'énergie et de carbone, tout en jouant un rôle dans la protection contre le stress osmotique et la tolérance aux conditions environnementales adverses.
+
+### Les réserves de hauts poids moléculaire
+
+Dans le règne végétal, l'amidon est l'un des polysaccharides de réserve les plus répandus, et il joue un rôle central dans le stockage à long terme de l'énergie chez les plantes. Chez les algues, différentes variétés d'amidon peuvent être présentes en fonction de leur taxonomie et de leur environnement.
+
+- *L'amylose* est une forme linéaire d'amidon, constituée de chaînes de glucose reliées par des liaisons α-1,4. Chez certaines algues, notamment les algues rouges et les algues vertes, l'amylose peut être présente sous forme de granules de petite taille, servant de réserve énergétique.
+
+```{r amylose, echo=FALSE, fig.cap= "Structure chimique de l'amylose", fig.align='center'}
+
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Amylose.svg/1200px-Amylose.svg.png")
+
+```
+
+- *L'amylopectine* est une forme ramifiée d'amidon, caractérisée par la présence de ramifications latérales formées par des liaisons α-1,6. Chez les algues, l'amylopectine peut être présente en association avec l'amylose dans les granules d'amidon. Les algues peuvent réguler la proportion d'amylopectine par rapport à l'amylose pour adapter leurs réserves énergétiques aux besoins métaboliques et environnementaux.
+
+```{r amylopectine, echo=FALSE, fig.cap= "Structure chimique de l'amylopectine", fig.align='center'}
+
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Structure_de_l%27amylopectine.JPG/280px-Structure_de_l%27amylopectine.JPG")
+
+```
+https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Structure_de_l%27amylopectine.JPG/280px-Structure_de_l%27amylopectine.JPG
+
+#### Rhodamylon
+
+Le rhodamylon est un polysaccharide de réserve spécifique aux algues rouges (Rhodophyta). Il est composé de chaînes de glucose liées par des liaisons glycosidiques $\alpha$-1,4, tout comme l'amylose, qui est un composant de l'amidon. Cependant, il peut également contenir des liaisons glycosidiques $\alpha$-1,6, qui sont responsables de la ramification de la molécule. Ces ramifications peuvent rendre la structure du rhodamylon plus complexe que celle de l'amylose.
+
+En plus des liaisons glycosidiques, le rhodamylon peut également être sulfaté, ce qui lui confère des propriétés biochimiques uniques et peut affecter sa solubilité, sa stabilité et ses interactions avec d'autres molécules dans l'environnement cellulaire.
+
+#### Paramylon
+
+Le paramylon est un polysaccharide de réserve spécifique des euglénophytes. La structure du paramylon est principalement composée de chaînes linéaires de β-glucane, avec des liaisons glycosidiques β-1,3. Contrairement à l'amidon, qui est composé de liaisons glycosidiques α, le paramylon présente des liaisons β-1,3 qui confèrent à sa structure une résistance aux enzymes hydrolytiques typiquement utilisées pour dégrader les glucides. Le paramylon est stocké sous forme de granules cytoplasmiques dans les cellules, généralement dans le cytoplasme ou dans des structures spécialisées appelées paramylosoïdes. Ces granules peuvent être relativement grands et sont souvent visibles au microscope optique comme des inclusions intracellulaires.
+
+Le paramylon ne contient pas de liaisons glycosidiques α-1,4 comme l'amidon, mais plutôt des liaisons β-1,3. Par conséquent, le paramylon ne forme pas de complexe bleu-noir avec le lugol et ne peut pas être visualisé de la même manière que l'amidon.
+
+
+#### Laminarine / Chrysolaminarine
+
+La laminarine et la chrysolaminarine sont des polysaccharides de réserve spécifiques aux algues brunes (Phaeophyceae) et aux algues dorées (Diatomées).
+
+La laminarine est composée principalement de $\beta$-glucanes, avec des liaisons glycosidiques $\beta$-1,3 et $\beta$-1,6. Elle est souvent associée à des protéines et à des pigments dans des organites spécialisés appelés pyrénoïdes, situés dans les chloroplastes des algues brunes. La laminarine peut être stockée sous forme de granules ou de gouttelettes dans les cellules des algues brunes. La laminarine diffère de la chrysolaminarine par la présence de mannitol à l'extrémité de certaines chaînes.
+
+Dans les années 2000, Goëmar a mis au point un vaccin pour les plantes, offrant une alternative aux pesticides traditionnels. Le composé bioactif de ce vaccin est la laminarine, un éliciteur oligosaccharidique qui stimule les mécanismes de défense chez des cultures telles que le tabac et le blé. Ce vaccin a été homologué pour lutter contre des maladies telles que l'oïdium, le piétin-verse et la septoriose chez le blé.

@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title> 2 Usages, économie et règlementation | La Biologie Végétale Marine à Intechmer</title>
   <meta name="description" content="Ce livre reprend toutes les notions importantes en biologie végétale marine enseignée au Cnam-Intechmer" />
-  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.37 and GitBook 2.6.7" />
 
   <meta property="og:title" content=" 2 Usages, économie et règlementation | La Biologie Végétale Marine à Intechmer" />
   <meta property="og:type" content="book" />
-  
-  <meta property="og:image" content="images/Adolphe_Millot_algues.jpg" />
+  <meta property="og:image" content="/images/Adolphe_Millot_algues.jpg" />
   <meta property="og:description" content="Ce livre reprend toutes les notions importantes en biologie végétale marine enseignée au Cnam-Intechmer" />
   
 
@@ -19,12 +18,12 @@
   <meta name="twitter:title" content=" 2 Usages, économie et règlementation | La Biologie Végétale Marine à Intechmer" />
   
   <meta name="twitter:description" content="Ce livre reprend toutes les notions importantes en biologie végétale marine enseignée au Cnam-Intechmer" />
-  <meta name="twitter:image" content="images/Adolphe_Millot_algues.jpg" />
+  <meta name="twitter:image" content="/images/Adolphe_Millot_algues.jpg" />
 
 <meta name="author" content="Régis GALLON" />
 
 
-<meta name="date" content="2020-10-22" />
+<meta name="date" content="2024-02-22" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,7 +32,8 @@
   
 <link rel="prev" href="histoire.html"/>
 <link rel="next" href="classification.html"/>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -49,10 +49,38 @@
 
 
 
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 
 
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -67,50 +95,60 @@
       <nav role="navigation">
 
 <ul class="summary">
-<li><a href="./"> <b>BIOLOGIE VEGETAL MARINE</b> </a></li>
+<li><a href="./">A Minimal Book Example</a></li>
 
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Préface</a></li>
-<li class="chapter" data-level="1" data-path="histoire.html"><a href="histoire.html"><i class="fa fa-check"></i><b>1</b> Histoire de l’utilisation des algues</a><ul>
+<li class="chapter" data-level="1" data-path="histoire.html"><a href="histoire.html"><i class="fa fa-check"></i><b>1</b> Histoire de l’utilisation des algues</a>
+<ul>
 <li class="chapter" data-level="1.1" data-path="histoire.html"><a href="histoire.html#la-préhistoire"><i class="fa fa-check"></i><b>1.1</b> La Préhistoire</a></li>
 <li class="chapter" data-level="1.2" data-path="histoire.html"><a href="histoire.html#lantiquité"><i class="fa fa-check"></i><b>1.2</b> L’Antiquité</a></li>
 <li class="chapter" data-level="1.3" data-path="histoire.html"><a href="histoire.html#moyen-âge"><i class="fa fa-check"></i><b>1.3</b> Moyen-âge</a></li>
-<li class="chapter" data-level="1.4" data-path="histoire.html"><a href="histoire.html#xviième-siècle-début-de-lindustrialisation-des-algues"><i class="fa fa-check"></i><b>1.4</b> XVII<sup>ème</sup> siècle : Début de l’industrialisation des algues</a><ul>
+<li class="chapter" data-level="1.4" data-path="histoire.html"><a href="histoire.html#xviième-siècle-début-de-lindustrialisation-des-algues"><i class="fa fa-check"></i><b>1.4</b> XVII<sup>ème</sup> siècle : Début de l’industrialisation des algues</a>
+<ul>
 <li class="chapter" data-level="1.4.1" data-path="histoire.html"><a href="histoire.html#lindustrie-du-verre-17-18ème-siècle"><i class="fa fa-check"></i><b>1.4.1</b> L’industrie du verre (17-18<sup>ème</sup> siècle)</a></li>
 <li class="chapter" data-level="1.4.2" data-path="histoire.html"><a href="histoire.html#la-production-diode-19ème-siècle"><i class="fa fa-check"></i><b>1.4.2</b> La production d’iode (19<sup>ème</sup> siècle)</a></li>
 <li class="chapter" data-level="1.4.3" data-path="histoire.html"><a href="histoire.html#la-production-dhydrocolloïdes-fin-du-19ème-siècle"><i class="fa fa-check"></i><b>1.4.3</b> La production d’hydrocolloïdes (fin du 19<sup>ème</sup> siècle)</a></li>
 </ul></li>
 <li class="chapter" data-level="1.5" data-path="histoire.html"><a href="histoire.html#de-nos-jours"><i class="fa fa-check"></i><b>1.5</b> De nos jours</a></li>
 </ul></li>
-<li class="chapter" data-level="2" data-path="usage.html"><a href="usage.html"><i class="fa fa-check"></i><b>2</b> Usages, économie et règlementation</a><ul>
-<li class="chapter" data-level="2.1" data-path="usage.html"><a href="usage.html#intérêts-et-usages"><i class="fa fa-check"></i><b>2.1</b> Intérêts et Usages</a><ul>
+<li class="chapter" data-level="2" data-path="usage.html"><a href="usage.html"><i class="fa fa-check"></i><b>2</b> Usages, économie et règlementation</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="usage.html"><a href="usage.html#intérêts-et-usages"><i class="fa fa-check"></i><b>2.1</b> Intérêts et Usages</a>
+<ul>
 <li class="chapter" data-level="2.1.1" data-path="usage.html"><a href="usage.html#lalimentation-humaine"><i class="fa fa-check"></i><b>2.1.1</b> L’alimentation humaine</a></li>
 <li class="chapter" data-level="2.1.2" data-path="usage.html"><a href="usage.html#agriculture"><i class="fa fa-check"></i><b>2.1.2</b> Agriculture</a></li>
 <li class="chapter" data-level="2.1.3" data-path="usage.html"><a href="usage.html#zootechnologie"><i class="fa fa-check"></i><b>2.1.3</b> Zootechnologie</a></li>
 <li class="chapter" data-level="2.1.4" data-path="usage.html"><a href="usage.html#bio-carburant-et-bio-plastique"><i class="fa fa-check"></i><b>2.1.4</b> Bio-carburant et Bio-plastique</a></li>
 <li class="chapter" data-level="2.1.5" data-path="usage.html"><a href="usage.html#cosmétique-et-santé-humaine"><i class="fa fa-check"></i><b>2.1.5</b> Cosmétique et santé humaine</a></li>
 </ul></li>
-<li class="chapter" data-level="2.2" data-path="usage.html"><a href="usage.html#léconomie-de-lalgue"><i class="fa fa-check"></i><b>2.2</b> L’économie de l’algue</a><ul>
+<li class="chapter" data-level="2.2" data-path="usage.html"><a href="usage.html#léconomie-de-lalgue"><i class="fa fa-check"></i><b>2.2</b> L’économie de l’algue</a>
+<ul>
 <li class="chapter" data-level="2.2.1" data-path="usage.html"><a href="usage.html#le-marché-mondial"><i class="fa fa-check"></i><b>2.2.1</b> Le marché mondial</a></li>
 <li class="chapter" data-level="2.2.2" data-path="usage.html"><a href="usage.html#le-marché-français"><i class="fa fa-check"></i><b>2.2.2</b> Le marché français</a></li>
 </ul></li>
-<li class="chapter" data-level="2.3" data-path="usage.html"><a href="usage.html#règlementation-de-pêche-et-de-récolte-des-végétaux-marins"><i class="fa fa-check"></i><b>2.3</b> Règlementation de pêche et de récolte des végétaux marins</a><ul>
+<li class="chapter" data-level="2.3" data-path="usage.html"><a href="usage.html#règlementation-de-pêche-et-de-récolte-des-végétaux-marins"><i class="fa fa-check"></i><b>2.3</b> Règlementation de pêche et de récolte des végétaux marins</a>
+<ul>
 <li class="chapter" data-level="2.3.1" data-path="usage.html"><a href="usage.html#le-goémon-de-rive"><i class="fa fa-check"></i><b>2.3.1</b> Le goémon de rive</a></li>
 <li class="chapter" data-level="2.3.2" data-path="usage.html"><a href="usage.html#le-goémon-de-fond"><i class="fa fa-check"></i><b>2.3.2</b> Le goémon de fond</a></li>
 <li class="chapter" data-level="2.3.3" data-path="usage.html"><a href="usage.html#le-goémon-épave"><i class="fa fa-check"></i><b>2.3.3</b> Le goémon épave</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="classification.html"><a href="classification.html"><i class="fa fa-check"></i><b>3</b> Classification et Diversité des algues</a><ul>
+<li class="chapter" data-level="3" data-path="classification.html"><a href="classification.html"><i class="fa fa-check"></i><b>3</b> Classification et Diversité des algues</a>
+<ul>
 <li class="chapter" data-level="3.1" data-path="classification.html"><a href="classification.html#quelques-définitions"><i class="fa fa-check"></i><b>3.1</b> Quelques définitions</a></li>
 <li class="chapter" data-level="3.2" data-path="classification.html"><a href="classification.html#quest-ce-quune-algue"><i class="fa fa-check"></i><b>3.2</b> Qu’est-ce qu’une algue?</a></li>
-<li class="chapter" data-level="3.3" data-path="classification.html"><a href="classification.html#diversité-des-thallophytes"><i class="fa fa-check"></i><b>3.3</b> Diversité des thallophytes</a><ul>
+<li class="chapter" data-level="3.3" data-path="classification.html"><a href="classification.html#diversité-des-thallophytes"><i class="fa fa-check"></i><b>3.3</b> Diversité des thallophytes</a>
+<ul>
 <li class="chapter" data-level="3.3.1" data-path="classification.html"><a href="classification.html#pélagique-versus-benthique"><i class="fa fa-check"></i><b>3.3.1</b> Pélagique <em>versus</em> Benthique</a></li>
 <li class="chapter" data-level="3.3.2" data-path="classification.html"><a href="classification.html#microalgues-versus-macroalgues"><i class="fa fa-check"></i><b>3.3.2</b> Microalgues <em>versus</em> Macroalgues</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="morphologie.html"><a href="morphologie.html"><i class="fa fa-check"></i><b>4</b> Diversité morphologique des algues</a><ul>
-<li class="chapter" data-level="" data-path="classification.html"><a href="classification.html#quelques-définitions"><i class="fa fa-check"></i>Quelques définitions</a></li>
-<li class="chapter" data-level="4.1" data-path="morphologie.html"><a href="morphologie.html#structure-du-thalle"><i class="fa fa-check"></i><b>4.1</b> Structure du thalle</a><ul>
+<li class="chapter" data-level="4" data-path="morphologie.html"><a href="morphologie.html"><i class="fa fa-check"></i><b>4</b> Diversité morphologique des algues</a>
+<ul>
+<li class="chapter" data-level="" data-path="morphologie.html"><a href="morphologie.html#quelques-définitions-1"><i class="fa fa-check"></i>Quelques définitions</a></li>
+<li class="chapter" data-level="4.1" data-path="morphologie.html"><a href="morphologie.html#structure-du-thalle"><i class="fa fa-check"></i><b>4.1</b> Structure du thalle</a>
+<ul>
 <li class="chapter" data-level="4.1.1" data-path="morphologie.html"><a href="morphologie.html#archétalles"><i class="fa fa-check"></i><b>4.1.1</b> Archétalles</a></li>
 <li class="chapter" data-level="4.1.2" data-path="morphologie.html"><a href="morphologie.html#nématothalles"><i class="fa fa-check"></i><b>4.1.2</b> Nématothalles</a></li>
 <li class="chapter" data-level="4.1.3" data-path="morphologie.html"><a href="morphologie.html#cladomothalles"><i class="fa fa-check"></i><b>4.1.3</b> Cladomothalles</a></li>
@@ -118,7 +156,8 @@
 </ul></li>
 <li class="chapter" data-level="4.2" data-path="morphologie.html"><a href="morphologie.html#les-différentes-ramifications"><i class="fa fa-check"></i><b>4.2</b> Les différentes ramifications</a></li>
 <li class="chapter" data-level="4.3" data-path="morphologie.html"><a href="morphologie.html#les-différentes-fixations"><i class="fa fa-check"></i><b>4.3</b> Les différentes fixations</a></li>
-<li class="chapter" data-level="4.4" data-path="morphologie.html"><a href="morphologie.html#les-particularités-morphologiques"><i class="fa fa-check"></i><b>4.4</b> Les particularités morphologiques</a><ul>
+<li class="chapter" data-level="4.4" data-path="morphologie.html"><a href="morphologie.html#les-particularités-morphologiques"><i class="fa fa-check"></i><b>4.4</b> Les particularités morphologiques</a>
+<ul>
 <li class="chapter" data-level="4.4.1" data-path="morphologie.html"><a href="morphologie.html#les-aérocystes"><i class="fa fa-check"></i><b>4.4.1</b> Les aérocystes</a></li>
 <li class="chapter" data-level="4.4.2" data-path="morphologie.html"><a href="morphologie.html#les-cils"><i class="fa fa-check"></i><b>4.4.2</b> Les cils</a></li>
 <li class="chapter" data-level="4.4.3" data-path="morphologie.html"><a href="morphologie.html#les-ramifications-latérales"><i class="fa fa-check"></i><b>4.4.3</b> Les ramifications latérales</a></li>
@@ -126,40 +165,69 @@
 <li class="chapter" data-level="4.4.5" data-path="morphologie.html"><a href="morphologie.html#les-ramules"><i class="fa fa-check"></i><b>4.4.5</b> Les ramules</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="cytologie.html"><a href="cytologie.html"><i class="fa fa-check"></i><b>5</b> Diversité cytologique des algues</a><ul>
-<li class="chapter" data-level="5.1" data-path="cytologie.html"><a href="cytologie.html#introduction"><i class="fa fa-check"></i><b>5.1</b> Introduction</a><ul>
+<li class="chapter" data-level="5" data-path="cytologie.html"><a href="cytologie.html"><i class="fa fa-check"></i><b>5</b> Diversité cytologique des algues</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="cytologie.html"><a href="cytologie.html#introduction"><i class="fa fa-check"></i><b>5.1</b> Introduction</a>
+<ul>
 <li class="chapter" data-level="5.1.1" data-path="cytologie.html"><a href="cytologie.html#cellule-animale-vs.-végétale"><i class="fa fa-check"></i><b>5.1.1</b> Cellule animale <em>vs.</em> végétale</a></li>
 <li class="chapter" data-level="5.1.2" data-path="cytologie.html"><a href="cytologie.html#les-technique-dobservation-de-la-cellule"><i class="fa fa-check"></i><b>5.1.2</b> Les technique d’observation de la cellule</a></li>
 </ul></li>
-<li class="chapter" data-level="5.2" data-path="cytologie.html"><a href="cytologie.html#les-plastes"><i class="fa fa-check"></i><b>5.2</b> Les plastes</a><ul>
+<li class="chapter" data-level="5.2" data-path="cytologie.html"><a href="cytologie.html#les-plastes"><i class="fa fa-check"></i><b>5.2</b> Les plastes</a>
+<ul>
 <li class="chapter" data-level="5.2.1" data-path="cytologie.html"><a href="cytologie.html#quest-ce-quun-plaste"><i class="fa fa-check"></i><b>5.2.1</b> Qu’est-ce-qu’un plaste?</a></li>
 <li class="chapter" data-level="5.2.2" data-path="cytologie.html"><a href="cytologie.html#la-théorie-de-lendosymbiose"><i class="fa fa-check"></i><b>5.2.2</b> La théorie de l’endosymbiose</a></li>
-<li class="chapter" data-level="5.2.3" data-path="cytologie.html"><a href="cytologie.html#ultrastructure"><i class="fa fa-check"></i><b>5.2.3</b> Ultrastructure</a></li>
+<li class="chapter" data-level="5.2.3" data-path="cytologie.html"><a href="cytologie.html#ultrastructure-du-chloroplaste-6.4"><i class="fa fa-check"></i><b>5.2.3</b> Ultrastructure du chloroplaste [^6.4]</a></li>
 <li class="chapter" data-level="5.2.4" data-path="cytologie.html"><a href="cytologie.html#les-thylakoïdes"><i class="fa fa-check"></i><b>5.2.4</b> Les thylakoïdes</a></li>
-<li class="chapter" data-level="5.2.5" data-path="cytologie.html"><a href="cytologie.html#les-organistes-complémentaires-de-la-photosynthèse"><i class="fa fa-check"></i><b>5.2.5</b> Les organistes complémentaires de la photosynthèse</a></li>
+<li class="chapter" data-level="5.2.5" data-path="cytologie.html"><a href="cytologie.html#les-organites-complémentaires-de-la-photosynthèse"><i class="fa fa-check"></i><b>5.2.5</b> Les organites complémentaires de la photosynthèse</a></li>
 </ul></li>
-<li class="chapter" data-level="5.3" data-path="cytologie.html"><a href="cytologie.html#la-paroi-cellulaire"><i class="fa fa-check"></i><b>5.3</b> La paroi cellulaire</a><ul>
+<li class="chapter" data-level="5.3" data-path="cytologie.html"><a href="cytologie.html#la-paroi-cellulaire"><i class="fa fa-check"></i><b>5.3</b> La paroi cellulaire</a>
+<ul>
 <li class="chapter" data-level="5.3.1" data-path="cytologie.html"><a href="cytologie.html#ultra-structure"><i class="fa fa-check"></i><b>5.3.1</b> Ultra-structure</a></li>
 <li class="chapter" data-level="5.3.2" data-path="cytologie.html"><a href="cytologie.html#composition"><i class="fa fa-check"></i><b>5.3.2</b> Composition</a></li>
 <li class="chapter" data-level="5.3.3" data-path="cytologie.html"><a href="cytologie.html#mucilage-et-imprégnation"><i class="fa fa-check"></i><b>5.3.3</b> Mucilage et imprégnation</a></li>
 </ul></li>
-<li class="chapter" data-level="5.4" data-path="cytologie.html"><a href="cytologie.html#les-flagelles-et-cils"><i class="fa fa-check"></i><b>5.4</b> Les flagelles et cils</a><ul>
+<li class="chapter" data-level="5.4" data-path="cytologie.html"><a href="cytologie.html#les-flagelles-et-cils"><i class="fa fa-check"></i><b>5.4</b> Les flagelles et cils</a>
+<ul>
 <li class="chapter" data-level="5.4.1" data-path="cytologie.html"><a href="cytologie.html#composition-1"><i class="fa fa-check"></i><b>5.4.1</b> Composition</a></li>
-<li class="chapter" data-level="5.4.2" data-path="morphologie.html"><a href="morphologie.html#structure"><i class="fa fa-check"></i><b>5.4.2</b> Structure</a></li>
+<li class="chapter" data-level="5.4.2" data-path="cytologie.html"><a href="cytologie.html#structure-1"><i class="fa fa-check"></i><b>5.4.2</b> Structure</a></li>
 <li class="chapter" data-level="5.4.3" data-path="cytologie.html"><a href="cytologie.html#lhaptonème"><i class="fa fa-check"></i><b>5.4.3</b> L’haptonème</a></li>
 </ul></li>
-<li class="chapter" data-level="5.5" data-path="cytologie.html"><a href="cytologie.html#les-organites-originaux"><i class="fa fa-check"></i><b>5.5</b> Les organites originaux</a><ul>
+<li class="chapter" data-level="5.5" data-path="cytologie.html"><a href="cytologie.html#les-organites-originaux"><i class="fa fa-check"></i><b>5.5</b> Les organites originaux</a>
+<ul>
 <li class="chapter" data-level="5.5.1" data-path="cytologie.html"><a href="cytologie.html#les-physodes-chez-les-algues-brunes"><i class="fa fa-check"></i><b>5.5.1</b> Les physodes chez les algues brunes</a></li>
 <li class="chapter" data-level="5.5.2" data-path="cytologie.html"><a href="cytologie.html#les-vacuoles-pulsatiles-chez-les-algues-deau-douce"><i class="fa fa-check"></i><b>5.5.2</b> Les vacuoles pulsatiles chez les algues d’eau douce</a></li>
 <li class="chapter" data-level="5.5.3" data-path="cytologie.html"><a href="cytologie.html#les-corps-mucifères"><i class="fa fa-check"></i><b>5.5.3</b> les corps mucifères</a></li>
 <li class="chapter" data-level="5.5.4" data-path="cytologie.html"><a href="cytologie.html#trichocystes"><i class="fa fa-check"></i><b>5.5.4</b> Trichocystes</a></li>
-<li class="chapter" data-level="5.5.5" data-path="cytologie.html"><a href="cytologie.html#liridescence"><i class="fa fa-check"></i><b>5.5.5</b> L’iridescence</a></li>
+<li class="chapter" data-level="5.5.5" data-path="cytologie.html"><a href="cytologie.html#liridescence-6.2-6.3"><i class="fa fa-check"></i><b>5.5.5</b> L’iridescence [^6.2] [^6.3]</a></li>
 <li class="chapter" data-level="5.5.6" data-path="cytologie.html"><a href="cytologie.html#les-cellules-spécialisées"><i class="fa fa-check"></i><b>5.5.6</b> Les cellules spécialisées</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="biochimie.html"><a href="biochimie.html"><i class="fa fa-check"></i><b>6</b> Biochimie associée aux algues</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="biochimie.html"><a href="biochimie.html#introduction-1"><i class="fa fa-check"></i><b>6.1</b> Introduction</a></li>
+<li class="chapter" data-level="6.2" data-path="biochimie.html"><a href="biochimie.html#les-pigments-des-algues-et-limplication-dans-la-photosynthèse"><i class="fa fa-check"></i><b>6.2</b> Les pigments des algues et l’implication dans la photosynthèse</a>
+<ul>
+<li class="chapter" data-level="6.2.1" data-path="biochimie.html"><a href="biochimie.html#les-pigments-et-la-photosynthèse"><i class="fa fa-check"></i><b>6.2.1</b> Les pigments et la photosynthèse</a></li>
+<li class="chapter" data-level="6.2.2" data-path="biochimie.html"><a href="biochimie.html#les-pigments-chlorophylliens"><i class="fa fa-check"></i><b>6.2.2</b> Les pigments chlorophylliens</a></li>
+<li class="chapter" data-level="6.2.3" data-path="biochimie.html"><a href="biochimie.html#les-caroténoïdes"><i class="fa fa-check"></i><b>6.2.3</b> Les caroténoïdes</a></li>
+<li class="chapter" data-level="6.2.4" data-path="biochimie.html"><a href="biochimie.html#les-phycobiliprotéines"><i class="fa fa-check"></i><b>6.2.4</b> Les phycobiliprotéines</a></li>
+<li class="chapter" data-level="6.2.5" data-path="biochimie.html"><a href="biochimie.html#pigments-et-distribution-des-macroalgues"><i class="fa fa-check"></i><b>6.2.5</b> Pigments et distribution des macroalgues</a></li>
+</ul></li>
+<li class="chapter" data-level="6.3" data-path="biochimie.html"><a href="biochimie.html#composition-biochimique-de-la-paroi-cellulaire"><i class="fa fa-check"></i><b>6.3</b> Composition biochimique de la paroi cellulaire</a>
+<ul>
+<li class="chapter" data-level="6.3.1" data-path="biochimie.html"><a href="biochimie.html#lultra-structure-de-la-paroi-cellulaire"><i class="fa fa-check"></i><b>6.3.1</b> L’ultra-structure de la paroi cellulaire</a></li>
+<li class="chapter" data-level="6.3.2" data-path="biochimie.html"><a href="biochimie.html#les-composés-cellulosiques"><i class="fa fa-check"></i><b>6.3.2</b> Les composés cellulosiques</a></li>
+<li class="chapter" data-level="6.3.3" data-path="biochimie.html"><a href="biochimie.html#les-phycocolloïdes"><i class="fa fa-check"></i><b>6.3.3</b> Les phycocolloïdes</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="biochimie.html"><a href="biochimie.html#les-réserves-énergétiques-des-algues"><i class="fa fa-check"></i><b>6.4</b> Les réserves énergétiques des algues</a>
+<ul>
+<li class="chapter" data-level="6.4.1" data-path="biochimie.html"><a href="biochimie.html#les-réserves-de-flaibles-poids-moléculaire"><i class="fa fa-check"></i><b>6.4.1</b> Les réserves de flaibles poids moléculaire</a></li>
+<li class="chapter" data-level="6.4.2" data-path="biochimie.html"><a href="biochimie.html#les-réserves-de-hauts-poids-moléculaire"><i class="fa fa-check"></i><b>6.4.2</b> Les réserves de hauts poids moléculaire</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="références.html"><a href="références.html"><i class="fa fa-check"></i>Références</a></li>
 <li class="divider"></li>
-<li><a href="https://gallonr.github.io/webpage/index.html" target="blank"> Régis Gallon - 2020 </a></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
 
 </ul>
 
@@ -178,19 +246,19 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="usage" class="section level1">
-<h1><span class="header-section-number"> 2</span> Usages, économie et règlementation</h1>
-<div id="intérêts-et-usages" class="section level2">
-<h2><span class="header-section-number">2.1</span> Intérêts et Usages</h2>
+<div id="usage" class="section level1 hasAnchor" number="2">
+<h1><span class="header-section-number"> 2</span> Usages, économie et règlementation<a href="usage.html#usage" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="intérêts-et-usages" class="section level2 hasAnchor" number="2.1">
+<h2><span class="header-section-number">2.1</span> Intérêts et Usages<a href="usage.html#intérêts-et-usages" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>A l’échelle mondiale, les algues sont principalement destinées à l’alimentation humaine (85%), 14% sont utilisées pour extraire des hydrocolloïdes (alginates, agar agar et carraghénanes). 1% de la production mondiale alimente l’industrie pharmaceutique, la cosmétique,la bioépuration et l’agriculture en amendement (<em>Figure <a href="usage.html#fig:application">2.1</a></em>).</p>
-<div class="figure" style="text-align: center"><span id="fig:application"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:application"></span>
 <img src="images/application.png" alt="Domaines d'application des micro et macroalgues à l'échelle mondiale." width="856" />
 <p class="caption">
 Figure 2.1: Domaines d’application des micro et macroalgues à l’échelle mondiale.
 </p>
 </div>
-<div id="lalimentation-humaine" class="section level3">
-<h3><span class="header-section-number">2.1.1</span> L’alimentation humaine</h3>
+<div id="lalimentation-humaine" class="section level3 hasAnchor" number="2.1.1">
+<h3><span class="header-section-number">2.1.1</span> L’alimentation humaine<a href="usage.html#lalimentation-humaine" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>En France, c’est le Conseil Supérieur Hygiène Publique qui autorise la commercialisation d’aliment. L’algue n’étant pas un aliment traditionnel, pour être consommée elle doit bénéficier d’une autorisation. Les algues comestibles doivent avoir des teneurs d’iode, de métaux lourds inférieurs aux normes définies par l’Agence Française de Sécurité Sanitaire des Aliments.</p>
 <p>Voici les normes définies par l’AFSSA (2007) :</p>
 <table>
@@ -361,11 +429,11 @@ Figure 2.1: Domaines d’application des micro et macroalgues à l’échelle mo
 </tbody>
 </table>
 </div>
-<div id="agriculture" class="section level3">
-<h3><span class="header-section-number">2.1.2</span> Agriculture</h3>
+<div id="agriculture" class="section level3 hasAnchor" number="2.1.2">
+<h3><span class="header-section-number">2.1.2</span> Agriculture<a href="usage.html#agriculture" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Les algues peuvent être utilisées comme engrais et amendement des sols. Pour maintenir une production des sols, il est indispensable de contrôler l’acidité. La concentration des ions aluminium dans la solution du sol croit fortement avec la
 baisse du pH et ceux-ci deviennent toxiques à partir d’un certain seuil de pH eau, toujours inférieur à 5,5 mais très variable selon la nature du sol et l’espèce cultivée. Ces composés provoquent une forte réduction de la croissance des racines qui s’épaississent, brunissent et se ramifient peu. Elles ne sont plus alors capables d’assurer convenablement l’alimentation minérale et hydrique des plantes. Le <em>Maërl</em> est une algue calcaire qui était fréquemment utilisée pour chauler les sols et ainsi augmenter le pH des sols (<em>Figure <a href="usage.html#fig:maerl">2.2</a></em>). Néanmoins, les bancs de maërl constituent des habitats remarquables Natura 2000 accueillant une richesse importante de crustacés, d’annélides et de mollusques. A l’heure actuelle, l’exploitation des gisements de maërl a fortement impacté ces habitats et par conséquent l’extraction est interdite pour mettre à la ressource de se renouveler.</p>
-<div class="figure" style="text-align: center"><span id="fig:maerl"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:maerl"></span>
 <img src="images/maerl.png" alt="Maërl dans son habitat naturel formant des bancs. Seule la surface du banc est composée d'algues vivantes." width="369" />
 <p class="caption">
 Figure 2.2: Maërl dans son habitat naturel formant des bancs. Seule la surface du banc est composée d’algues vivantes.
@@ -374,13 +442,13 @@ Figure 2.2: Maërl dans son habitat naturel formant des bancs. Seule la surface 
 <p>Certaines substances extraites des algues peuvent servir d’éliciteurs, <em>i.e.</em> des substances qui déclenchent alors chez la plante toute une série de réactions cellulaires, avec notamment la production de molécules destinées à renforcer la résistance des parois, mais aussi d’antibiotiques végétaux tels que des phytoalexines ou des protéines de défense.
 La laminarine qui est un polysaccharide de réserve dans les algues brunes a une structure qui se rapproche d’éliciteurs glucaniques fongiques. Son utilisation est certifié sur le blé contre l’oïdium, le piétin-verse et la septoriose.<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a></p>
 </div>
-<div id="zootechnologie" class="section level3">
-<h3><span class="header-section-number">2.1.3</span> Zootechnologie</h3>
+<div id="zootechnologie" class="section level3 hasAnchor" number="2.1.3">
+<h3><span class="header-section-number">2.1.3</span> Zootechnologie<a href="usage.html#zootechnologie" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Des études <em>in vitro</em> et <em>in vivo</em> ont montré que les polysaccharides sulfatés (PS) des macroalgues présentent un large panel d’activités biologiques (anticoagulante, antimicrobienne, antitumorale, immunomodulatrice,… .).
-Olmix Group, par exemple, a extrait des (PS) à partir de l’algue verte <em>Ulva armoricana</em> et a montré que ces extraits stimulaient la production de médiateurs de l’immunité intestinale par l’activation du récepteur cellulaire intestinal TLR4 et ferait intervenir la voie de signalisation PI3K/Akt ainsi que le facteur de transcription NF-<span class="math inline">\(\kappa\)</span>B.<span class="citation">(Berri et al. <a href="#ref-berri2016" role="doc-biblioref">2016</a>, @berri2017)</span></p>
+Olmix Group, par exemple, a extrait des (PS) à partir de l’algue verte <em>Ulva armoricana</em> et a montré que ces extraits stimulaient la production de médiateurs de l’immunité intestinale par l’activation du récepteur cellulaire intestinal TLR4 et ferait intervenir la voie de signalisation PI3K/Akt ainsi que le facteur de transcription NF-<span class="math inline">\(\kappa\)</span>B.<span class="citation">Berri et al. (<a href="#ref-berri2017">2017</a>)</span></p>
 </div>
-<div id="bio-carburant-et-bio-plastique" class="section level3">
-<h3><span class="header-section-number">2.1.4</span> Bio-carburant et Bio-plastique</h3>
+<div id="bio-carburant-et-bio-plastique" class="section level3 hasAnchor" number="2.1.4">
+<h3><span class="header-section-number">2.1.4</span> Bio-carburant et Bio-plastique<a href="usage.html#bio-carburant-et-bio-plastique" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Les biocarburants sont fabriqués à partir de microalgues, certaines espèces peuvent être cultivées en mode hétérotrophe à l’abri de la lumière et avec une alimentation en sucres. Cultivées dans certaines conditions (<em>e.g.</em> carence en azote) elles peuvent se mettre à produire et accumuler des lipides, principalement des triglycérides, dont la teneur peut atteindre jusqu’à 80 % de la matière sèche.
 Les algues sont récoltées régulièrement et l’huile est extraite selon différents méthodes (centrifugation, traitement au solvant, lyse thermique, etc.). Ensuite deux types de conversion de l’huile en biocarburant sont mis en oeuvre (<em>Figure <a href="usage.html#fig:biocarburant">2.3</a></em>):</p>
 <ul>
@@ -388,7 +456,7 @@ Les algues sont récoltées régulièrement et l’huile est extraite selon diff
 <li><em>L’hydrogénation catalytique</em> qui fait réagir l’huile en présence d’hydrogène, suivie d’un hydrocraquage, produit des hydrocarbures qui peuvent être incorporés en quantité importante au gazole ou au kérosène.</li>
 </ul>
 <p>La production de carburant à partir de microalgues reste toutefois coûteuse, <em>le prix actuel est de 5€/L</em>.</p>
-<div class="figure" style="text-align: center"><span id="fig:biocarburant"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:biocarburant"></span>
 <img src="images/biocarburant.jpg" alt="Processus de production de biocarburant à partir de microalgues" width="270" />
 <p class="caption">
 Figure 2.3: Processus de production de biocarburant à partir de microalgues
@@ -396,30 +464,30 @@ Figure 2.3: Processus de production de biocarburant à partir de microalgues
 </div>
 <p>Depuis quelques années, les bioplastiques se démocratisent de plus en plus car ils sont biodégradables. Un ingénieur a réussi à faire de même avec des algues (exclusivement des algues brunes) en créant “algopack” : « La matière se dégrade en 12 semaines en terre. Cela permet de retrouver l’une des fonctions historiques de l’algue : c’est un fertilisant naturel » (<em>Figure <a href="usage.html#fig:algopack">2.4</a></em>).
 La tonne de granulés d’Algopack est vendue 1 200 €, lorsqu’une tonne de PVC ou PET est vendue 1 000 € et une tonne de polyéthylène ou polypropylène environ 1 300 €. Les algues utilisées pour fabriquer ces produits sont des algues brunes.</p>
-<div class="figure" style="text-align: center"><span id="fig:algopack"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:algopack"></span>
 <img src="images/algopack.png" alt="Bioplastiques produits à partir d'algues brunes" width="344" />
 <p class="caption">
 Figure 2.4: Bioplastiques produits à partir d’algues brunes
 </p>
 </div>
 </div>
-<div id="cosmétique-et-santé-humaine" class="section level3">
-<h3><span class="header-section-number">2.1.5</span> Cosmétique et santé humaine</h3>
-<p>Beaucoup de métabolites secondaires issus des algues sont connus pour être bénéfique pour la peau (protection anti-UV, anti-rides, rafermissant,….). L’effet ‘anti-âge’ est du à la présence de composés anti-oxydants (caroténoïdes). Le nombre de produits comestiques utilisant des extraits d’algues augementent de jours en jours car ils utilisent des produits naturels et non issu de la pétro-chimie <span class="citation">(Ariede et al. <a href="#ref-ariede2017" role="doc-biblioref">2017</a>)</span> (<em>Figure <a href="usage.html#fig:cosmetique">2.5</a></em>)</p>
-<div class="figure" style="text-align: center"><span id="fig:cosmetique"></span>
+<div id="cosmétique-et-santé-humaine" class="section level3 hasAnchor" number="2.1.5">
+<h3><span class="header-section-number">2.1.5</span> Cosmétique et santé humaine<a href="usage.html#cosmétique-et-santé-humaine" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Beaucoup de métabolites secondaires issus des algues sont connus pour être bénéfique pour la peau (protection anti-UV, anti-rides, rafermissant,….). L’effet ‘anti-âge’ est du à la présence de composés anti-oxydants (caroténoïdes). Le nombre de produits comestiques utilisant des extraits d’algues augementent de jours en jours car ils utilisent des produits naturels et non issu de la pétro-chimie <span class="citation">(<a href="#ref-ariede2017">Ariede et al. 2017</a>)</span> (<em>Figure <a href="usage.html#fig:cosmetique">2.5</a></em>)</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:cosmetique"></span>
 <img src="images/cosmetique.JPG" alt="Exemples d'application des algues [@ariede2017]" width="470" />
 <p class="caption">
-Figure 2.5: Exemples d’application des algues <span class="citation">(Ariede et al. <a href="#ref-ariede2017" role="doc-biblioref">2017</a>)</span>
+Figure 2.5: Exemples d’application des algues <span class="citation">(<a href="#ref-ariede2017">Ariede et al. 2017</a>)</span>
 </p>
 </div>
 </div>
 </div>
-<div id="léconomie-de-lalgue" class="section level2">
-<h2><span class="header-section-number">2.2</span> L’économie de l’algue</h2>
-<div id="le-marché-mondial" class="section level3">
-<h3><span class="header-section-number">2.2.1</span> Le marché mondial</h3>
+<div id="léconomie-de-lalgue" class="section level2 hasAnchor" number="2.2">
+<h2><span class="header-section-number">2.2</span> L’économie de l’algue<a href="usage.html#léconomie-de-lalgue" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="le-marché-mondial" class="section level3 hasAnchor" number="2.2.1">
+<h3><span class="header-section-number">2.2.1</span> Le marché mondial<a href="usage.html#le-marché-mondial" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Comme nous l’avons vu précédemment, l’industrie de la transformation des algues a débuté après la seconde guerre mondiales et s’est fortement accentuée dans les années 70. A cette époque, le tonnage d’algues récoltées et cultivées était très proche (<em>Figure <a href="usage.html#fig:marchemondial">2.6</a></em>). En 40 ans, la production d’algues a augmenté en moyenne de 29% par an, on remarque une nette augmentation de la production à partir de 1990. Aujourd’hui, la production d’algues s’élève à plus de 23 millions de tonnes dont 95% proviennent des fermes d’algocultures. Cette exploitation d’algue concerne environ 35 pays de l’hémisphère nord et sud, de zone tempérée ou tropicale : Chine, Japon, France, Norvège, Brésil, Chili,… .</p>
-<div class="figure" style="text-align: center"><span id="fig:marchemondial"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:marchemondial"></span>
 <img src="images/marchemondial.png" alt="Evolution de la production mondiale d’algues entre 1970 et 2010" width="417" />
 <p class="caption">
 Figure 2.6: Evolution de la production mondiale d’algues entre 1970 et 2010
@@ -427,16 +495,16 @@ Figure 2.6: Evolution de la production mondiale d’algues entre 1970 et 2010
 </div>
 <p>La production mondiale est dominée par les pays asiatiques : Chine (52%), Indonésie (26%), Philippines (7%), Corée (7%) et Japon (3%). Dans ces pays, les algues sont principalement cultivés à des fins d’alimentation humaine. L’Europe quant à elle participe à seulement 1% de la production mondiale soit 250 000t. 57% de la production européenne provient de la Norvège, 14% de France, 12% d’Irlande et 7% d’Islande.</p>
 </div>
-<div id="le-marché-français" class="section level3">
-<h3><span class="header-section-number">2.2.2</span> Le marché français</h3>
+<div id="le-marché-français" class="section level3 hasAnchor" number="2.2.2">
+<h3><span class="header-section-number">2.2.2</span> Le marché français<a href="usage.html#le-marché-français" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>La France se situe au 10<sup>ème</sup> rang mondial et est le 2<sup>ème</sup> producteur européen. Son schéma de production est au antipode du schéma mondial. En effet, 99% de la production d’algues provient de la récolte et non de la culture. 75% de la production française est extraite par des goémoniers, navires spécialisés dans la récolte des laminaires (12 tonnes /jour) et 25% est extraite manuellement (algues de rive).</p>
-<div class="figure" style="text-align: center"><span id="fig:recoltealguemain"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:recoltealguemain"></span>
 <img src="images/recoltealguemain.png" alt="Récolte manuel des algues de rive sous à une licence d'exploitation" width="512" />
 <p class="caption">
 Figure 2.7: Récolte manuel des algues de rive sous à une licence d’exploitation
 </p>
 </div>
-<div class="figure" style="text-align: center"><span id="fig:goemonier"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:goemonier"></span>
 <img src="images/goemonier.jpg" alt="Goëmonier récoltant les laminaires" width="248" />
 <p class="caption">
 Figure 2.8: Goëmonier récoltant les laminaires
@@ -444,7 +512,7 @@ Figure 2.8: Goëmonier récoltant les laminaires
 </div>
 <p>L’économie est également opposée à l’économie mondiale de l’algue, 99% des produits à base d’algues sont à destination de l’agro-industrie (agroalimentaire et agro-fourniture), seulement 1% est orienté vers l’alimentation humaine directe. En effet 75% des algues récoltées sont des laminaires, algues riches en alginate (hydrocolloïde). Ces alginates sont très utilisés dans l’agroalimentaire comme agent épaississant.
 Ainsi les activités économiques liées aux macroalgues sont localisées principalement en Bretagne. La matière première est principalement orientée vers “la santé et le bien être” (45 entreprises), puis vers l’agrofourniture et l’alimentation (resp. 25 entreprises). Seule une dizaine d’entreprises transforment les macroalgues pour l’agroalimentaire, la chimie et la microbiologie (<em>Figure <a href="usage.html#fig:algueatlantique">2.9</a></em>).</p>
-<div class="figure" style="text-align: center"><span id="fig:algueatlantique"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:algueatlantique"></span>
 <img src="images/activite_algue_atlantique.png" alt="Localisation des activités économiques liées aux algues (Programme NetAlgae)" width="224" />
 <p class="caption">
 Figure 2.9: Localisation des activités économiques liées aux algues (Programme NetAlgae)
@@ -460,8 +528,8 @@ Figure 2.9: Localisation des activités économiques liées aux algues (Programm
 </ul>
 </div>
 </div>
-<div id="règlementation-de-pêche-et-de-récolte-des-végétaux-marins" class="section level2">
-<h2><span class="header-section-number">2.3</span> Règlementation de pêche et de récolte des végétaux marins</h2>
+<div id="règlementation-de-pêche-et-de-récolte-des-végétaux-marins" class="section level2 hasAnchor" number="2.3">
+<h2><span class="header-section-number">2.3</span> Règlementation de pêche et de récolte des végétaux marins<a href="usage.html#règlementation-de-pêche-et-de-récolte-des-végétaux-marins" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>En France, la récolte des algues est réglementée par le décret ministériel du 11 août 1990 (N°90/719)<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a> et complétée par des arrêtés préfectoraux pour les spécificités régionales. Il définit :</p>
 <ul>
 <li>les espèces d’algues autorisée à la récolté</li>
@@ -470,8 +538,8 @@ Figure 2.9: Localisation des activités économiques liées aux algues (Programm
 <li>les santions pour tous manquements à ce règlement (amende de 5<sup>ème</sup> classe)</li>
 </ul>
 <p>Ce texte de lois regroupe sous le terme <strong>Goémons</strong> tous les végétaux marins, algues, varech et plantes marines.</p>
-<div id="le-goémon-de-rive" class="section level3">
-<h3><span class="header-section-number">2.3.1</span> Le goémon de rive</h3>
+<div id="le-goémon-de-rive" class="section level3 hasAnchor" number="2.3.1">
+<h3><span class="header-section-number">2.3.1</span> Le goémon de rive<a href="usage.html#le-goémon-de-rive" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <blockquote>
 <p><strong>“Algues fixées sur l’estran, récoltées à pied sur le rivage ou sur îlots inhabités”</strong></p>
 </blockquote>
@@ -483,34 +551,34 @@ La récolte du goémon de rive est autorisée tout au long de l’année à l’
 <li><p>algues vertes : <em>Ulva sp, Ulva (Enteromorpha) sp</em></p></li>
 </ul>
 <p>Le guide “Récolte des algues de rive : Guide des bonnes pratiques”<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a> (<em>Figure <a href="usage.html#fig:alguepratique">2.10</a></em>),rédigé par le Parc Naturel Marin d’Iroise en collaboration avec le CEVA,…, est à destination des particuliers et des professionnels pour expliquer les bonnes pratiques de récoltes des algues pour préserver les ressources. Il contient les règles de bonnes pratiques et des fiches pour chaque espèce autorisée à la récolte.</p>
-<div class="figure" style="text-align: center"><span id="fig:alguepratique"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:alguepratique"></span>
 <img src="images/alguerivepratique.png" alt="Exemples de mauvaises et bonnes pratiques pour la récolte du goémon de rive" width="462" />
 <p class="caption">
 Figure 2.10: Exemples de mauvaises et bonnes pratiques pour la récolte du goémon de rive
 </p>
 </div>
 </div>
-<div id="le-goémon-de-fond" class="section level3">
-<h3><span class="header-section-number">2.3.2</span> Le goémon de fond</h3>
+<div id="le-goémon-de-fond" class="section level3 hasAnchor" number="2.3.2">
+<h3><span class="header-section-number">2.3.2</span> Le goémon de fond<a href="usage.html#le-goémon-de-fond" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <blockquote>
 <p><strong>“Algues poussant en zone toujours immergée (algues de fond), non accessible à pied aux basses mers des marées d’équinoxes”</strong></p>
 </blockquote>
 <p>La récolte du goémon de fond implique d’utiliser des navires et des embarcations spécialisées qui sont déclarés au registre maritime (<em>Figure <a href="usage.html#fig:goemonierrecolte">2.11</a></em>). Les personnes qui pratiquent la pêche des goémons poussant en mer en action de nage ou de plongée par quelque procédé que ce soit ne peuvent le faire qu’à partir d’un navire ou d’une embarcation titulaire d’un rôle d’équipage de pêche.La récolte est autorisée du 15 avril au 31 décembre pour ne pas impacter la période d’émission des spores et des gamètes. Les zones de récoltes sont définies par les affaires maritimes (Direction des ressources marines) après concertations avec les comités des pêches et les instances scientifiques en charge de l’étude des stocks (IFREMER, MNHN, …). Les instruments employés pour la récolte des goémons doivent être conçus et utilisés de manière à éviter
 l’arrachage des crampons ou bases de fixation.</p>
-<div class="figure" style="text-align: center"><span id="fig:goemonierrecolte"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:goemonierrecolte"></span>
 <img src="images/goemonier_recolte.png" alt="Récolte de *Laminaria hyperborea* par des goémoniers utilisant le peigne norvégien." width="504" />
 <p class="caption">
 Figure 2.11: Récolte de <em>Laminaria hyperborea</em> par des goémoniers utilisant le peigne norvégien.
 </p>
 </div>
 </div>
-<div id="le-goémon-épave" class="section level3">
-<h3><span class="header-section-number">2.3.3</span> Le goémon épave</h3>
+<div id="le-goémon-épave" class="section level3 hasAnchor" number="2.3.3">
+<h3><span class="header-section-number">2.3.3</span> Le goémon épave<a href="usage.html#le-goémon-épave" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <blockquote>
 <p><strong>“Algues détachées par la mer, dérivant au grès des flots ou échouées sur le rivage.”</strong></p>
 </blockquote>
 <p>Le ramassage de ce type de goémon n’est pas assujetti à des restrictions pour les particuliers mais les professionnels doivent faire une demande d’autorisation auprès des affaires maritimes. Le ramassage est autorisé toute l’année au moyen de tout type d’engin : râteaux, pelles, pelleteuses,… (<em>Figure <a href="usage.html#fig:goemonepave">2.12</a></em>).</p>
-<div class="figure" style="text-align: center"><span id="fig:goemonepave"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:goemonepave"></span>
 <img src="images/goemon_epave.png" alt="Récolte du goémon épave : exemple de rammassage des ulves (marée verte)" width="400" />
 <p class="caption">
 Figure 2.12: Récolte du goémon épave : exemple de rammassage des ulves (marée verte)
@@ -520,13 +588,13 @@ Figure 2.12: Récolte du goémon épave : exemple de rammassage des ulves (maré
 </div>
 </div>
 </div>
-<h3>Références</h3>
-<div id="refs" class="references">
-<div id="ref-ariede2017">
-<p>Ariede, Maı́ra Bueno, Thalita Marcı́lio Candido, Ana Lucia Morocho Jacome, Maria Valéria Robles Velasco, João Carlos M de Carvalho, and André Rolim Baby. 2017. “Cosmetic Attributes of Algae-a Review.” <em>Algal Research</em> 25: 483–87.</p>
+<h3>Références<a href="références.html#références" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-ariede2017" class="csl-entry">
+Ariede, Maı́ra Bueno, Thalita Marcı́lio Candido, Ana Lucia Morocho Jacome, Maria Valéria Robles Velasco, João Carlos M de Carvalho, and André Rolim Baby. 2017. <span>“Cosmetic Attributes of Algae-a Review.”</span> <em>Algal Research</em> 25: 483–87.
 </div>
-<div id="ref-berri2016">
-<p>Berri, Mustapha, Cindy Slugocki, Michel Olivier, Emmanuelle Helloin, Isabelle Jacques, Henri Salmon, Hervé Demais, Matthieu Le Goff, and Pi Nyvall Collen. 2016. “Marine-Sulfated Polysaccharides Extract of Ulva Armoricana Green Algae Exhibits an Antimicrobial Activity and Stimulates Cytokine Expression by Intestinal Epithelial Cells.” <em>Journal of Applied Phycology</em> 28 (5): 2999–3008.</p>
+<div id="ref-berri2017" class="csl-entry">
+Berri, Mustapha, Michel Olivier, Sébastien Holbert, Joëlle Dupont, Hervé Demais, Matthieu Le Goff, and Pi Nyvall Collen. 2017. <span>“Ulvan from Ulva Armoricana (Chlorophyta) Activates the PI3K/Akt Signalling Pathway via TLR4 to Induce Intestinal Cytokine Production.”</span> <em>Algal Research</em> 28: 39–47.
 </div>
 </div>
 <div class="footnotes">
@@ -547,7 +615,6 @@ Figure 2.12: Récolte du goémon épave : exemple de rammassage des ulves (maré
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -566,6 +633,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": false
 },
 "fontsettings": {
@@ -586,11 +654,13 @@ gitbook.start({
 "text": null
 },
 "download": null,
-"toc": {
-"collapse": "subsection",
-"scroll_highlight": false
+"search": {
+"engine": "fuse",
+"options": null
 },
-"search": true,
+"toc": {
+"collapse": "subsection"
+},
 "info": false
 });
 });
@@ -602,7 +672,7 @@ gitbook.start({
     var script = document.createElement("script");
     script.type = "text/javascript";
     var src = "true";
-    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
     if (location.protocol !== "file:")
       if (/^https?:/.test(src))
         src = src.replace(/^https?:/, '');

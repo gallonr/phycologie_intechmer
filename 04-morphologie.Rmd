@@ -57,7 +57,7 @@ knitr::include_graphics("./images/archetalle_div.png")
 knitr::include_graphics("./images/chlorellasp.jpg")
 ```
 
-```{r pleurosigma,echo=F,fig.cap="*Pleurosigma sp.* (Bacillariophycée)",out.width = "70%"}
+```{r pleurosigma,echo=F,fig.cap="*Pleurosigma sp.* (Bacillariophycée)",out.width = "40%"}
 knitr::include_graphics("./images/pleurosigma.jpg")
 ```
 
@@ -301,7 +301,7 @@ knitr::include_graphics("./images/rhizoide.png")
 **Les stolons** : Base de fixation enfouie dans le sédiment, elle correspond à la partie rampante portant des rhizoïdes sur laquelle se développe les axes dressés (*Figure \@ref(fig:stolon)*). Le stolon est donc la partie rampante, fixée par des rhizoïdes, sur laquelle se développent les axes dressés.
 
 ```{r stolon,echo=F,fig.cap="Stolons chez *Caulerpa sp.*",out.width = "70%"}
-knitr::include_graphics("./images/caulerpa_stolon.JPG")
+knitr::include_graphics("./images/caulerpa_stolon.jpg")
 ```
 
 

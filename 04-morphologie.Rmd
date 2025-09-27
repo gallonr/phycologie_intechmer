@@ -329,7 +329,7 @@ Ces vésicules peuvent être :
 
   * dans l'axe du thalle (*e.g.* *Ascophyllum nodosum*, *Figure \@ref(fig:aero)A*)
   
-  * de part et d'autre de la pseudo-nervure (*e.g.* *Fucus serratus*, *Figure \@ref(fig:aero)B*)
+  * de part et d'autre de la pseudo-nervure (*e.g.* *Fucus vesiculosus*, *Figure \@ref(fig:aero)B*)
   
   * latéral porté ou non par des pédoncules (*e.g.* *Sargassum muticum*, *Figure \@ref(fig:aero)C*)
 

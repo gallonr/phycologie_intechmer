@@ -1,0 +1,7 @@
+# Glossaire {-}
+
+Archétalle
+: Organisation simple et primitive de thalle, caractérisée par une structure sans différenciation en tissus complexes ou en organes spécialisés.
+
+Systématique
+: Science de la classification des êtres vivants basée sur des données biologique, biochimique, moléculaire, génétique, écologique,… . Elle regroupe la taxinomie, la nomenclature, la classification.

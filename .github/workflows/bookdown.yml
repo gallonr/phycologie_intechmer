@@ -34,10 +34,24 @@ jobs:
       run: |
         R -e 'bookdown::render_book("index.Rmd", "bookdown::gitbook")'
 
-    - name: Deploy to GitHub Pages (gh-pages)
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./_book
-        publish_branch: gh-pages
-        allow_empty_commit: true
+    - name: Publish into docs/ on master
+      env:
+        GIT_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        # configure git for commit
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+
+        # prepare docs/ with generated site
+        rm -rf docs || true
+        mkdir -p docs
+        cp -r _book/* docs/ || true
+
+        # commit and push only if changes
+        git add docs
+        if git diff --cached --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Deploy bookdown site to docs/ [ci skip]"
+          git push origin HEAD:master
+        fi

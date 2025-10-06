@@ -76,9 +76,9 @@ knitr::include_graphics("images/sargasse.png")
 ```
 
 
-Les algues benthiques sont des organismes fixées sur un support au fond de l'eau. La majorité des macroalgues sont fixées sur un substrat rocheux par un système de fixation (crampon, disque, haptère). Les microalgues se déposent quant elles sur le substrat et forment un biofilm favorisant leur prolifération (*Figure \@ref{fig:biofilm}*). On trouve beaucoup de biofilms bruns (dominés par les diatomées) dans les estuaires et les vasières après une période ensoleillée.
+Les algues benthiques sont des organismes fixées sur un support au fond de l'eau. La majorité des macroalgues sont fixées sur un substrat rocheux par un système de fixation (crampon, disque, haptère). Les microalgues se déposent quant elles sur le substrat et forment un biofilm favorisant leur prolifération (*Figure \@ref{fig:biofilm-classif}*). On trouve beaucoup de biofilms bruns (dominés par les diatomées) dans les estuaires et les vasières après une période ensoleillée.
 
-```{r biofilm, echo=FALSE, fig.cap= "Biofilms à la surface des sédiments composés de diatomés pennées.", fig.align='center'}
+```{r biofilm-classif, echo=FALSE, fig.cap= "Biofilms à la surface des sédiments composés de diatomés pennées.", fig.align='center'}
 knitr::include_graphics("images/biofilm.jpg")
 ```
 

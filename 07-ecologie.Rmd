@@ -86,7 +86,7 @@ Les invertébrés (oursins, gastéropodes) et poissons brouteurs régulent la bi
 
 ### Facilitation, épiphytes et biofilms
 
-Certaines macroalgues stabilisent le substrat, réduisent le stress hydrodynamique et facilitent l’installation d’autres espèces. Les biofilms microbiens (Figure \@ref(fig:biofilm)) influencent l’adhésion des spores et le recrutement. Les épiphytes augmentent la complexité mais peuvent réduire la photosynthèse de l’hôte; l’équilibre entre facilitation et compétition dépend du contexte (lumière, nutriments, herbivorie).
+Certaines macroalgues stabilisent le substrat, réduisent le stress hydrodynamique et facilitent l’installation d’autres espèces. Les biofilms microbiens (Figure \@ref(fig:biofilm-ecologie)) influencent l’adhésion des spores et le recrutement. Les épiphytes augmentent la complexité mais peuvent réduire la photosynthèse de l’hôte; l’équilibre entre facilitation et compétition dépend du contexte (lumière, nutriments, herbivorie).
 
 ## Zonation et grands habitats côtiers
 
@@ -96,7 +96,7 @@ Certaines macroalgues stabilisent le substrat, réduisent le stress hydrodynamiq
 - Médiolittoral: fucoïdes (Fucus spp.) formant des ceintures; alternance immersion/émersion; forte variabilité thermique et lumineuse.
 - Infralittoral supérieur: laminaires et grandes algues rouges; immersion quasi permanente; lumière plus stable.
 
-```{r biofilm, echo=F, fig.cap="Biofilm sur substrat dur: matrice microbienne favorisant l’adhésion des spores et le recrutement des juvéniles.", out.width = "70%"}
+```{r biofilm-ecologie, echo=F, fig.cap="Biofilm sur substrat dur: matrice microbienne favorisant l’adhésion des spores et le recrutement des juvéniles.", out.width = "70%"}
 knitr::include_graphics("./images/biofilm.jpg")
 ```
 

@@ -1,0 +1,26 @@
+---
+title: "Phycologie appliquée (concepts et filières)"
+---
+
+# Phycologie appliquée
+
+Objectifs du chapitre
+- Donner une vue d'ensemble des filières utilisant les macroalgues et leurs exigences qualité.
+- Relier propriétés biochimiques aux applications industrielles.
+
+## Filières et usages
+- Alimentaire, cosmétique, santé, biomatériaux, bioénergie
+
+## Chaînes de valeur (schéma magistral)
+- Récolte/culture → prétraitement → extraction → formulation → contrôle qualité
+
+## Qualité et traçabilité
+- Paramètres clés (humidité, cendres, contaminants)
+- Normes et attentes marché (vue d'ensemble)
+
+## Tendances et innovations
+- Bioraffinerie, extraction verte, valorisation des coproduits
+
+::: {.infobox}
+À retenir: la relation structure-propriété-usage est centrale pour comprendre la place des algues dans l'industrie.
+:::

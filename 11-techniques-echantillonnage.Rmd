@@ -1,0 +1,32 @@
+---
+title: "Techniques d'échantillonnage des macroalgues"
+---
+
+# Techniques d'échantillonnage
+
+> Avant de lire — Après « Écologie et habitats », ce chapitre fixe le vocabulaire méthodologique. Il prépare la lecture de « Phycologie appliquée » et des cadres réglementaires.
+
+Objectifs du chapitre
+- Présenter les protocoles d'échantillonnage adaptés aux macroalgues en milieu côtier.
+- Standardiser les métadonnées et la traçabilité pour des jeux de données exploitables.
+
+## Préparation et sécurité (concepts)
+- Marées, météo, risques; EPI; autorisations
+- Choix des sites et design d'étude
+
+## Protocoles courants (présentation magistrale)
+- Quadrats (surface, pas, répétitions)
+- Transects (linéaires, photoquads)
+- Biomasse (prélèvement, normalisation)
+- Vouchers et photographie standardisée
+
+## Métadonnées et qualité des données
+- GPS, date/heure/marée, substrat, exposition
+- Feuilles de terrain et nomenclature des variables
+
+## Notions d'analyse
+- Recouvrement, abondance, richesse; erreurs et biais
+
+::: {.infobox}
+À retenir: un protocole clair et des métadonnées complètes conditionnent la comparabilité des données.
+:::

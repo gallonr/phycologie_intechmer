@@ -1,5 +1,7 @@
 # Classification et Diversité des algues {#classification}
 
+> Avant de lire — Avoir en tête la phylogénie/évolution facilite ce chapitre. Ensuite, enchaînez avec « Morphologie », « Cytologie » et « Biochimie ».
+
 ##  Quelques définitions
 
 Avant de rentrer dans le cœur de la classification et de savoir ce qu'est réellement une algue, il est important de mettre une définition sur des termes que certains d'entre-vous ont du entendre en cours de SVT.
@@ -44,9 +46,7 @@ Comme vous l'avez appris en SVT, les algues font partis du règne **végétal**,
 
 
 ```{r arbre-phylo, echo=FALSE, fig.cap= "Arbre phylogénétique représentant les principaux groupes eucaryotes basé sur des données moléculaires et structurales, @baldauf2003 modifié.", fig.align='center'}
-
 knitr::include_graphics("images/arbre_phylogenetique.png")
-
 ```
 
 
@@ -72,18 +72,14 @@ Les algues peuvent être pélagique, *i.e.* elles subissent le mouvement de l'ea
 
 
 ```{r sargasse, echo=FALSE, fig.cap= "Flotteurs de *Sargassum fluitans* et formation d'îles flottantes.", fig.align='center'}
-
 knitr::include_graphics("images/sargasse.png")
-
 ```
 
 
 Les algues benthiques sont des organismes fixées sur un support au fond de l'eau. La majorité des macroalgues sont fixées sur un substrat rocheux par un système de fixation (crampon, disque, haptère). Les microalgues se déposent quant elles sur le substrat et forment un biofilm favorisant leur prolifération (*Figure \@ref{fig:biofilm}*). On trouve beaucoup de biofilms bruns (dominés par les diatomées) dans les estuaires et les vasières après une période ensoleillée.
 
 ```{r biofilm, echo=FALSE, fig.cap= "Biofilms à la surface des sédiments composés de diatomés pennées.", fig.align='center'}
-
 knitr::include_graphics("images/biofilm.jpg")
-
 ```
 
 
@@ -101,18 +97,14 @@ knitr::include_graphics("images/biofilm.jpg")
 * Dinophycés
 
 ```{r microalgue, echo=FALSE, fig.cap= "Exemples de microalgues. A. *Ostreococcus tauri*; B. *Arthrospira platensis* (spiruline).", fig.align='center'}
-
 knitr::include_graphics("images/microalgues.png")
-
 ```
  
 
 **Les macroalgues** sont des organismes pluricellulaires compris entre 200 $\mu$m et 50m. *Macrocystis pyrifera* est la plus longue algues du monde, elle peut attendre jusqu'à 43 mètres de long formant des forêts sous-marines. Elle vit fixée sur le substrat rocheux grâce à de solides crampons (*Figure \@ref{macrocystis}*).
 
 ```{r macrocystis, echo=FALSE, fig.cap= "Forêt sous-marine de *Macrocystis pyrifera* (Phillip Colla, OceanLigth.com).", fig.align='center'}
-
 knitr::include_graphics("images/macrocystis.jpg")
-
 ```
 
 Parmi les macroalgues, on distingue 3 groupes en fonction de leur composition pigmentaire. Ces trois groupes possèdent la chlorophylle a mais également des pigments sur-numéraires leur conférant une couleur caractéristique :

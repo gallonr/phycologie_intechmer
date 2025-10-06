@@ -1,13 +1,13 @@
 # Usages, économie et règlementation {#usage}
 
+> Avant de lire — Ce chapitre présente les usages et marchés. Il peut être lu directement après l’histoire. Pour approfondir les bases scientifiques, référez-vous ensuite à phylogénie/évolution, classification et morphologie.
+
 ## Intérêts et Usages
 
 A l'échelle mondiale, les algues sont principalement destinées à l'alimentation humaine (85%), 14% sont utilisées pour extraire des hydrocolloïdes (alginates, agar agar et carraghénanes). 1% de la production mondiale alimente l'industrie pharmaceutique, la cosmétique,la bioépuration et l'agriculture en amendement (*Figure \@ref(fig:application)*).
 
 ```{r application, echo=FALSE, fig.cap= "Domaines d'application des micro et macroalgues à l'échelle mondiale.", fig.align='center'}
-
 knitr::include_graphics("images/application.png")
-
 ```
 
 
@@ -73,9 +73,7 @@ Les algues peuvent être utilisées comme engrais et amendement des sols. Pour m
 baisse du pH et ceux-ci deviennent toxiques à partir d’un certain seuil de pH eau, toujours inférieur à 5,5 mais très variable selon la nature du sol et l’espèce cultivée. Ces composés provoquent une forte réduction de la croissance des racines qui s’épaississent, brunissent et se ramifient peu. Elles ne sont plus alors capables d’assurer convenablement l’alimentation minérale et hydrique des plantes. Le *Maërl* est une algue calcaire qui était fréquemment utilisée pour chauler les sols et ainsi augmenter le pH des sols (*Figure \@ref(fig:maerl)*). Néanmoins, les bancs de maërl constituent des habitats remarquables Natura 2000 accueillant une richesse importante de crustacés, d'annélides et de mollusques. A l'heure actuelle, l'exploitation des gisements de maërl a fortement impacté ces habitats et par conséquent l'extraction est interdite pour mettre à la ressource de se renouveler.
 
 ```{r maerl, echo=FALSE, fig.cap= "Maërl dans son habitat naturel formant des bancs. Seule la surface du banc est composée d'algues vivantes.", fig.align='center'}
-
 knitr::include_graphics("images/maerl.png")
-
 ```
 
 Certaines substances extraites des algues peuvent servir d'éliciteurs, *i.e.* des substances qui déclenchent alors chez la plante toute une série de réactions cellulaires, avec notamment la production de molécules destinées à renforcer la résistance des parois, mais aussi d'antibiotiques végétaux tels que des phytoalexines ou des protéines de défense.
@@ -101,9 +99,7 @@ Les algues sont récoltées régulièrement et l'huile est extraite selon diffé
 La production de carburant à partir de microalgues reste toutefois coûteuse, *le prix actuel est de 5€/L*.
 
 ```{r biocarburant, echo=FALSE, fig.cap= "Processus de production de biocarburant à partir de microalgues", fig.align='center'}
-
 knitr::include_graphics("images/biocarburant.jpg")
-
 ```
 
 
@@ -111,9 +107,7 @@ Depuis quelques années, les bioplastiques se démocratisent de plus en plus car
 La tonne de granulés d’Algopack est vendue 1 200 €, lorsqu’une tonne de PVC ou PET est vendue 1 000 € et une tonne de polyéthylène ou polypropylène environ 1 300 €. Les algues utilisées pour fabriquer ces produits sont des algues brunes.
 
 ```{r algopack, echo=FALSE, fig.cap= "Bioplastiques produits à partir d'algues brunes", fig.align='center'}
-
 knitr::include_graphics("images/algopack.png")
-
 ```
 
 
@@ -124,9 +118,7 @@ Beaucoup de métabolites secondaires issus des algues sont connus pour être bé
 
 
 ```{r cosmetique, echo=FALSE, fig.cap= "Exemples d'application des algues [@ariede2017]", fig.align='center'}
-
 knitr::include_graphics("images/cosmetique.JPG")
-
 ```
 
 
@@ -136,9 +128,7 @@ knitr::include_graphics("images/cosmetique.JPG")
 Comme nous l'avons vu précédemment, l'industrie de la transformation des algues a débuté après la seconde guerre mondiales et s'est fortement accentuée dans les années 70. A cette époque, le tonnage d'algues récoltées et cultivées était très proche (*Figure \@ref(fig:marchemondial)*). En 40 ans, la production d'algues a augmenté en moyenne de 29% par an, on remarque une nette augmentation de la production à partir de 1990. Aujourd’hui, la production d'algues s'élève à plus de 23 millions de tonnes dont 95% proviennent des fermes d'algocultures. Cette exploitation d'algue concerne environ 35 pays de l'hémisphère nord et sud, de zone tempérée ou tropicale : Chine, Japon, France, Norvège, Brésil, Chili,... .
 
 ```{r marchemondial, echo=FALSE, fig.cap= "Evolution de la production mondiale d’algues entre 1970 et 2010", fig.align='center'}
-
 knitr::include_graphics("images/marchemondial.png")
-
 ```
 
 
@@ -150,15 +140,11 @@ La production mondiale est dominée par les pays asiatiques : Chine (52%), Indon
 La France se situe au 10^ème^ rang mondial et est le 2^ème^ producteur européen. Son schéma de production est au antipode du schéma mondial. En effet, 99% de la production d'algues provient de la récolte et non de la culture. 75% de la production française est extraite par des goémoniers, navires spécialisés dans la récolte des laminaires (12 tonnes /jour) et 25% est extraite manuellement (algues de rive).
 
 ```{r recoltealguemain, echo=FALSE, fig.cap= "Récolte manuel des algues de rive sous à une licence d'exploitation", fig.align='center'}
-
 knitr::include_graphics("images/recoltealguemain.png")
-
 ```
 
 ```{r goemonier, echo=FALSE, fig.cap= "Goëmonier récoltant les laminaires", fig.align='center'}
-
 knitr::include_graphics("images/goemonier.jpg")
-
 ```
 
 
@@ -167,9 +153,7 @@ Ainsi les activités économiques liées aux macroalgues sont localisées princi
 
 
 ```{r algueatlantique, echo=FALSE, fig.cap= "Localisation des activités économiques liées aux algues (Programme NetAlgae)", fig.align='center'}
-
 knitr::include_graphics("images/activite_algue_atlantique.png")
-
 ```
 
 
@@ -209,9 +193,7 @@ Le guide "Récolte des algues de rive : Guide des bonnes pratiques"[^5.2] (*Figu
 
 
 ```{r alguepratique, echo=FALSE, fig.cap= "Exemples de mauvaises et bonnes pratiques pour la récolte du goémon de rive", fig.align='center'}
-
 knitr::include_graphics("images/alguerivepratique.png")
-
 ```
 
 
@@ -223,9 +205,7 @@ La récolte du goémon de fond implique d'utiliser des navires et des embarcatio
 l'arrachage des crampons ou bases de fixation.
 
 ```{r goemonierrecolte, echo=FALSE, fig.cap= "Récolte de *Laminaria hyperborea* par des goémoniers utilisant le peigne norvégien.", fig.align='center'}
-
 knitr::include_graphics("images/goemonier_recolte.png")
-
 ```
 
 
@@ -236,9 +216,7 @@ knitr::include_graphics("images/goemonier_recolte.png")
 Le ramassage de ce type de goémon n'est pas assujetti à des restrictions pour les particuliers mais les professionnels doivent faire une demande d'autorisation auprès des affaires maritimes. Le ramassage est autorisé toute l'année au moyen de tout type d'engin : râteaux, pelles, pelleteuses,... (*Figure \@ref(fig:goemonepave)*).
 
 ```{r goemonepave, echo=FALSE, fig.cap= "Récolte du goémon épave : exemple de rammassage des ulves (marée verte)", fig.align='center'}
-
 knitr::include_graphics("images/goemon_epave.png")
-
 ```
 
 

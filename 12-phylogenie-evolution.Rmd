@@ -1,0 +1,30 @@
+---
+title: "Phylogénie et évolution des algues"
+---
+
+# Phylogénie et évolution des algues
+
+> Avant de lire — Ce chapitre fonde le cadre évolutif. Lisez-le avant « Classification », « Morphologie » et « Cytologie ». Il éclaire ensuite la diversité des groupes (Chloro-, Phaeo-, Rhodo-).
+
+Objectifs du chapitre
+- Comprendre les grands événements évolutifs (endosymbioses) à l'origine de la diversité algale.
+- Lire/interpréter des arbres phylogénétiques et replacer les grands groupes.
+
+## Endosymbioses et plastes
+- Primaire vs secondaire/tertiaire
+- Conséquences sur pigments, enveloppes, gènes transférés
+
+## Grandes lignées algales
+- Archéplastides (Chlorophyta, Rhodophyta)
+- SAR (straménopiles, alvéolés, rhizaires)
+- Haptophytes, cryptophytes
+
+## Lire un arbre
+- Topologie, soutien (bootstrap), polytomies; notions de clade/grade
+
+## Implications taxonomiques et écologiques
+- Convergences morphologiques, limites des critères classiques
+
+::: {.infobox}
+À retenir: l’histoire des plastes explique une part essentielle des différences pigmentaires et structurales entre groupes.
+:::

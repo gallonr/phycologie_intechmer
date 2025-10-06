@@ -1,0 +1,27 @@
+---
+title: "Diversité des Rhodophyta (algues rouges)"
+---
+
+# Rhodophyta
+
+Objectifs du chapitre
+- Situer la diversité des Rhodophyta et leurs particularités cellulaires et biochimiques.
+- Relier diversité et usages (agar, carraghénanes).
+
+## Caractères généraux
+- Phycobiliprotéines (phycoérythrine, phycocyanine)
+- Paroi: agar, carraghénanes
+
+## Groupes et exemples
+- Bangiophyceae (Porphyra)
+- Florideophyceae (Gelidium, Chondrus, maërl)
+
+## Cycles de vie
+- Alternances complexes; implications pour l’exploitation
+
+## Écologie
+- Profondeur/lumière, substrats; récifs de maërl
+
+::: {.infobox}
+À retenir: Pigments phycobilines et polysaccharides industriels structurent l’identité des Rhodophyta.
+:::

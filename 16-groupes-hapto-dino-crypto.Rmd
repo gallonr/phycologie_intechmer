@@ -1,0 +1,27 @@
+---
+title: "Autres groupes: Haptophytes, Dinophytes, Cryptophytes (panorama)"
+---
+
+# Haptophytes, dinophytes, cryptophytes
+
+> Avant de lire — Lisez « Phylogénie/évolution » en premier. Ce panorama complète la diversité et met l’accent sur les origines des plastes.
+
+Objectifs du chapitre
+- Donner un panorama des groupes algaux complémentaires aux macroalgues, utiles à la compréhension de la diversité.
+- Situer leurs plastes, pigments et rôles écologiques.
+
+## Haptophytes
+- Haptophyte flagellaire, haptonème; coccolithophores; pigments (prymnésiophytes)
+
+## Dinophytes (dinoflagellés)
+- Plaques cellulosiques, plastes secondaires/tertiaires, bioluminescence; HAB (vue d’ensemble)
+
+## Cryptophytes
+- Nucléomorphe, phycobiliprotéines; niches lumineuses
+
+## Lien phylogénétique et écosystémique
+- SAR et affinités; place dans les réseaux trophiques
+
+::: {.infobox}
+À retenir: ces groupes illustrent la complexité évolutive des plastes et des stratégies photosynthétiques.
+:::

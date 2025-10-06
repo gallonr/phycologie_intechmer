@@ -17,14 +17,34 @@ description: "Ce livre reprend toutes les notions importantes en biologie végé
 # Préface {-}
 
 ```{r couverture, echo=FALSE, include=identical(knitr:::pandoc_to(), 'html'), fig.align='center',fig.height=10}
-
-knitr::include_graphics("images/Adolphe_Millot_algues.jpg",dpi=NA)
-
+knitr::include_graphics("images/Adolphe_Millot_algues.jpg", dpi = NA)
 ```
 
 Ce livre *La biologie végétale à Intechmer* est un support des cours présentiels réalisés au Cnam-Intechmer. J'ai écrit ce livre pour toi étudiant d'intechmer, pour toi étudiant d'un autre établissement ou pour toi petit curieux pour que vous puissiez avoir des notions en biologie végétale marine. **Ce livre ne se substitue pas aux cours et aux travaux pratique que je réalise en présentiel au Cnam-Intechmer.** Ce livre va évoluer au fur et à mesure des années en fonction de mes lectures et des commentaires que je recevrai. 
 
 Bonne lecture à toi.
+
+
+
+## Comment lire ce livre {-}
+
+::: {.infobox}
+Ce guide propose deux parcours de lecture selon vos besoins. Vous pouvez aussi naviguer librement: chaque chapitre débute par un encadré « Avant de lire » indiquant les prérequis utiles.
+:::
+
+### Parcours court — Bases → Diversité
+- Phylogénie/évolution → Classification → Morphologie → Cytologie → Biochimie → Diversité (Chloro-, Phaeo-, Rhodo-)
+- Pour situer les enjeux, lisez aussi en introduction: Histoire et Usages.
+
+### Parcours complet — Milieux → Bases → Diversité → Méthodes → Applications → Cadres
+1. Contexte et milieux: Histoire → Usages → Écologie → Herbiers
+2. Bases: Phylogénie/évolution → Classification → Morphologie → Cytologie → Biochimie
+3. Diversité: Chlorophyta → Phaeophyceae → Rhodophyta → Autres groupes (Hapto/Dino/Crypto)
+4. Méthodes: Techniques d’échantillonnage (lecture magistrale)
+5. Applications: Phycologie appliquée
+6. Cadres: Réglementation FR & UE
+
+Astuce: Le glossaire en fin d’ouvrage recense les termes clés rencontrés au fil des chapitres.
 
 
 

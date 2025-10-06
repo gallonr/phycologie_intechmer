@@ -1,0 +1,27 @@
+---
+title: "Diversité des Phaeophyceae (algues brunes)"
+---
+
+# Phaeophyceae
+
+Objectifs du chapitre
+- Identifier les traits diagnostiques majeurs des algues brunes.
+- Relier anatomie et écologie des genres clés.
+
+## Caractères généraux
+- Pigments: chlorophylle a, c et fucoxanthine (teinte brune)
+- Paroi riche en alginates
+
+## Groupes et exemples
+- Fucales: Fucus, Sargassum
+- Laminariales: Laminaria, Macrocystis
+
+## Anatomie et fonctions
+- Aérocystes, stipe, lames; méristèmes
+
+## Écologie
+- Forêts de kelp, rôle d’ingénieur d’écosystème
+
+::: {.infobox}
+À retenir: Fucoxanthine et alginates, structures imposantes et rôle écologique majeur en zones tempérées.
+:::

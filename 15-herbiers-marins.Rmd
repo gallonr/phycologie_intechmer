@@ -1,0 +1,25 @@
+---
+title: "Herbiers marins (phanérogames) et interactions avec les macroalgues"
+---
+
+# Herbiers marins
+
+> Avant de lire — Ce focus complète l’écologie côtière. Il se lit après « Écologie et habitats ». Pour la suite, passez aux bases évolutives et de classification.
+
+Objectifs du chapitre
+- Situer les herbiers (phanérogames marines) dans les écosystèmes côtiers et leurs relations avec les macroalgues.
+- Comprendre services écosystémiques et enjeux de conservation.
+
+## Biologie et espèces
+- Zostera, Cymodocea, Posidonia (selon région)
+
+## Écologie et interactions
+- Stabilisation des sédiments, pièges à carbone
+- Compétition/facilitation avec macroalgues, bioindication
+
+## Pressions et gestion
+- Eutrophisation, ancrages, température; suivis
+
+::: {.infobox}
+À retenir: herbiers et macroalgues co-structurent les habitats côtiers et se répondent face aux pressions anthropiques.
+:::

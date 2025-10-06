@@ -1,0 +1,27 @@
+---
+title: "Réglementation française et européenne (vue d'ensemble)"
+---
+
+# Réglementation FR & UE
+
+Objectifs du chapitre
+- Présenter les grands cadres réglementaires régissant la récolte, la culture, la mise sur le marché et l'environnement.
+- Sensibiliser aux obligations de traçabilité et de conformité.
+
+## Cadres généraux
+- Droit de l'environnement (zones protégées, espèces protégées, Natura 2000)
+- Règles de récolte et concessions maritimes (vue d'ensemble)
+
+## Mise sur le marché
+- Sécurité sanitaire (alimentaire/cosmétique) — panorama des normes
+- Étiquetage, traçabilité, substances réglementées
+
+## Culture et installations
+- Autorisations, études d'impact (schéma), biosécurité
+
+## Europe et États membres
+- Directives-cadres, déclinaisons nationales, veille réglementaire
+
+::: {.infobox}
+À retenir: la conformité documentaire et la traçabilité sont essentielles à chaque étape de la chaîne.
+:::

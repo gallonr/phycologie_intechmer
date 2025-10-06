@@ -10,3 +10,25 @@ language:
     def: 'Définition '
   ui:
     chapter_name: " "
+
+# Ordre explicite des chapitres (livre numérique, cours magistraux)
+rmd_files:
+  - index.Rmd
+  - 01-histoire.Rmd              # Contexte historique
+  - 02-usage.Rmd                 # Usages et économie (motivation)
+  - 07-ecologie.Rmd              # Écologie et habitats
+  - 15-herbiers-marins.Rmd       # Focus herbiers (lié aux habitats)
+  - 12-phylogenie-evolution.Rmd  # Grandes lignes évolutives
+  - 03-classif.Rmd               # Règles de classification/nomenclature
+  - 04-morphologie.Rmd           # Traits et architectures
+  - 05-cytologie.Rmd             # Cellule et organites
+  - 06-biochimie.Rmd             # Biochimie et pigments
+  - 08-diversite-chlorophyta.Rmd # Diversité par grands groupes
+  - 09-diversite-phaeophyceae.Rmd
+  - 10-diversite-rhodophyta.Rmd
+  - 16-groupes-hapto-dino-crypto.Rmd # Panorama autres groupes
+  - 11-techniques-echantillonnage.Rmd # Méthodes (lecture-only)
+  - 13-phycologie-appliquee.Rmd  # Applications et filières
+  - 14-reglementation-fr-eu.Rmd  # Cadres FR/UE
+  - 20-glossaire.Rmd
+  - 21-references.Rmd

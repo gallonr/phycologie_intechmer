@@ -1,20 +1,18 @@
 # Histoire de l’utilisation des algues {#histoire}
 
+> Avant de lire — Ce chapitre dresse le contexte historique. Aucune notion préalable n’est requise. Pour relier histoire et enjeux actuels, lisez ensuite « Usages, économie et réglementation ».
+
 ## La Préhistoire
 Les premières traces de l'utilisation des algues datent de la préhistoire. @dillehay2008, professeur d'anthropologie à l'Université Vanderbuilt (Tenessee, Nashville) et son équipe ont découvert à Monte Verde (Chili, *Figure \@ref(fig:monteverde)*), dans d'anciens foyers et différents lieux du site,  des restes de repas incluant une quarantaine de plantes, des ossements d'animaux, des mollusques d’eau douce ET **9 espèces d'algues** (*e.g.* *Gigartina sp.*, *Porphira sp.*, *Durvillaea antarctica*,*Mazzaella sp*, *Macrocystis pyrifera*,...) (*Figure \@ref(fig:monteverdealgue)*). Ces restes ont été très bien conservés car les sols sont acides et ont limité la prolifération bactérienne.
 Ces algues sont d'excellentes sources d'iode, de fer, de zinc, de protéines, d'hormones et d'un grand panel d’éléments traces (cobalt, cuivre, bore). De plus, elles ont un effet bénéfique dans l'assimilation du calcium par les os, l'amélioration des capacités de l'organisme à lutter contre les infections.
 
 
 ```{r monteverde, echo=FALSE, fig.cap= "Localisation du site archéologique de Monte Verde (Chili)", fig.align='center'}
-
 knitr::include_graphics("images/Monte_verde.jpg")
-
 ```
 
 ```{r monteverdealgue, echo=FALSE, fig.cap= "Espèces d'algues retrouvées dans les restes des foyers du site archéologique de Monte Verde (Chili)", fig.align='center'}
-
 knitr::include_graphics("images/Monte_verde_algue.png")
-
 ```
 
 D'autres traces d'utilisation des algues ont été découvertes sur le continent eurasien et datées de la période mésolithique (-7000 ans). Il a été montré par analyse isotopique que les peuples vivants sur le littoral récoltaient les algues échouées et nourrissaient leurs bétails (moutons) [@balasse2005].
@@ -24,8 +22,7 @@ D'autres traces d'utilisation des algues ont été découvertes sur le continent
 Une trace écrite de l'utilisation des algues est décrite dans le "Classique de la médecine par les plantes" ou "Shennon bencao jing" (*Figure \@ref(fig:shennong)*) traitant des drogues végétales, animales et minérales (plus de 300 drogues sont décrites). Son origine est attribué à l'empereur Shennong qui vécu aux environs de -2800 ans. Toutefois, l'original du texte est perdu et l'histoire de sa reconstitution est un peu compliquée. L'empereur Shennong (*Figure \@ref(fig:shennong)*) est considéré comme le père des pharmaciens et des médecins.Il testa toutes les plantes pour connaitre leurs propriétés et ordonna au peuple de prendre connaissance des espèces qu’on devait préserver. Certaines versions lui prétendent le pouvoir divin de mourir et revivre plusieurs fois au hasard de ses essais, alors que d’autres supposent que son action finit par lui coûter la vie en accentuant ainsi son esprit de sacrifice.
 
 ```{r shennong, echo=FALSE,fig.show='hold', fig.cap= "Shennong goûtant une herbe médicinale ; les protubérances sur son crâne rappellent qu’on lui prêtait une tête de bovidé, la collerette de feuilles son rôle d’herboriste (www.art.com)", fig.align='center',out.width='40%'}
-
-knitr::include_graphics(c("images/shennong.jpg","images/bencaojing.jpg"))
+knitr::include_graphics(c("images/shennong.jpg", "images/bencaojing.jpg"))
 ```
 
 Toujours en Asie, des écrits datant du VI^ème^ avt.J.-C. montre que les algues furent des aliments réservés pour les hauts dignitaires (rois et invités distingués).
@@ -34,9 +31,7 @@ Toujours en Asie, des écrits datant du VI^ème^ avt.J.-C. montre que les algues
 Au VII^ème^ apr. J.-C. au moins une douzaine d'algues était cultivée dont les trois plus communes la *Nori* (pour faire des sushis), le *Kombu* (dans les soupes), le *Wakame* (dans les soupes et les salades)(*Figure \@ref(fig:japonalgues)*).
 
 ```{r japonalgues, echo=FALSE, fig.cap= "A. Préparation des feuilles de Nori pour les sushis; B. Feuilles de Kombu; C. Feuilles de Wakame ", fig.align='center'}
-
 knitr::include_graphics("images/japon_algues.png")
-
 ```
 
 Au V^ème^ siècle, Palladius auteur latin écrivit dans son traité sur l'agriculture[^2.1] que les algues produisent une fumure de qualité très favorable à l'amendement des sols agricoles.
@@ -66,9 +61,7 @@ L'industrialisation des algues commence en Normandie par l'industrie du verre. E
 L'extraction de la soude commençait par le ramassage des algues échouées sur l'estran et par le séchage des algues en tas en haut de l'estran. Le tas d'algues devait être suffisamment compacte pour empêcher l'eau de pénétrer mais pas trop pour laisser l'air circuler pour le séchage. Une fois les algues suffisamment sèchent, une fosse de cinq à six pieds de long et de deux pieds de large est creusée (*Figure \@ref(fig:soude)*). Au fond de la fosse sont posés des branchage pour le feu et les algues sont posés successivement pour éviter une combustion trop rapide. La soude coule au fond de la fosse. Le feu éteint la soude refroidit en 2-3 jours formant des blocs très durs. [Plus d'informations](http://patrimoinedesabers.fr/de/landeda/histoires/214-historique-des-fours-a-goemon.html)
 
 ```{r soude, echo=FALSE, fig.cap= 'A. Tas de goémon sec devant alimenter un four à soude; B. Fours à Goémon le long du littoral breton utilisés pour le brûlage des algues; C. Pains de soude', fig.align='center'}
-
 knitr::include_graphics("images/extract_soude.png")
-
 ```
 
 L'industrie du verre pris énormément d'importance sous Louis XIV pour lutter contre l’hégémonie de l'industrie du verre vénitienne favorisant le prestige du roi et renforçant l'économie du pays.
@@ -76,15 +69,11 @@ La Manufacture Royale des Glaces et des Miroirs (*Figure \@ref(fig:manufacture)*
 À la fin du règne de Louis XIV, l'industrie miroitière avec à sa tête, la Manufacture royale de glaces de miroirs, exporte des glaces dans toute l'Europe pour un équivalent de 300 000 à 400 000 livres or par an. Le monopole vénitien est remplacé par le monopole français.
 
 ```{r manufacture, echo=FALSE, fig.cap= "Devanture de la Manufacture Royale des Glaces et des Miroirs", fig.align='center'}
-
 knitr::include_graphics("images/manufacture_royale.jpg")
-
 ```
 
 ```{r versailles, echo=FALSE, fig.cap= "Galerie des glaces du château de Versailles", fig.align='center'}
-
 knitr::include_graphics("images/galerie des glaces.jpg")
-
 ```
 
 
@@ -99,9 +88,7 @@ La production de l'iode à base d'algue prendra fin vers la fin du XX^ème^ siè
 > 5-6 tonnes d'algues fraiches $\Rightarrow$ 1 tonnes d'algues séchées $\Rightarrow$ 200 kg de soude $\Rightarrow$ 3kg d'iode
 
 ```{r tissier, echo=FALSE, fig.cap= "L'usine Tissier vers 1910", fig.align='center'}
-
 knitr::include_graphics("images/tissier.jpg")
-
 ```
 
 
@@ -112,9 +99,7 @@ Encore actuellement, la carence en iode est un problème de santé mondiale, plu
 
 
 ```{r iode, echo=FALSE, fig.cap= "Localisation des zones où les habitants sont carencés en iode", fig.align='center'}
-
 knitr::include_graphics("images/iode.jpg")
-
 ```
 
 ### La production d'hydrocolloïdes (fin du 19^ème^ siècle)
@@ -130,9 +115,7 @@ Toutefois en Europe la consommation est indirect, on retrouve des extraits d'alg
 Nous aborderons cet aspect dans le cours sur la biochimie des algues.
 
 ```{r algueatoutfaire, echo=FALSE, fig.cap= "Les algues se retrouvent cachées dans notre alimentation", fig.align='center'}
-
 knitr::include_graphics("images/alguetoutfaire.jpg")
-
 ```
 
 

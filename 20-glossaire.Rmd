@@ -1,7 +1,35 @@
 # Glossaire {-}
 
+::: {.infobox}
+Comment utiliser ce glossaire — Chaque terme renvoie à une définition courte, conforme à l’usage dans le livre. Cherchez le terme par ordre alphabétique ou via la recherche du site.
+:::
+
 Archétalle
 : Organisation simple et primitive de thalle, caractérisée par une structure sans différenciation en tissus complexes ou en organes spécialisés.
 
 Systématique
 : Science de la classification des êtres vivants basée sur des données biologique, biochimique, moléculaire, génétique, écologique,… . Elle regroupe la taxinomie, la nomenclature, la classification.
+
+Phylogénie
+: Étude des relations de parenté entre organismes; représentée par des arbres (clades) basés sur des caractères (moléculaires, morphologiques).
+
+Endosymbiose primaire/secondaire
+: Acquisition d’un plaste par intégration d’une cyanobactérie (primaire) ou d’une algue eucaryote (secondaire/tertiaire), expliquant la diversité des plastes.
+
+Fucoxanthine
+: Xanthophylle brune caractéristique des algues brunes et de certains groupes planctoniques; implique une absorption dans le bleu-vert.
+
+Agar / Carraghénanes / Alginates
+: Polysaccharides de paroi extraits des algues (rouges/brunes) utilisés comme gélifiants/épaississants/films selon leur structure.
+
+Haptonème
+: Appendice filiforme propre à de nombreuses haptophytes, distinct des flagelles, impliqué dans la capture et l’adhésion.
+
+Nucléomorphe
+: Petit noyau vestigial d’une algue eucaryote internalisée (cryptophytes), témoin d’une endosymbiose secondaire.
+
+Quadrat / Transect
+: Dispositifs d’échantillonnage standardisés pour estimer recouvrement, abondance et diversité le long d’une surface/ligne.
+
+Natura 2000
+: Réseau européen de sites protégés (habitats/espèces d’intérêt communautaire) avec implications pour l’exploitation côtière.

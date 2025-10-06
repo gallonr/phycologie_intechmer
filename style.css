@@ -16,3 +16,42 @@ pre code {
 body {
 text-align: justify}
 
+
+/* Encadrés d'information utilisés dans les chapitres */
+.infobox {
+  border-left: 4px solid #2a7ae2;
+  background: #f5f9ff;
+  padding: 0.8em 1em;
+  margin: 1em 0;
+  border-radius: 4px;
+}
+.infobox p {
+  margin: 0.3em 0;
+}
+.infobox strong {
+  color: #1c5fb4;
+}
+
+/* Variantes d'encadrés */
+.tip {
+  border-left: 4px solid #2d9d4d;
+  background: #f3fbf5;
+  padding: 0.8em 1em;
+  margin: 1em 0;
+  border-radius: 4px;
+}
+.warning {
+  border-left: 4px solid #d9822b;
+  background: #fff7ed;
+  padding: 0.8em 1em;
+  margin: 1em 0;
+  border-radius: 4px;
+}
+.reference {
+  border-left: 4px solid #6b7280;
+  background: #f8fafc;
+  padding: 0.8em 1em;
+  margin: 1em 0;
+  border-radius: 4px;
+}
+

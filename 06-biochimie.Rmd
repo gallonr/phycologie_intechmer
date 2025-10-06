@@ -1,9 +1,11 @@
 # Biochimie associée aux algues {#biochimie}
 
+> Avant de lire — Ce chapitre s’appuie sur « Cytologie » et « Pigments » abordés plus tôt. Après sa lecture, attaquez la diversité (Chloro-, Phaeo-, Rhodo-).
+
 
 ```{r setup6, include=FALSE}
 require(knitr)
-opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE,fig.align = "center", fig.pos = "H")
+opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, fig.align = "center", fig.pos = "H")
 ```
 
 
@@ -28,18 +30,14 @@ CO~2~ + H~2~O + lumière -> (CH~2~O) + O~2~
 
 
 ```{r photosynthese, echo=FALSE, fig.cap= "Schéma de fonctionnement de la photosynthèse dans le chloroplaste", fig.align='center'}
-
 knitr::include_graphics("https://www.biologie101.fr/images/biologie-vegetale/Photosynthese/photosynthese-photochimique/photosysteme-II-photosysteme-I.png")
-
 ```
 
 La première étape de la photosynthèse, la capture de la lumière, est réalisée par les pigments photosynthétiques, tels que les chlorophylles et les phycobiliprotéines, qui absorbent sélectivement différentes longueurs d'onde de la lumière solaire. Les pigments photosynthétiques doivent absorber la lumière solaire et exciter les électrons à des niveaux d'énergie supérieurs. Cependant, cette excitation n'est pas spontanée et nécessite une certaine quantité d'énergie pour surmonter la barrière énergétique initiale, appelée énergie d'activation. Lorsque les photons de lumière sont absorbés par les pigments, ils transfèrent leur énergie aux électrons des pigments, lesquels sont alors excités à des niveaux d'énergie plus élevés. Cependant, pour que ces électrons excités puissent participer aux réactions chimiques ultérieures de la photosynthèse, ils doivent d'abord surmonter l'énergie d'activation nécessaire pour passer d'un état fondamental à un état excité. Une fois que les électrons des pigments photosynthétiques ont absorbé suffisamment d'énergie pour surmonter l'énergie d'activation, ils deviennent hautement réactifs et peuvent participer aux réactions de transfert d'électrons qui alimentent la production d'ATP et la fixation du dioxyde de carbone dans le cycle de Calvin.
 
 
 ```{r photosyntheseZ, echo=FALSE, fig.cap= "Schéma en Z de la photosynthèse", fig.align='center'}
-
 knitr::include_graphics("https://www.biologie101.fr/images/biologie-vegetale/Photosynthese/photosynthese-photochimique/schema-en-Z-photosynthese.png")
-
 ```
 
 Le transfert d'électrons constitue la deuxième étape essentielle de la photosynthèse, connue sous le nom de chaîne de transport d'électrons. Cette chaîne se compose de complexes protéiques membranaires, situés dans les thylakoïdes des chloroplastes, qui acceptent et transfèrent les électrons à des niveaux d'énergie de plus en plus élevés. Les électrons sont d'abord transférés du photosystème II (PSII) au photosystème I (PSI) par une série de transporteurs d'électrons, tels que les plastoquinones et les cytochromes, générant ainsi un gradient électrochimique à travers la membrane thylakoïdienne.
@@ -47,9 +45,7 @@ Le transfert d'électrons constitue la deuxième étape essentielle de la photos
 Ce gradient électrochimique est ensuite utilisé pour générer de l'ATP, la monnaie énergétique de la cellule, via un processus appelé phosphorylation photophosphorique. L'énergie de l'ATP ainsi produite est utilisée pour conduire les réactions biochimiques nécessaires à la fixation du dioxyde de carbone et à la synthèse de glucides dans le cycle de Calvin, une série de réactions enzymatiques qui se déroulent dans le stroma des chloroplastes. Le cycle de Calvin consiste à fixer le CO2, capté dans l’atmosphère par les stomates, pour former du Glycéraldéhyde-3-phosphate qui servira de précurseur aux glucides et aux acides gras. Le cycle de Calvin peut être décomposé en trois phases successives : la carboxylation (fixation du carbone), la réduction et enfin la régénération du produit de départ.
 
 ```{r calvin, echo=FALSE, fig.cap= "Schéma de du cycle de Calvin", fig.align='center'}
-
 knitr::include_graphics("https://www.biologie101.fr/images/biologie-vegetale/Photosynthese/photosynthese-cycle-de-Calvin/cycle-de-calvin.png")
-
 ```
 
 Simultanément au transport d'électrons, les électrons perdus par la chlorophylle du photosystème II sont remplacés par la photolyse de l'eau, un processus qui libère de l'oxygène comme sous-produit. Cette réaction d'oxydation de l'eau fournit également les protons nécessaires pour maintenir le gradient électrochimique dans la chaîne de transport d'électrons. 
@@ -73,9 +69,7 @@ Les chlorophylles sont des pigments tétrapyrroliques contenant un anneau porphy
 - *Chlorophylle f (Chl f)* : La chlorophylle f est présente dans certaines cyanobactéries. Elle présente une modification de la chaîne latérale par rapport à la chlorophylle a, avec un groupe formyle à la position C2. La chlorophylle f permet une meilleure adaptation à des conditions lumineuses spécifiques, notamment en absorbant la lumière dans l'infrarouge (env. 700-750 nm). La chlorophylle f est la forme la plus récente de chlorophylle, découverte dans des stromatolithes en 2010.
 
 ```{r chl, echo=FALSE, fig.cap= "Structure chimique des différentes chlorophylles", fig.align='center'}
-
 knitr::include_graphics("https://microbenotes.com/wp-content/uploads/2020/12/Chlorophyll-Types.jpeg")
-
 ```
 
 *Utilisation industrielle des chlorophylles*
@@ -88,9 +82,7 @@ Dans l'agriculture et l'horticulture, les chlorophylles sont utilisées comme in
 La structure chimique des caroténoïdes est caractérisée par une série d'unités isopréniques reliées par des liaisons doubles conjuguées, ce qui confère aux caroténoïdes leur couleur vive allant du jaune au rouge, en passant par l'orange. Les caroténoïdes les plus courants sont les carotènes, tels que le bêta-carotène, qui ne contiennent que des atomes de carbone et d'hydrogène, et les xanthophylles, qui contiennent également des groupes oxygénés. Parmi les xanthophylles, on trouve des molécules comme la lutéine et la violaxanthine.
 
 ```{r carotenoide, echo=FALSE, fig.cap= "Structure chimique des carotenoides", fig.align='center'}
-
 knitr::include_graphics("https://nutrixeal-info.b-cdn.net/wp-content/uploads/2020/03/Astaxanthine_structure_moleculaire.png")
-
 ```
 
 Les caroténoïdes remplissent plusieurs fonctions vitales dans les algues :
@@ -108,9 +100,7 @@ Les carotènes sont une classe de pigments naturels présents dans de nombreuses
 
 
 ```{r carotene, echo=FALSE, fig.cap= "Structure chimique du béta-carotène, l' alpha-carotène et du lycopène", fig.align='center'}
-
 knitr::include_graphics("https://www.pharmacorama.com/ezine/images/20110411160027.png")
-
 ```
 
 
@@ -132,9 +122,7 @@ La violaxanthine est une xanthophylle présente dans les algues rouges et brunes
 La fucoxanthine est une xanthophylle spécifique aux algues brunes, leur donnant leur couleur distinctive. En plus de son rôle pigmentaire, la fucoxanthine est également étudiée pour ses propriétés bioactives potentielles, notamment ses effets anti-inflammatoires, antioxydants et anticancéreux.
 
 ```{r xanthophylle, echo=FALSE, fig.cap= "Structure chimique des caroténoïdes", fig.align='center'}
-
 knitr::include_graphics("https://www.researchgate.net/profile/Thibault-Lefebvre-2/publication/350031533/figure/fig2/AS:1000708803399680@1615598979060/Exemples-de-carotenes-et-xanthophylles-Les-chlorophylles-sont-les-pigments-cles-de_W640.jpg")
-
 ```
 
 ### Les phycobiliprotéines
@@ -157,9 +145,7 @@ Une fois excités, les électrons transfèrent l'énergie lumineuse de manière 
 La structure organisée du phycobilisome permet une absorption maximale de la lumière sur une large gamme de longueurs d'onde, ce qui permet aux organismes qui en sont pourvus de s'adapter efficacement à différentes conditions d'éclairage dans leur environnement.
 
 ```{r phycobilisome, echo=FALSE, fig.cap= "Ultrastructure d'un phycobilisome", fig.align='center'}
-
 knitr::include_graphics("https://ars.els-cdn.com/content/image/1-s2.0-S2214799318300304-gr3.jpg")
-
 ```
 
 
@@ -170,9 +156,7 @@ knitr::include_graphics("https://ars.els-cdn.com/content/image/1-s2.0-S221479931
 La distribution des algues dans les écosystèmes côtiers est étroitement liée à la profondeur de l'eau et à la capacité de la lumière à pénétrer dans la colonne d'eau. En surface, où la lumière du soleil pénètre directement dans l'eau, les algues photophiles prospèrent. Ces algues, telles que les algues vertes, brunes et rouges, sont bien adaptées aux conditions lumineuses intenses et se trouvent généralement dans les zones côtières peu profondes, où la lumière est abondante. Leur distribution peut être influencée par d'autres facteurs tels que la turbidité de l'eau et la disponibilité en nutriments.
 
 ```{r pigment, echo=FALSE, fig.cap= "Absorbance relative des pigments photosynthétique en fonction des longueurs d'onde", fig.align='center'}
-
 knitr::include_graphics("https://www.researchgate.net/publication/346624608/figure/fig3/AS:964930849226757@1607068850936/Absorption-range-of-different-algae-pigments-including-chlorophyll-a-b-c-carotenoids.jpg")
-
 ```
 
 À mesure que la profondeur augmente, la quantité de lumière disponible diminue progressivement en raison de l'absorption et de la diffusion de la lumière par les molécules d'eau et les particules en suspension. À des profondeurs plus importantes, seules les longueurs d'onde de lumière les plus courtes, telles que le bleu et le vert, parviennent à pénétrer efficacement dans l'eau. En conséquence, les algues qui prospèrent dans ces environnements plus sombres sont souvent adaptées à des niveaux de lumière plus faibles.
@@ -182,9 +166,7 @@ En zone subtidale peu profonde, les algues brunes qui contiennent des pigments t
 En zone subtidale profonde les algues sciaphiles, adaptées à des niveaux de lumière faibles, prédominent dans cette zone. Certaines espèces de macroalgues et de phytoplancton possèdent des pigments spécialisés, tels que les phycoérythrobilines et les phycocyanobilines, qui leur permettent de capturer efficacement la lumière disponible dans les longueurs d'onde bleue et verte.
 
 ```{r spectreProf, echo=FALSE, fig.cap= "Distribution bathymétrique des algues en fonction de l'absorbance relative", fig.align='center'}
-
 knitr::include_graphics("https://uel.unisciel.fr/biologie/module1/module1_ch01/res/phyco-spectre.gif")
-
 ```
 
 ## Composition biochimique de la paroi cellulaire
@@ -196,9 +178,7 @@ La paroi cellulaire des algues constitue une structure essentielle qui assure la
 La paroi cellulaire des algues est composée de plusieurs couches distinctes, notamment la paroi primaire et la lamelle moyenne, qui jouent des rôles essentiels dans la structure et la fonction de la cellule.
 
 ```{r cellwall, echo=FALSE, fig.cap= "Description de l'ultrastructure de la paroi cellulaire", fig.align='center'}
-
 knitr::include_graphics("https://t3.ftcdn.net/jpg/04/46/60/64/360_F_446606481_XOmmUXuUjMGxlaPjWopiezMcRU6UkFqR.jpg")
-
 ```
 
 
@@ -218,10 +198,8 @@ Les composés cellulosiques sont des constituants majeurs de la paroi cellulaire
 
 
 ```{r cellulose, echo=FALSE, fig.cap= "Structure chimique de la cellulose dans la paroi cellulaire", fig.align='center'}
-
 knitr::include_graphics("https://www.mdpi.com/polymers/polymers-15-03615/article_deploy/html/images/polymers-15-03615-g004.png
 ")
-
 ```
 
 Les algues peuvent également contenir d'autres polysaccharides associés dans leur paroi cellulaire, tels que les hémicelluloses et les pectines. Les hémicelluloses sont des polymères de sucres variés, tels que le xylose, le mannose et le galactose, qui sont associés à la cellulose et aux protéines pour former une matrice complexe. Elles contribuent à la cohésion de la paroi cellulaire et à sa flexibilité en permettant une plus grande variabilité dans la composition et la structure de la paroi.
@@ -239,17 +217,13 @@ Les phycocolloïdes sont largement utilisés en raison de leurs propriétés fon
 les alginates sont des copolymères d'acide $\beta$-D-mannuronique (M) et d'acide $\alpha$-L-guluronique (G), liés par des liaisons glycosidiques α-1,4 et β-1,4. La proportion de résidus M et G dans la structure des alginates varie en fonction de l'espèce d'algue, de son environnement et des conditions de traitement. Cette variation dans la composition chimique confère aux alginates une gamme de propriétés physico-chimiques, notamment leur solubilité, leur viscosité, leur capacité de gélification et leur stabilité aux variations de pH et de température.
 
 ```{r alginate, echo=FALSE, fig.cap= "Structure chimique de l'acide alginique.", fig.align='center'}
-
 knitr::include_graphics("https://www.therascience.com/media/wysiwyg/ALGINATE_MOLECULE_-_370X425.png")
-
 ```
 
 La teneur en alginates dans les algues varie considérablement en fonction de l'espèce, de la saison, de l'emplacement géographique et des conditions environnementales. Par exemple, les laminaires (*Laminaria spp.*) peuvent contenir jusqu'à 30 % d'alginates dans leur composition sèche, tandis que les algues *Ascophyllum nodosum* peuvent contenir environ 20 % d'alginates. 
 
 ```{r alginateConc, echo=FALSE, fig.cap= "Teneur en alginates de quelques alginophytes.", fig.align='center'}
-
 knitr::include_graphics("https://www.memoireonline.com/10/13/7626/etude-des-polysaccharides-des-macro-algues-alginophytes-caracterisation-et-dosage-des-alginates13.png")
-
 ```
 
 
@@ -261,9 +235,7 @@ Les blocs M ont tendance à former des structures plus flexibles et solubles dan
 Le code additif est E401 pour l'alginate de sodium. La variabilité de la proportion de blocs M et G permet d'adapter les alginates à différentes applications industrielles. Par exemple, les alginates à haute teneur en blocs M sont souvent utilisés comme épaississants et stabilisants dans les produits alimentaires et les produits pharmaceutiques, où une viscosité élevée et une bonne solubilité sont recherchées. En revanche, les alginates à haute teneur en blocs G sont utilisés dans des applications de gélification, telles que la fabrication de gels, de films et de capsules, où une rigidité et une stabilité élevées sont nécessaires.
 
 ```{r alginophytes, echo=FALSE, fig.cap= "Zones de récolte des alginophytes dans le monde", fig.align='center'}
-
 knitr::include_graphics("https://www.memoireonline.com/10/13/7626/etude-des-polysaccharides-des-macro-algues-alginophytes-caracterisation-et-dosage-des-alginates12.png")
-
 ```
 
 
@@ -280,9 +252,7 @@ Les carraghénanes sont des polysaccharides sulfatés dérivés d'algues rougees
 
 
 ```{r carraghenanes, echo=FALSE, fig.cap= "Structure chimique des différents carraghénanes", fig.align='center'}
-
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Moleculare_structure_of_different_carrageenan_types.svg/langfr-800px-Moleculare_structure_of_different_carrageenan_types.svg.png")
-
 ```
 
 La teneur en carraghénanes dans les algues varie en fonction de l'espèce, de la saison, de l'emplacement géographique et des conditions environnementales. Par exemple, les algues *Chondrus crispus*, communément appelées "mousses de mer", peuvent contenir jusqu'à 60 % de carraghénanes dans leur composition sèche. Les espèces d'Eucheuma et de Kappaphycus, cultivées dans des fermes marines dans les régions tropicales, sont également des sources importantes de carraghénanes.
@@ -329,17 +299,13 @@ Dans le règne végétal, l'amidon est l'un des polysaccharides de réserve les 
 - *L'amylose* est une forme linéaire d'amidon, constituée de chaînes de glucose reliées par des liaisons α-1,4. Chez certaines algues, notamment les algues rouges et les algues vertes, l'amylose peut être présente sous forme de granules de petite taille, servant de réserve énergétique.
 
 ```{r amylose, echo=FALSE, fig.cap= "Structure chimique de l'amylose", fig.align='center'}
-
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Amylose.svg/1200px-Amylose.svg.png")
-
 ```
 
 - *L'amylopectine* est une forme ramifiée d'amidon, caractérisée par la présence de ramifications latérales formées par des liaisons α-1,6. Chez les algues, l'amylopectine peut être présente en association avec l'amylose dans les granules d'amidon. Les algues peuvent réguler la proportion d'amylopectine par rapport à l'amylose pour adapter leurs réserves énergétiques aux besoins métaboliques et environnementaux.
 
 ```{r amylopectine, echo=FALSE, fig.cap= "Structure chimique de l'amylopectine", fig.align='center'}
-
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Structure_de_l%27amylopectine.JPG/280px-Structure_de_l%27amylopectine.JPG")
-
 ```
 https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Structure_de_l%27amylopectine.JPG/280px-Structure_de_l%27amylopectine.JPG
 

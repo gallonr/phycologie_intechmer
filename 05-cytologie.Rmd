@@ -1,9 +1,11 @@
 # Diversité cytologique des algues {#cytologie}
 
+> Avant de lire — Lisez de préférence « Phylogénie/évolution » et « Classification » avant ce chapitre. Il prépare « Biochimie » et les chapitres de diversité.
+
 
 ```{r setup5, include=FALSE}
 require(knitr)
-opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE,fig.align = "center", fig.pos = "H")
+opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, fig.align = "center", fig.pos = "H")
 ```
 
 ## Introduction 
@@ -319,18 +321,14 @@ Chaque flagelle possède une organisation interne précise que l'on retrouve che
 + 2 microtubules au centre
 
 ```{r flagelle, echo=FALSE, fig.cap= "Structure interne d'un flagelle d'eucaryote", fig.align='center'}
-
 knitr::include_graphics("images/flagelle1.png")
-
 ```
 
 Le mouvement est produit par le glissement des microtubules. Ce glissement est produit par des cycles d'attachement détachement de liaisons (bras de dynéine) qui contiennent des enzymes et se trouvent entre les paires voisines de l'anneau externe.
 
 
 ```{r microtubule, echo=FALSE, fig.cap= "Mouvement entre deux paires de microtubules dans un flagelle d'une cellule eucaryote", fig.align='center'}
-
 knitr::include_graphics("images/mvt_microtubule.jpg")
-
 ```
 
 ### Structure
@@ -343,9 +341,7 @@ Il existe une grande diversité structurale externe des flagelles. En effet, ils
 + Si le flagelle possède deux rangées de mastigonèmes, on parle de **flagelle pleuronématés**
 
 ```{r mastigonemes, echo=FALSE, fig.cap= "Les mastigonèmes présents sur les flagelles. A gauche un flagelle stichonématés et à droite un flagelle pleuronématés", fig.align='center'}
-
 knitr::include_graphics("images/mastigonemes.png")
-
 ```
 
 Selon la structure et l'aspect des flagelles, nous pouvons distinguer :
@@ -356,9 +352,7 @@ Selon la structure et l'aspect des flagelles, nous pouvons distinguer :
 + La cellule **stéphanokontée** : Les flagelles sont nombreux et sont répartis en couronne ou sur toute la surface de la cellule
 
 ```{r cellules-flagelles, echo=FALSE, fig.cap= "Différentes structures flagellaires chez les eucaryotes", fig.align='center'}
-
 knitr::include_graphics("images/cellules_flagelles.png")
-
 ```
 
 Il faut également distinguer la zone d'insertion des flagelles :
@@ -372,9 +366,7 @@ Il faut également distinguer la zone d'insertion des flagelles :
 Les deux flagelles sont insérés dans 2 sillons perpendiculaires l'un à l'autre. Le flagelle dans le sillon transversal assure la propulsion et le flagelle longitudinal dirige la nage.
 
 ```{r dinoflagelles-flagelle, echo=FALSE, fig.cap= "Organisation flagellaire chez des dinoflagellés", fig.align='center'}
-
 knitr::include_graphics("images/dinoflagelles.png")
-
 ```
 
 
@@ -399,24 +391,18 @@ Certains taxa possèdent des organites originaux permettant de s'adapter à l'en
 Les physodes des Phéophycées sont des globules ou des vésicules, à contenu principalement phénolique (phlorotannins) ou tanoïde, qu'on observe en grande abondance dans les cellules de ces Algues. Les phlorotanins sont classés en fonction de l'arrangement de leur monomères de phloroglucinol. Plus de 150 composés sont connus, dont la masse moléculaire varie de 126 Da à 650 kDa. La plupart font entre 10 et 100 kDa. 
 
 ```{r phloroglucinol, echo=FALSE, fig.cap= "Structure du phloroglucinol", fig.align='center'}
-
 knitr::include_graphics("images/Phloroglucinol_structure.png")
-
 ```
 
 
 ```{r eckol, echo=FALSE, fig.cap= "Molécule d'eckol, phlorotanin présent chez les espèces du genre Ecklonia.", fig.align='center'}
-
 knitr::include_graphics("images/Eckol.png")
-
 ```
 
 Les physodes peuvent être mises en évidence par coloration au bleu de Crésyl ou par observation sous lumière UV en microscopie à épi-fluorescence.
 
 ```{r physode, echo=FALSE, fig.cap= "Observation sous lumière UV d’un zygote de Fucus", fig.align='center'}
-
 knitr::include_graphics("images/physode1.png")
-
 ```
 
 Ces physodes permettent par la présence de phlorotannins :
@@ -435,9 +421,7 @@ Ces organites intracellulaires sont responsables du maintien de l'équilibre osm
 
 Ces structures cellulaires spécialisées sont souvent constituées de sécrétions mucilagineuses, formant des zones gélatineuses à l'intérieur ou à la surface des cellules. Les corps mucifères remplissent diverses fonctions cruciales. Ils peuvent servir de mécanisme de protection contre la dessiccation en emprisonnant l'eau et en formant une barrière contre les conditions environnementales défavorables. De plus, ces structures mucilagineuses peuvent jouer un rôle dans l'adhérence cellulaire, facilitant l'ancrage des algues aux substrats et favorisant leur stabilité dans des habitats avec un hydrodynamisme important. Les corps mucifères sont également impliqués dans la capture de particules nutritives, contribuant ainsi au processus d'alimentation des algues. 
 ```{r cpsmucifere, echo=FALSE, fig.cap= "Illustration d'une euglène avec les corps mucifères à proximité du flagelle.", fig.align='center'}
-
 knitr::include_graphics("https://www.universalis.fr/typo3temp/assets/_processed_/b/c/csm_v090018_05eb4e428c.webp")
-
 ```
 
 ### Trichocystes
@@ -445,9 +429,7 @@ knitr::include_graphics("https://www.universalis.fr/typo3temp/assets/_processed_
 Les trichocystes sont des organites spécialisés présents chez certaines algues, contribuant à leur mécanisme de défense et à leur capacité de capture alimentaire. Ces structures, souvent observées chez les cryptophytes, sont des organes éjectables présents à la surface des cellules des algues. En réponse à des stimuli externes, tels que la présence de prédateurs potentiels ou d'autres stimuli environnementaux, les trichocystes se déploient rapidement, libérant des filaments protéiques extrêmement fins. Ces filaments peuvent immobiliser des organismes prédateurs ou des particules alimentaires, offrant ainsi à l'algue une stratégie défensive et alimentaire.
 
 ```{r trichocyste, echo=FALSE, fig.cap= "Observation en microscopie optique de *Cryptomonas* en mettant en évidance les trichocystes dans l'éjectosome et le flagelle.", fig.align='center'}
-
 knitr::include_graphics("https://lh3.googleusercontent.com/proxy/UVtb9VgLl9az1NMt7yEZDzSCFsQ4N9j6fuCO7El148UtzHHxrhXVfJbHN-s0ErD7w95vGxzNH4tJLPpUE7Vg-o3VAKHdYJU62Llbq400rAxPMjsk8blP1Gxi264279powQM")
-
 ```
 
 
@@ -457,15 +439,11 @@ Structural mechanisms capable of producing color can vary in dimensions, complex
 
 
 ```{r irid1, echo=FALSE, fig.cap= "Morphologie et couleur structurelle de *C. tamariscifolia*. (A) *C. tamariscifolia* sur le site de collecte montrant une couleur structurelle. (B) Image à faible grossissement (barre d'échelle, 500 μm) d'un spécimen avec deux couleurs différentes. Gros plan des extrémités des spécimens bleus (C) et verts (D). Barres d'échelle, 50 μm. (E et F) Vésicules individuelles dans les cellules épidermiques de deux spécimens différents sous un microscope optique à fort grossissement. Barres d'échelle, 2 μm. [^6.3]", fig.align='center'}
-
 knitr::include_graphics("./images/irridescence.jpeg")
-
 ```
 
 ```{r irid2, echo=FALSE, fig.cap= "Structure et composition des OPC (organites de pigments chromatiques). (A) Image Cryo-SEM d'une cellule épidermique. Barre d'échelle, 2 μm. Les flèches indiquent les positions des OPC (en trait plein) et des chloroplastes (en pointillés) à l'intérieur de la cellule. (B) Coupe transversale d'une cellule épidermique unique (image TEM). Barre d'échelle, 2.5 μm. (C) Nanosphères en configuration quasi-compacte. Barre d'échelle, 1 μm. (D) Images confocales de fluorescence en fausses couleurs des cellules épidermiques pour la chlorophylle (vert) et le colorant lipophile Nile red (rouge). Barre d'échelle, 10 μm. (E) Croquis de la position des OPC (en bleu) et des chloroplastes (en vert) à l'intérieur des cellules épidermiques.[^6.3]", fig.align='center'}
-
 knitr::include_graphics("./images/iridescence_2.jpeg")
-
 ```
 
 ### Les cellules spécialisées
